@@ -1,0 +1,40 @@
+name: Build and Test
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+    - main
+
+  workflow_dispatch:
+
+jobs:
+  lint-build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Use Node.js
+      uses: actions/setup-node@v5
+      with:
+        node-version: 'lts/*'
+        check-latest: true
+        package-manager-cache: pnpm
+
+    - uses: pnpm/action-setup@v4
+      name: Install pnpm
+      with:
+        run_install: |
+          - recursive: true
+            args: [--no-frozen-lockfile]
+          - args: [--global, esbuild]
+
+    - uses: oven-sh/setup-bun@v2
+
+    - name: build
+      run: bun run --filter "*" build
+
+    - name: lint
+      run: bun run --filter "*" lint

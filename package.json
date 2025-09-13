@@ -1,0 +1,12 @@
+{
+  "name": "voltagent-example",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.16.1",
+  "devDependencies": {
+    "pnpm": "^10.16.1"
+  }
+}
