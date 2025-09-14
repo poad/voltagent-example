@@ -137,8 +137,9 @@ export const WebPreviewUrl = ({
   // Only allow http/https URLs
   const isSafeUrl = (inputUrl: string) => {
     try {
-      const urlObj = new URL(inputUrl, window.location.origin);
-      return urlObj.protocol === 'http:' || urlObj.protocol === 'https:';
+      const urlObj = new URL(inputUrl);
+      return (urlObj.protocol === 'http:' || urlObj.protocol === 'https:') &&
+           !urlObj.username && !urlObj.password;  // Prevent URLs with credentials
     } catch {
       return false;
     }
@@ -148,10 +149,14 @@ export const WebPreviewUrl = ({
     if (event.key === 'Enter') {
       const target = event.target as HTMLInputElement;
       if (isSafeUrl(target.value)) {
-        setUrl(target.value);
+        const sanitizedUrl = encodeURI(target.value.trim());
+        setUrl(sanitizedUrl);
       } else {
         // Optionally: show user an error or ignore
         // For now, ignore unsafe value
+
+        // Show error to user
+        console.error('Invalid or unsafe URL provided');
       }
     }
     onKeyDown?.(event);

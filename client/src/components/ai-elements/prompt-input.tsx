@@ -462,8 +462,19 @@ export const PromptInputTextarea = ({
   placeholder = 'What would you like to know?',
   ...props
 }: PromptInputTextareaProps) => {
+  const [isComposing, setIsComposing] = useState<boolean>(false);
+
+  // IME composition handling
+  const handleCompositionStart = useCallback(() => {
+    setIsComposing(true);
+  }, []);
+
+  const handleCompositionEnd = useCallback(() => {
+    setIsComposing(false);
+  }, []);
+
   const handleKeyDown: KeyboardEventHandler<HTMLTextAreaElement> = (e) => {
-    if (e.key === 'Enter') {
+    if (e.key === 'Enter' && !isComposing) {
       // Don't submit if IME composition is in progress
       if (e.nativeEvent.isComposing) {
         return;
@@ -496,6 +507,8 @@ export const PromptInputTextarea = ({
       onChange={(e) => {
         onChange?.(e);
       }}
+      onCompositionStart={handleCompositionStart}
+      onCompositionEnd={handleCompositionEnd}
       onKeyDown={handleKeyDown}
       placeholder={placeholder}
       {...props}
