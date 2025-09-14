@@ -8,6 +8,8 @@ on:
   schedule:
     - cron: '41 3 * * 3'
 
+  workflow_dispatch:
+
 jobs:
   analyze:
     if: github.actor != 'dependabot[bot]'
