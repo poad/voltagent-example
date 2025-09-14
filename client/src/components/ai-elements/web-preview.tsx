@@ -134,10 +134,25 @@ export const WebPreviewUrl = ({
 }: WebPreviewUrlProps) => {
   const { url, setUrl } = useWebPreview();
 
+  // Only allow http/https URLs
+  const isSafeUrl = (inputUrl: string) => {
+    try {
+      const urlObj = new URL(inputUrl, window.location.origin);
+      return urlObj.protocol === 'http:' || urlObj.protocol === 'https:';
+    } catch {
+      return false;
+    }
+  };
+
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Enter') {
       const target = event.target as HTMLInputElement;
-      setUrl(target.value);
+      if (isSafeUrl(target.value)) {
+        setUrl(target.value);
+      } else {
+        // Optionally: show user an error or ignore
+        // For now, ignore unsafe value
+      }
     }
     onKeyDown?.(event);
   };
