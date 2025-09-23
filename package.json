@@ -5,8 +5,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.17.0",
+  "packageManager": "pnpm@10.17.1",
   "devDependencies": {
-    "pnpm": "^10.17.0"
+    "pnpm": "^10.17.1"
   }
 }
