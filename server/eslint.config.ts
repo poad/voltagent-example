@@ -29,6 +29,7 @@ const eslintConfig = defineConfig(
   {
     files: ['**/*.ts', '*.js'],
     plugins: {
+      // @ts-expect-error ignore type errors
       '@stylistic': stylistic,
     },
     languageOptions: {
@@ -41,7 +42,9 @@ const eslintConfig = defineConfig(
       },
     },
     extends: [
+      // @ts-expect-error ignore type errors
       importPlugin.flatConfigs.recommended,
+      // @ts-expect-error ignore type errors
       importPlugin.flatConfigs.typescript,
     ],
     settings: {
