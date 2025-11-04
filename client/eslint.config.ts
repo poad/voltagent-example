@@ -24,15 +24,11 @@ export default defineConfig(
   {
     files: ['**/*.{ts,tsx}'],
     plugins: {
-      // @ts-expect-error ignore type errors
       '@stylistic': stylistic,
-      // @ts-expect-error ignore type errors
       'react-hooks': reactHooks,
     },
     extends: [
-      // @ts-expect-error ignore type errors
       importPlugin.flatConfigs.recommended,
-      // @ts-expect-error ignore type errors
       importPlugin.flatConfigs.typescript,
       js.configs.recommended,
       configs.recommended,
