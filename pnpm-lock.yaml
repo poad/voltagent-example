@@ -16,8 +16,8 @@ importers:
   .:
     devDependencies:
       pnpm:
-        specifier: ^10.26.0
-        version: 10.26.0
+        specifier: ^10.26.1
+        version: 10.26.1
 
   client:
     dependencies:
@@ -164,8 +164,8 @@ importers:
   server:
     dependencies:
       '@ai-sdk/amazon-bedrock':
-        specifier: ^3.0.70
-        version: 3.0.70(zod@3.25.76)
+        specifier: ^3.0.71
+        version: 3.0.71(zod@3.25.76)
       '@voltagent/cli':
         specifier: ^0.1.17
         version: 0.1.17(@ai-sdk/provider-utils@3.0.19(zod@3.25.76))(@types/node@22.19.3)(@voltagent/logger@1.0.4(@opentelemetry/api@1.9.0))(@voltagent/scorers@1.0.1(@voltagent/core@1.4.0(@ai-sdk/provider-utils@3.0.19(zod@3.25.76))(@voltagent/logger@1.0.4(@opentelemetry/api@1.9.0))(ai@5.0.115(zod@3.25.76))(hono@4.11.1)(zod@3.25.76))(ai@5.0.115(zod@3.25.76))(ws@8.18.3)(zod@3.25.76))(ai@5.0.115(zod@3.25.76))(hono@4.11.1)(zod@3.25.76)
@@ -237,8 +237,8 @@ packages:
     resolution: {integrity: sha512-VTDuRS5V0ATbJ/LkaQlisMnTAeYKXAK6scMguVBstf+KIBQ7HIuKhiXLv+G/hvejkV+THoXzoNifInAkU81P1g==}
     engines: {node: '>=18'}
 
-  '@ai-sdk/amazon-bedrock@3.0.70':
-    resolution: {integrity: sha512-4NIBlwuS/iLKq2ynOqqyJ9imk/oyHuOzhBx88Bfm5I0ihQPKJ0dMMD1IKKuyDZvLRYKmlOEpa//P+/ZBp10drw==}
+  '@ai-sdk/amazon-bedrock@3.0.71':
+    resolution: {integrity: sha512-uVHjjB+igO6NjPlXa3EtUXm+UFU30ayV+0u+R3cRFumoBjt4c/lmjzQhsXZoqlM9pZgbca6twcvoM/Oa9iaVqg==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -285,8 +285,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/types@3.953.0':
-    resolution: {integrity: sha512-M9Iwg9kTyqTErI0vOTVVpcnTHWzS3VplQppy8MuL02EE+mJ0BIwpWfsaAPQW+/XnVpdNpWZTsHcNE29f1+hR8g==}
+  '@aws-sdk/types@3.956.0':
+    resolution: {integrity: sha512-DMRU/p9wAlAJxEjegnLwduCA8YP2pcT/sIJ+17KSF38c5cC6CbBhykwbZLECTo+zYzoFrOqeLbqE6paH8Gx3ug==}
     engines: {node: '>=18.0.0'}
 
   '@babel/code-frame@7.27.1':
@@ -1677,8 +1677,8 @@ packages:
     resolution: {integrity: sha512-rO92VvpgMc3kfiTjGT52LEtJ8Yc5kCWhZjLQ3LwlA4pSgPpQO7bVpYXParOD8Jwf+cVQECJo3yP/4I8aZtUQTQ==}
     engines: {node: '>=18'}
 
-  '@smithy/eventstream-codec@4.2.6':
-    resolution: {integrity: sha512-OZfsI+YRG26XZik/jKMMg37acnBSbUiK/8nETW3uM3mLj+0tMmFXdHQw1e5WEd/IHN8BGOh3te91SNDe2o4RHg==}
+  '@smithy/eventstream-codec@4.2.7':
+    resolution: {integrity: sha512-DrpkEoM3j9cBBWhufqBwnbbn+3nf1N9FP6xuVJ+e220jbactKuQgaZwjwP5CP1t+O94brm2JgVMD2atMGX3xIQ==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/is-array-buffer@2.2.0':
@@ -1689,8 +1689,8 @@ packages:
     resolution: {integrity: sha512-DZZZBvC7sjcYh4MazJSGiWMI2L7E0oCiRHREDzIxi/M2LY79/21iXt6aPLHge82wi5LsuRF5A06Ds3+0mlh6CQ==}
     engines: {node: '>=18.0.0'}
 
-  '@smithy/types@4.10.0':
-    resolution: {integrity: sha512-K9mY7V/f3Ul+/Gz4LJANZ3vJ/yiBIwCyxe0sPT4vNJK63Srvd+Yk1IzP0t+nE7XFSpIGtzR71yljtnqpUTYFlQ==}
+  '@smithy/types@4.11.0':
+    resolution: {integrity: sha512-mlrmL0DRDVe3mNrjTcVcZEgkFmufITfUAPBEA+AHYiIeYyJebso/He1qLbP3PssRe22KUzLRpQSdBPbXdgZ2VA==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/util-buffer-from@2.2.0':
@@ -2410,8 +2410,8 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  baseline-browser-mapping@2.9.9:
-    resolution: {integrity: sha512-V8fbOCSeOFvlDj7LLChUcqbZrdKD9RU/VR260piF1790vT0mfLSwGc/Qzxv3IqiTukOpNtItePa0HBpMAj7MDg==}
+  baseline-browser-mapping@2.9.11:
+    resolution: {integrity: sha512-Sg0xJUNDU1sJNGdfGWhVHX0kkZ+HWcvmVymJbj6NSgZZmW/8S9Y2HQ5euytnIgakgxN6papOAWiwDo1ctFDcoQ==}
     hasBin: true
 
   binary-search@1.3.6:
@@ -2495,8 +2495,8 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  caniuse-lite@1.0.30001760:
-    resolution: {integrity: sha512-7AAMPcueWELt1p3mi13HR/LHH0TJLT11cnwDJEs3xA4+CK/PLKeO9Kl1oru24htkyUKtkGCvAx4ohB0Ttry8Dw==}
+  caniuse-lite@1.0.30001761:
+    resolution: {integrity: sha512-JF9ptu1vP2coz98+5051jZ4PwQgd2ni8A+gYSN7EA7dPKIMf0pDlSUxhdmVOaV3/fYK5uWBkgSXJaRLr4+3A6g==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -3359,8 +3359,8 @@ packages:
     resolution: {integrity: sha512-Rx/WycZ60HOaqLKAi6cHRKKI7zxWbJ31MhntmtwMoaTeF7XFH9hhBp8vITaMidfljRQ6eYWCKkaTK+ykVJHP2A==}
     engines: {node: '>= 0.8'}
 
-  fs-extra@11.3.2:
-    resolution: {integrity: sha512-Xr9F6z6up6Ws+NjzMCZc6WXg2YFRlrLP9NQDO3VQrWrfiojdhS56TzueT88ze0uBdCTwEIhQ3ptnmKeWGFAe0A==}
+  fs-extra@11.3.3:
+    resolution: {integrity: sha512-VWSRii4t0AFm6ixFFmLLx1t7wS1gh+ckoa84aOeapGum0h+EZd1EhEumSB+ZdDLnEPuucsVB9oB7cxJHap6Afg==}
     engines: {node: '>=14.14'}
 
   fsevents@2.3.3:
@@ -4597,8 +4597,8 @@ packages:
   pkg-types@1.3.1:
     resolution: {integrity: sha512-/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==}
 
-  pnpm@10.26.0:
-    resolution: {integrity: sha512-Oz9scl6+cSUGwKsa1BM8+GsfS2h+/85iqbOLTXLjlUJC5kMZD8UfoWQpScc19APevUT1yw7dZXq+Y6i2p+HkAg==}
+  pnpm@10.26.1:
+    resolution: {integrity: sha512-ZkB0q8Nn0skyT9wYA3CXzgqPEmA0Fg9wmSjp6fldmHFDRwROXDFk1lvV2mxZxr42KxB1Rikqjuy3mZGW5c5Y+g==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -5561,12 +5561,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@ai-sdk/amazon-bedrock@3.0.70(zod@3.25.76)':
+  '@ai-sdk/amazon-bedrock@3.0.71(zod@3.25.76)':
     dependencies:
       '@ai-sdk/anthropic': 2.0.56(zod@3.25.76)
       '@ai-sdk/provider': 2.0.0
       '@ai-sdk/provider-utils': 3.0.19(zod@3.25.76)
-      '@smithy/eventstream-codec': 4.2.6
+      '@smithy/eventstream-codec': 4.2.7
       '@smithy/util-utf8': 4.2.0
       aws4fetch: 1.0.20
       zod: 3.25.76
@@ -5613,18 +5613,18 @@ snapshots:
   '@aws-crypto/crc32@5.2.0':
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.953.0
+      '@aws-sdk/types': 3.956.0
       tslib: 2.8.1
 
   '@aws-crypto/util@5.2.0':
     dependencies:
-      '@aws-sdk/types': 3.953.0
+      '@aws-sdk/types': 3.956.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/types@3.953.0':
+  '@aws-sdk/types@3.956.0':
     dependencies:
-      '@smithy/types': 4.10.0
+      '@smithy/types': 4.11.0
       tslib: 2.8.1
 
   '@babel/code-frame@7.27.1':
@@ -6875,10 +6875,10 @@ snapshots:
 
   '@sindresorhus/is@7.1.1': {}
 
-  '@smithy/eventstream-codec@4.2.6':
+  '@smithy/eventstream-codec@4.2.7':
     dependencies:
       '@aws-crypto/crc32': 5.2.0
-      '@smithy/types': 4.10.0
+      '@smithy/types': 4.11.0
       '@smithy/util-hex-encoding': 4.2.0
       tslib: 2.8.1
 
@@ -6890,7 +6890,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@smithy/types@4.10.0':
+  '@smithy/types@4.11.0':
     dependencies:
       tslib: 2.8.1
 
@@ -7543,7 +7543,7 @@ snapshots:
       dotenv: 16.6.1
       esbuild: 0.25.12
       figlet: 1.9.4
-      fs-extra: 11.3.2
+      fs-extra: 11.3.3
       inquirer: 8.2.7(@types/node@22.19.3)
       localtunnel: 2.0.2
       npm-check-updates: 17.1.18
@@ -7875,7 +7875,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  baseline-browser-mapping@2.9.9: {}
+  baseline-browser-mapping@2.9.11: {}
 
   binary-search@1.3.6: {}
 
@@ -7938,8 +7938,8 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.9
-      caniuse-lite: 1.0.30001760
+      baseline-browser-mapping: 2.9.11
+      caniuse-lite: 1.0.30001761
       electron-to-chromium: 1.5.267
       node-releases: 2.0.27
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
@@ -7997,7 +7997,7 @@ snapshots:
 
   camelcase@6.3.0: {}
 
-  caniuse-lite@1.0.30001760: {}
+  caniuse-lite@1.0.30001761: {}
 
   ccount@2.0.1: {}
 
@@ -9011,7 +9011,7 @@ snapshots:
 
   fresh@2.0.0: {}
 
-  fs-extra@11.3.2:
+  fs-extra@11.3.3:
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 6.2.0
@@ -10568,7 +10568,7 @@ snapshots:
       mlly: 1.8.0
       pathe: 2.0.3
 
-  pnpm@10.26.0: {}
+  pnpm@10.26.1: {}
 
   points-on-curve@0.2.0: {}
 
