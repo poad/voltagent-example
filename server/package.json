@@ -19,7 +19,7 @@
     "@voltagent/libsql": "^1.1.0",
     "@voltagent/logger": "^1.0.4",
     "@voltagent/server-hono": "^1.2.11",
-    "ai": "^5.0.117",
+    "ai": "^5.0.118",
     "dotenv": "^16.6.1",
     "hono": "^4.11.3",
     "zod": "^3.25.76"
@@ -36,7 +36,7 @@
     "jiti": "^2.6.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.51.0"
+    "typescript-eslint": "^8.52.0"
   },
   "engines": {
     "node": ">=22.0.0"
