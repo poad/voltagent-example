@@ -13,13 +13,13 @@
     "volt": "volt"
   },
   "dependencies": {
-    "@ai-sdk/amazon-bedrock": "^4.0.13",
-    "@voltagent/cli": "^0.1.20",
-    "@voltagent/core": "^2.0.9",
+    "@ai-sdk/amazon-bedrock": "^4.0.17",
+    "@voltagent/cli": "^0.1.21",
+    "@voltagent/core": "^2.0.10",
     "@voltagent/libsql": "^2.0.2",
     "@voltagent/logger": "^2.0.2",
     "@voltagent/server-hono": "^2.0.3",
-    "ai": "^6.0.26",
+    "ai": "^6.0.35",
     "dotenv": "^17.2.3",
     "hono": "^4.11.4",
     "zod": "^4.3.5"
@@ -28,7 +28,7 @@
     "@eslint/compat": "^2.0.1",
     "@eslint/js": "^9.39.2",
     "@stylistic/eslint-plugin": "^5.7.0",
-    "@types/node": "^24.10.6",
+    "@types/node": "^24.10.8",
     "eslint": "^9.39.2",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
@@ -36,7 +36,7 @@
     "jiti": "^2.6.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.52.0"
+    "typescript-eslint": "^8.53.0"
   },
   "engines": {
     "node": ">=24.0.0"
