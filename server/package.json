@@ -15,11 +15,11 @@
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "^4.0.19",
     "@voltagent/cli": "^0.1.21",
-    "@voltagent/core": "^2.1.2",
+    "@voltagent/core": "^2.1.4",
     "@voltagent/libsql": "^2.0.2",
     "@voltagent/logger": "^2.0.2",
     "@voltagent/server-hono": "^2.0.3",
-    "ai": "^6.0.39",
+    "ai": "^6.0.41",
     "dotenv": "^17.2.3",
     "hono": "^4.11.4",
     "zod": "^4.3.5"
@@ -36,7 +36,7 @@
     "jiti": "^2.6.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.53.0"
+    "typescript-eslint": "^8.53.1"
   },
   "engines": {
     "node": ">=24.0.0"
