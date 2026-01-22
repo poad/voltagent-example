@@ -1,12 +1,12 @@
-import { createWorkflowChain } from '@voltagent/core';
-import { z } from 'zod';
+import { createWorkflowChain } from "@voltagent/core";
+import { z } from "zod";
 
 // ==============================================================================
 // Example: Human-in-the-Loop Expense Approval Workflow
 // Concepts: Suspend/resume and step-level schemas
 //
 // Test Scenarios for VoltOps Platform
-//
+// 
 // Scenario 1: Small expense (auto-approved)
 // Input JSON:
 // {
@@ -51,9 +51,9 @@ import { z } from 'zod';
 // }
 // ==============================================================================
 export const expenseApprovalWorkflow = createWorkflowChain({
-  id: 'expense-approval',
-  name: 'Expense Approval Workflow',
-  purpose: 'Process expense reports with manager approval for high amounts',
+  id: "expense-approval",
+  name: "Expense Approval Workflow",
+  purpose: "Process expense reports with manager approval for high amounts",
 
   input: z.object({
     employeeId: z.string(),
@@ -62,14 +62,14 @@ export const expenseApprovalWorkflow = createWorkflowChain({
     description: z.string(),
   }),
   result: z.object({
-    status: z.enum(['approved', 'rejected']),
+    status: z.enum(["approved", "rejected"]),
     approvedBy: z.string(),
     finalAmount: z.number(),
   }),
 })
   // Step 1: Validate expense and check if approval needed
   .andThen({
-    id: 'check-approval-needed',
+    id: "check-approval-needed",
     // Define what data we expect when resuming this step
     resumeSchema: z.object({
       approved: z.boolean(),
@@ -78,58 +78,52 @@ export const expenseApprovalWorkflow = createWorkflowChain({
       adjustedAmount: z.number().optional(),
     }),
     execute: async ({ data, suspend, resumeData }) => {
-      const casted = data as {
-        employeeId: string;
-        amount: number;
-        category: string;
-        description: string;
-      };
       // If we're resuming with manager's decision
       if (resumeData) {
         console.log(`Manager ${resumeData.managerId} made decision`);
         return {
-          ...casted,
+          ...data,
           approved: resumeData.approved,
           approvedBy: resumeData.managerId,
-          finalAmount: resumeData.adjustedAmount || casted.amount,
+          finalAmount: resumeData.adjustedAmount || data.amount,
           managerComments: resumeData.comments,
         };
       }
 
       // Check if manager approval is needed (expenses over $500)
-      if (casted.amount > 500) {
-        console.log(`Expense of $${casted.amount} requires manager approval`);
+      if (data.amount > 500) {
+        console.log(`Expense of $${data.amount} requires manager approval`);
 
         // Suspend workflow and wait for manager input
-        await suspend('Manager approval required', {
-          employeeId: casted.employeeId,
-          requestedAmount: casted.amount,
-          category: casted.category,
+        await suspend("Manager approval required", {
+          employeeId: data.employeeId,
+          requestedAmount: data.amount,
+          category: data.category,
         });
       }
 
       // Auto-approve small expenses
       return {
-        ...casted,
+        ...data,
         approved: true,
-        approvedBy: 'system',
-        finalAmount: casted.amount,
+        approvedBy: "system",
+        finalAmount: data.amount,
       };
     },
   })
 
   // Step 2: Process the final decision
   .andThen({
-    id: 'process-decision',
+    id: "process-decision",
     execute: async ({ data }) => {
       if (data.approved) {
         console.log(`Expense approved for $${data.finalAmount}`);
       } else {
-        console.log('Expense rejected');
+        console.log("Expense rejected");
       }
 
       return {
-        status: data.approved ? 'approved' : 'rejected',
+        status: data.approved ? "approved" : "rejected",
         approvedBy: data.approvedBy,
         finalAmount: data.finalAmount,
       };

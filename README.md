@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>⚡ agent</h1>
+  <h1>⚡ voltagent-example</h1>
   <p>AI Agent powered by <a href="https://voltagent.dev">VoltAgent</a></p>
   
   <p>
@@ -22,7 +22,7 @@
 ```bash
 # Clone the repository (if not created via create-voltagent-app)
 git clone <your-repo-url>
-cd agent
+cd voltagent-example
 
 # Install dependencies
 npm install
@@ -65,6 +65,7 @@ This VoltAgent application includes:
 - **Workflows**: Pre-configured expense approval workflow
 - **Memory**: Built-in conversation history
 - **Tools**: Extensible tool system
+- **Server**: Hono
 - **Type Safety**: Full TypeScript support
 
 ## 🔍 VoltOps Platform
@@ -97,7 +98,7 @@ For production environments, configure VoltOpsClient:
 ## 📁 Project Structure
 
 ```
-agent/
+voltagent-example/
 ├── src/
 │   ├── index.ts          # Main agent configuration
 │   ├── tools/            # Custom tools
@@ -153,10 +154,10 @@ Build and run with Docker:
 
 ```bash
 # Build image
-docker build -t agent .
+docker build -t voltagent-example .
 
 # Run container
-docker run -p 3141:3141 --env-file .env agent
+docker run -p 3141:3141 --env-file .env voltagent-example
 
 # Or use docker-compose
 docker-compose up

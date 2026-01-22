@@ -1,12 +1,37 @@
 {
   "name": "voltagent-example",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.28.1",
+  "version": "0.1.0",
+  "description": "A VoltAgent application",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env ./src",
+    "build": "tsdown",
+    "start": "node dist/index.js",
+    "lint": "biome check ./src",
+    "lint:fix": "biome check --write ./src",
+    "typecheck": "tsc --noEmit",
+    "volt": "volt"
+  },
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "^4.0.24",
+    "@voltagent/cli": "^0.1.21",
+    "@voltagent/core": "^2.1.6",
+    "@voltagent/libsql": "^2.0.2",
+    "@voltagent/logger": "^2.0.2",
+    "@voltagent/server-hono": "^2.0.4",
+    "ai": "^6.0.44",
+    "dotenv": "^17.2.3",
+    "zod": "^4.3.5"
+  },
   "devDependencies": {
-    "pnpm": "^10.28.1"
-  }
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.19.7",
+    "tsdown": "^0.15.12",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "packageManager": "pnpm@10.28.1"
 }
