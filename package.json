@@ -13,14 +13,14 @@
     "volt": "volt"
   },
   "dependencies": {
-    "@ai-sdk/amazon-bedrock": "^4.0.57",
+    "@ai-sdk/amazon-bedrock": "^4.0.59",
     "@voltagent/cli": "^0.1.21",
-    "@voltagent/core": "^2.3.8",
+    "@voltagent/core": "^2.4.0",
     "@voltagent/libsql": "^2.1.1",
     "@voltagent/logger": "^2.0.2",
     "@voltagent/server-hono": "^2.0.6",
-    "ai": "^6.0.82",
-    "dotenv": "^17.2.4",
+    "ai": "^6.0.85",
+    "dotenv": "^17.3.1",
     "zod": "^4.3.6"
   },
   "devDependencies": {
