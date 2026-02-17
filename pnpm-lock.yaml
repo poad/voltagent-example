@@ -46,8 +46,8 @@ importers:
         version: 4.3.6
     devDependencies:
       '@biomejs/biome':
-        specifier: ^2.4.0
-        version: 2.4.0
+        specifier: ^2.4.2
+        version: 2.4.2
       '@types/node':
         specifier: ^25.2.3
         version: 25.2.3
@@ -85,6 +85,12 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
+  '@ai-sdk/anthropic@2.0.64':
+    resolution: {integrity: sha512-ojIR3OIT9tacot4t0LVi8vgU24GJcKDiFdBhgMFtGsFBkXg8xxdBEEXFWMQYYTmUVxdiTzr08vtGFLt0mh3C1w==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.25.76 || ^4.1.8
+
   '@ai-sdk/anthropic@3.0.44':
     resolution: {integrity: sha512-ke1NldgohWJ7sWLqm9Um9TVIOrtg8Y8AecWeB6PgaLt+paTPisAsyNfe8FNOVusuv58ugLBqY/78AkhUmbjXHA==}
     engines: {node: '>=18'}
@@ -97,8 +103,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/cerebras@2.0.33':
-    resolution: {integrity: sha512-qT7H/q45vD/XezA78X6ZWwmHiSH50V0AdLcHMyfgrThFUDkjgPgNuGADnZOm/sopMuRASV2eUzL60F1zTuH1ew==}
+  '@ai-sdk/cerebras@2.0.34':
+    resolution: {integrity: sha512-B/so5YrWypY3XXrtKoyfcWRtBX69kLsVDAaM1JGqay98DGGs8Ikh0i2P7UKOv/m0LsfOlff/mlYevPqGhwfuEw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -121,8 +127,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/google-vertex@3.0.103':
-    resolution: {integrity: sha512-MPZRSVOJFxYGHE4s6XjSWaiUPru7u2i/LUUA1Ih2nzNYZaei8c46Z56imOCD/KQjQX3afRA2iZh6P5McsmwhqA==}
+  '@ai-sdk/google-vertex@3.0.104':
+    resolution: {integrity: sha512-XuCCn1KBIhkWp38EHkiFMPrTxU4uzENZAgDo5XCIxb9Qx4k57xVNNWa9aCgEyQ02zXgXeweblDLx15AIYXHqBA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -262,59 +268,59 @@ packages:
     resolution: {integrity: sha512-ubmJ6TShyaD69VE9DQrlXcdkvJbmwWPB8qYj0H2kaJi29O7vJT9ajSdBd2W8CG34pwL9pYA74fi7RHC1qbLoVQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
-  '@biomejs/biome@2.4.0':
-    resolution: {integrity: sha512-iluT61cORUDIC5i/y42ljyQraCemmmcgbMLLCnYO+yh+2hjTmcMFcwY8G0zTzWCsPb3t3AyKc+0t/VuhPZULUg==}
+  '@biomejs/biome@2.4.2':
+    resolution: {integrity: sha512-vVE/FqLxNLbvYnFDYg3Xfrh1UdFhmPT5i+yPT9GE2nTUgI4rkqo5krw5wK19YHBd7aE7J6r91RRmb8RWwkjy6w==}
     engines: {node: '>=14.21.3'}
     hasBin: true
 
-  '@biomejs/cli-darwin-arm64@2.4.0':
-    resolution: {integrity: sha512-L+YpOtPSuU0etomfvFTPWRsa7+8ejaJL3yaROEoT/96HDJbR6OsvZQk0C8JUYou+XFdP+JcGxqZknkp4n934RA==}
+  '@biomejs/cli-darwin-arm64@2.4.2':
+    resolution: {integrity: sha512-3pEcKCP/1POKyaZZhXcxFl3+d9njmeAihZ17k8lL/1vk+6e0Cbf0yPzKItFiT+5Yh6TQA4uKvnlqe0oVZwRxCA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
 
-  '@biomejs/cli-darwin-x64@2.4.0':
-    resolution: {integrity: sha512-Aq+S7ffpb5ynTyLgtnEjG+W6xuTd2F7FdC7J6ShpvRhZwJhjzwITGF9vrqoOnw0sv1XWkt2Q1Rpg+hleg/Xg7Q==}
+  '@biomejs/cli-darwin-x64@2.4.2':
+    resolution: {integrity: sha512-P7hK1jLVny+0R9UwyGcECxO6sjETxfPyBm/1dmFjnDOHgdDPjPqozByunrwh4xPKld8sxOr5eAsSqal5uKgeBg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [darwin]
 
-  '@biomejs/cli-linux-arm64-musl@2.4.0':
-    resolution: {integrity: sha512-1rhDUq8sf7xX3tg7vbnU3WVfanKCKi40OXc4VleBMzRStmQHdeBY46aFP6VdwEomcVjyNiu+Zcr3LZtAdrZrjQ==}
+  '@biomejs/cli-linux-arm64-musl@2.4.2':
+    resolution: {integrity: sha512-/x04YK9+7erw6tYEcJv9WXoBHcULI/wMOvNdAyE9S3JStZZ9yJyV67sWAI+90UHuDo/BDhq0d96LDqGlSVv7WA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-arm64@2.4.0':
-    resolution: {integrity: sha512-u2p54IhvNAWB+h7+rxCZe3reNfQYFK+ppDw+q0yegrGclFYnDPZAntv/PqgUacpC3uxTeuWFgWW7RFe3lHuxOA==}
+  '@biomejs/cli-linux-arm64@2.4.2':
+    resolution: {integrity: sha512-DI3Mi7GT2zYNgUTDEbSjl3e1KhoP76OjQdm8JpvZYZWtVDRyLd3w8llSr2TWk1z+U3P44kUBWY3X7H9MD1/DGQ==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-linux-x64-musl@2.4.0':
-    resolution: {integrity: sha512-Omo0xhl63z47X+CrE5viEWKJhejJyndl577VoXg763U/aoATrK3r5+8DPh02GokWPeODX1Hek00OtjjooGan9w==}
+  '@biomejs/cli-linux-x64-musl@2.4.2':
+    resolution: {integrity: sha512-wbBmTkeAoAYbOQ33f6sfKG7pcRSydQiF+dTYOBjJsnXO2mWEOQHllKlC2YVnedqZFERp2WZhFUoO7TNRwnwEHQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-x64@2.4.0':
-    resolution: {integrity: sha512-WVFOhsnzhrbMGOSIcB9yFdRV2oG2KkRRhIZiunI9gJqSU3ax9ErdnTxRfJUxZUI9NbzVxC60OCXNcu+mXfF/Tw==}
+  '@biomejs/cli-linux-x64@2.4.2':
+    resolution: {integrity: sha512-GK2ErnrKpWFigYP68cXiCHK4RTL4IUWhK92AFS3U28X/nuAL5+hTuy6hyobc8JZRSt+upXt1nXChK+tuHHx4mA==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-win32-arm64@2.4.0':
-    resolution: {integrity: sha512-aqRwW0LJLV1v1NzyLvLWQhdLmDSAV1vUh+OBdYJaa8f28XBn5BZavo+WTfqgEzALZxlNfBmu6NGO6Al3MbCULw==}
+  '@biomejs/cli-win32-arm64@2.4.2':
+    resolution: {integrity: sha512-k2uqwLYrNNxnaoiW3RJxoMGnbKda8FuCmtYG3cOtVljs3CzWxaTR+AoXwKGHscC9thax9R4kOrtWqWN0+KdPTw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [win32]
 
-  '@biomejs/cli-win32-x64@2.4.0':
-    resolution: {integrity: sha512-g47s+V+OqsGxbSZN3lpav6WYOk0PIc3aCBAq+p6dwSynL3K5MA6Cg6nkzDOlu28GEHwbakW+BllzHCJCxnfK5Q==}
+  '@biomejs/cli-win32-x64@2.4.2':
+    resolution: {integrity: sha512-9ma7C4g8Sq3cBlRJD2yrsHXB1mnnEBdpy7PhvFrylQWQb4PoyCmPucdX7frvsSBQuFtIiKCrolPl/8tCZrKvgQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
@@ -647,8 +653,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@gitlab/gitlab-ai-provider@3.5.0':
-    resolution: {integrity: sha512-OoAwCz4fOci3h/2l+PRHMclclh3IaFq8w1es2wvBJ8ca7vtglKsBYT7dvmYpsXlu7pg9mopbjcexvmVCQEUTAQ==}
+  '@gitlab/gitlab-ai-provider@3.5.1':
+    resolution: {integrity: sha512-I8+EGdUeKmGJSjAdFobHtqpxM9Fm00w0j7NJbtln/D/XQ1SKEGoZIuqJko4v0pV2mkhGUIs7qezljH/2kbXovA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@ai-sdk/provider': '>=2.0.0'
@@ -1110,17 +1116,17 @@ packages:
   '@rolldown/pluginutils@1.0.0-rc.3':
     resolution: {integrity: sha512-eybk3TjzzzV97Dlj5c+XrBFW57eTNhzod66y9HrBlzJ6NsCrWCp/2kaPS3K9wJmurBC0Tdw4yPjXKZqlznim3Q==}
 
-  '@sap-ai-sdk/ai-api@2.6.0':
-    resolution: {integrity: sha512-HdQ3T6FSD/jlPnsDKEGsNg+SQONpHBvxfu6OVwW/5nLdlvPmWpysirYvOc0eqj7e+X3zBHGIgoGWKSxIcYOjNg==}
+  '@sap-ai-sdk/ai-api@2.7.0':
+    resolution: {integrity: sha512-dDc2Si5Mu62dVZkJ/f55fBIlbIjVjCKmPi9tt2jWix59o/f9z2Zkw7l7Il+H0RbgANyyQmZsCkXDHRUmzAKKDw==}
 
-  '@sap-ai-sdk/core@2.6.0':
-    resolution: {integrity: sha512-HgB2xtjx6iFwAq+a5cEH6rss4sBXAkkW6Vas07OxoZihc7BijjNFm+H19rkEAhBYQmkA415zJG3imHd6/slooQ==}
+  '@sap-ai-sdk/core@2.7.0':
+    resolution: {integrity: sha512-NSuCrEFinMR8/EYKJcACh71a1kj1H3pNfpnJH1R4Z+cxnlr0CtiFDzz9hKwsXFtf+ixO6WnIf7xMVmXkoeGNSQ==}
 
-  '@sap-ai-sdk/orchestration@2.6.0':
-    resolution: {integrity: sha512-FGBZ0oiRbbZdL9UUytsJ7QBiVUmrg4eD/i61aHVeBGvaCvsgSlx7nJM07CAT5JHhJC8ss97+EYPXXzVNPATcyQ==}
+  '@sap-ai-sdk/orchestration@2.7.0':
+    resolution: {integrity: sha512-/aCRwb3o5yJu5/8jCDVatMGBIxPO5rKtr0sT+zAl5w3hD/PqAqbFZXNztQ263xK1ooW8YAFite8PpXJgdjnFZg==}
 
-  '@sap-ai-sdk/prompt-registry@2.6.0':
-    resolution: {integrity: sha512-vSyBCx437Cba3AsBHf1G0KCldv4dPi60kNgp2rpF/kDZjf3Rga3VwZ6OnETaKtbJJbM8G8itR0USHgviMU8UUg==}
+  '@sap-ai-sdk/prompt-registry@2.7.0':
+    resolution: {integrity: sha512-hbfb75CD67dgKl/hLLCXdzhsR80FHFqKCpVUjiULs3KW1Rauxc+i6ZKNRcc+uzdb8kgsdhKizFFCtsz90ay44g==}
 
   '@sap-cloud-sdk/connectivity@4.4.0':
     resolution: {integrity: sha512-jGbFpQT2QHEmUBfAXNiX3hcNxF2QVJnFDhI4mZPSvhBzueRC6iJISB+Ls2RVmNS10wLcvI91zlmsGyYw+oeYsQ==}
@@ -3427,6 +3433,12 @@ snapshots:
       '@ai-sdk/provider-utils': 3.0.21(zod@4.3.6)
       zod: 4.3.6
 
+  '@ai-sdk/anthropic@2.0.64(zod@4.3.6)':
+    dependencies:
+      '@ai-sdk/provider': 2.0.1
+      '@ai-sdk/provider-utils': 3.0.21(zod@4.3.6)
+      zod: 4.3.6
+
   '@ai-sdk/anthropic@3.0.44(zod@4.3.6)':
     dependencies:
       '@ai-sdk/provider': 3.0.8
@@ -3440,7 +3452,7 @@ snapshots:
       '@ai-sdk/provider-utils': 4.0.15(zod@4.3.6)
       zod: 4.3.6
 
-  '@ai-sdk/cerebras@2.0.33(zod@4.3.6)':
+  '@ai-sdk/cerebras@2.0.34(zod@4.3.6)':
     dependencies:
       '@ai-sdk/openai-compatible': 2.0.30(zod@4.3.6)
       '@ai-sdk/provider': 3.0.8
@@ -3467,9 +3479,9 @@ snapshots:
       '@vercel/oidc': 3.1.0
       zod: 4.3.6
 
-  '@ai-sdk/google-vertex@3.0.103(zod@4.3.6)':
+  '@ai-sdk/google-vertex@3.0.104(zod@4.3.6)':
     dependencies:
-      '@ai-sdk/anthropic': 2.0.63(zod@4.3.6)
+      '@ai-sdk/anthropic': 2.0.64(zod@4.3.6)
       '@ai-sdk/google': 2.0.53(zod@4.3.6)
       '@ai-sdk/provider': 2.0.1
       '@ai-sdk/provider-utils': 3.0.21(zod@4.3.6)
@@ -3623,39 +3635,39 @@ snapshots:
       '@babel/helper-string-parser': 8.0.0-rc.2
       '@babel/helper-validator-identifier': 8.0.0-rc.1
 
-  '@biomejs/biome@2.4.0':
+  '@biomejs/biome@2.4.2':
     optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 2.4.0
-      '@biomejs/cli-darwin-x64': 2.4.0
-      '@biomejs/cli-linux-arm64': 2.4.0
-      '@biomejs/cli-linux-arm64-musl': 2.4.0
-      '@biomejs/cli-linux-x64': 2.4.0
-      '@biomejs/cli-linux-x64-musl': 2.4.0
-      '@biomejs/cli-win32-arm64': 2.4.0
-      '@biomejs/cli-win32-x64': 2.4.0
+      '@biomejs/cli-darwin-arm64': 2.4.2
+      '@biomejs/cli-darwin-x64': 2.4.2
+      '@biomejs/cli-linux-arm64': 2.4.2
+      '@biomejs/cli-linux-arm64-musl': 2.4.2
+      '@biomejs/cli-linux-x64': 2.4.2
+      '@biomejs/cli-linux-x64-musl': 2.4.2
+      '@biomejs/cli-win32-arm64': 2.4.2
+      '@biomejs/cli-win32-x64': 2.4.2
 
-  '@biomejs/cli-darwin-arm64@2.4.0':
+  '@biomejs/cli-darwin-arm64@2.4.2':
     optional: true
 
-  '@biomejs/cli-darwin-x64@2.4.0':
+  '@biomejs/cli-darwin-x64@2.4.2':
     optional: true
 
-  '@biomejs/cli-linux-arm64-musl@2.4.0':
+  '@biomejs/cli-linux-arm64-musl@2.4.2':
     optional: true
 
-  '@biomejs/cli-linux-arm64@2.4.0':
+  '@biomejs/cli-linux-arm64@2.4.2':
     optional: true
 
-  '@biomejs/cli-linux-x64-musl@2.4.0':
+  '@biomejs/cli-linux-x64-musl@2.4.2':
     optional: true
 
-  '@biomejs/cli-linux-x64@2.4.0':
+  '@biomejs/cli-linux-x64@2.4.2':
     optional: true
 
-  '@biomejs/cli-win32-arm64@2.4.0':
+  '@biomejs/cli-win32-arm64@2.4.2':
     optional: true
 
-  '@biomejs/cli-win32-x64@2.4.0':
+  '@biomejs/cli-win32-x64@2.4.2':
     optional: true
 
   '@colors/colors@1.6.0': {}
@@ -3838,7 +3850,7 @@ snapshots:
   '@esbuild/win32-x64@0.27.3':
     optional: true
 
-  '@gitlab/gitlab-ai-provider@3.5.0(@ai-sdk/provider-utils@4.0.15(zod@4.3.6))(@ai-sdk/provider@3.0.8)(graphql@16.12.0)(ws@8.19.0)':
+  '@gitlab/gitlab-ai-provider@3.5.1(@ai-sdk/provider-utils@4.0.15(zod@4.3.6))(@ai-sdk/provider@3.0.8)(graphql@16.12.0)(ws@8.19.0)':
     dependencies:
       '@ai-sdk/provider': 3.0.8
       '@ai-sdk/provider-utils': 4.0.15(zod@4.3.6)
@@ -3990,7 +4002,7 @@ snapshots:
     dependencies:
       '@ai-sdk/provider': 3.0.8
       '@ai-sdk/provider-utils': 4.0.15(zod@4.3.6)
-      '@sap-ai-sdk/orchestration': 2.6.0
+      '@sap-ai-sdk/orchestration': 2.7.0
       ai: 6.0.86(zod@4.3.6)
       zod: 4.3.6
       zod-to-json-schema: 3.25.1(zod@4.3.6)
@@ -4304,16 +4316,16 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-rc.3': {}
 
-  '@sap-ai-sdk/ai-api@2.6.0':
+  '@sap-ai-sdk/ai-api@2.7.0':
     dependencies:
-      '@sap-ai-sdk/core': 2.6.0
+      '@sap-ai-sdk/core': 2.7.0
       '@sap-cloud-sdk/connectivity': 4.4.0
       '@sap-cloud-sdk/util': 4.4.0
     transitivePeerDependencies:
       - debug
       - supports-color
 
-  '@sap-ai-sdk/core@2.6.0':
+  '@sap-ai-sdk/core@2.7.0':
     dependencies:
       '@sap-cloud-sdk/connectivity': 4.4.0
       '@sap-cloud-sdk/http-client': 4.4.0
@@ -4323,20 +4335,20 @@ snapshots:
       - debug
       - supports-color
 
-  '@sap-ai-sdk/orchestration@2.6.0':
+  '@sap-ai-sdk/orchestration@2.7.0':
     dependencies:
-      '@sap-ai-sdk/ai-api': 2.6.0
-      '@sap-ai-sdk/core': 2.6.0
-      '@sap-ai-sdk/prompt-registry': 2.6.0
+      '@sap-ai-sdk/ai-api': 2.7.0
+      '@sap-ai-sdk/core': 2.7.0
+      '@sap-ai-sdk/prompt-registry': 2.7.0
       '@sap-cloud-sdk/util': 4.4.0
       yaml: 2.8.2
     transitivePeerDependencies:
       - debug
       - supports-color
 
-  '@sap-ai-sdk/prompt-registry@2.6.0':
+  '@sap-ai-sdk/prompt-registry@2.7.0':
     dependencies:
-      '@sap-ai-sdk/core': 2.6.0
+      '@sap-ai-sdk/core': 2.7.0
       zod: 4.3.6
     transitivePeerDependencies:
       - debug
@@ -4606,12 +4618,12 @@ snapshots:
       '@ai-sdk/amazon-bedrock': 3.0.80(zod@4.3.6)
       '@ai-sdk/anthropic': 3.0.44(zod@4.3.6)
       '@ai-sdk/azure': 3.0.30(zod@4.3.6)
-      '@ai-sdk/cerebras': 2.0.33(zod@4.3.6)
+      '@ai-sdk/cerebras': 2.0.34(zod@4.3.6)
       '@ai-sdk/cohere': 3.0.21(zod@4.3.6)
       '@ai-sdk/deepinfra': 2.0.34(zod@4.3.6)
       '@ai-sdk/gateway': 3.0.46(zod@4.3.6)
       '@ai-sdk/google': 3.0.29(zod@4.3.6)
-      '@ai-sdk/google-vertex': 3.0.103(zod@4.3.6)
+      '@ai-sdk/google-vertex': 3.0.104(zod@4.3.6)
       '@ai-sdk/groq': 3.0.24(zod@4.3.6)
       '@ai-sdk/mistral': 3.0.20(zod@4.3.6)
       '@ai-sdk/openai': 3.0.29(zod@4.3.6)
@@ -4622,7 +4634,7 @@ snapshots:
       '@ai-sdk/vercel': 2.0.32(zod@4.3.6)
       '@ai-sdk/xai': 3.0.57(zod@4.3.6)
       '@aihubmix/ai-sdk-provider': 1.0.3(zod@4.3.6)
-      '@gitlab/gitlab-ai-provider': 3.5.0(@ai-sdk/provider-utils@4.0.15(zod@4.3.6))(@ai-sdk/provider@3.0.8)(graphql@16.12.0)(ws@8.19.0)
+      '@gitlab/gitlab-ai-provider': 3.5.1(@ai-sdk/provider-utils@4.0.15(zod@4.3.6))(@ai-sdk/provider@3.0.8)(graphql@16.12.0)(ws@8.19.0)
       '@modelcontextprotocol/sdk': 1.26.0(zod@4.3.6)
       '@mymediset/sap-ai-provider': 2.1.0(ai@6.0.86(zod@4.3.6))
       '@opentelemetry/api': 1.9.0
