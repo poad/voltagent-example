@@ -1981,8 +1981,8 @@ packages:
   fft.js@4.0.4:
     resolution: {integrity: sha512-f9c00hphOgeQTlDyavwTtu6RiK8AIFjD6+jvXkNkpeQ7rirK3uFWVpalkoS4LAwbdX7mfZ8aoBfFVQX1Re/8aw==}
 
-  figlet@1.10.0:
-    resolution: {integrity: sha512-aktIwEZZ6Gp9AWdMXW4YCi0J2Ahuxo67fNJRUIWD81w8pQ0t9TS8FFpbl27ChlTLF06VkwjDesZSzEVzN75rzA==}
+  figlet@1.11.0:
+    resolution: {integrity: sha512-EEx3OS/l2bFqcUNN2NM9FPJp8vAMrgbCxsbl2hbcJNNxOEwVe3mEzrhan7TbJQViZa8mMqhihlbCaqD+LyYKTQ==}
     engines: {node: '>= 17.0.0'}
     hasBin: true
 
@@ -4599,7 +4599,7 @@ snapshots:
       configstore: 7.1.0
       dotenv: 16.6.1
       esbuild: 0.25.12
-      figlet: 1.10.0
+      figlet: 1.11.0
       fs-extra: 11.3.4
       gray-matter: 4.0.3
       inquirer: 8.2.7(@types/node@25.3.5)
@@ -5499,7 +5499,7 @@ snapshots:
 
   fft.js@4.0.4: {}
 
-  figlet@1.10.0:
+  figlet@1.11.0:
     dependencies:
       commander: 14.0.3
 
