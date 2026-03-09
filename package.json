@@ -26,12 +26,12 @@
   "devDependencies": {
     "@biomejs/biome": "^2.4.6",
     "@types/node": "^25.3.5",
-    "tsdown": "^0.21.0",
+    "tsdown": "^0.21.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "engines": {
     "node": ">=20.19.0"
   },
-  "packageManager": "pnpm@10.30.3"
+  "packageManager": "pnpm@10.31.0"
 }
