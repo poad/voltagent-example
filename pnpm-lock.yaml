@@ -47,14 +47,14 @@ importers:
         version: 4.3.6
     devDependencies:
       '@biomejs/biome':
-        specifier: ^2.4.6
-        version: 2.4.6
+        specifier: ^2.4.7
+        version: 2.4.7
       '@types/node':
         specifier: ^25.5.0
         version: 25.5.0
       tsdown:
-        specifier: ^0.21.2
-        version: 0.21.2(typescript@5.9.3)
+        specifier: ^0.21.3
+        version: 0.21.3(typescript@5.9.3)
       tsx:
         specifier: ^4.21.0
         version: 4.21.0
@@ -68,8 +68,8 @@ packages:
     resolution: {integrity: sha512-VTDuRS5V0ATbJ/LkaQlisMnTAeYKXAK6scMguVBstf+KIBQ7HIuKhiXLv+G/hvejkV+THoXzoNifInAkU81P1g==}
     engines: {node: '>=18'}
 
-  '@ai-sdk/amazon-bedrock@3.0.87':
-    resolution: {integrity: sha512-tKqNg6/Q9Q5QnXP6veXIpShzxS14W+Fc27/jXG5aiLq52qq4gzOoKiysB4vJaN/28yGaGd8O7ikDbkXA/v8i8Q==}
+  '@ai-sdk/amazon-bedrock@3.0.88':
+    resolution: {integrity: sha512-boKql8OkCiBCEK6ETc6BCwHxAzWhleiAkSvZbxU/UjmusZXyfTktk+KAQOu+y6ct5R6vu3E1Iqfgpk6GiBy1ZQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -234,8 +234,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/types@3.973.5':
-    resolution: {integrity: sha512-hl7BGwDCWsjH8NkZfx+HgS7H2LyM2lTMAI7ba9c8O0KqdBLTdNJivsHpqjg9rNlAlPyREb6DeDRXUl0s8uFdmQ==}
+  '@aws-sdk/types@3.973.6':
+    resolution: {integrity: sha512-Atfcy4E++beKtwJHiDln2Nby8W/mam64opFPTiHEqgsthqeydFS1pY+OUlN1ouNOmf8ArPU/6cDS65anOP3KQw==}
     engines: {node: '>=20.0.0'}
 
   '@babel/generator@8.0.0-rc.2':
@@ -263,59 +263,59 @@ packages:
     resolution: {integrity: sha512-91gAaWRznDwSX4E2tZ1YjBuIfnQVOFDCQ2r0Toby0gu4XEbyF623kXLMA8d4ZbCu+fINcrudkmEcwSUHgDDkNw==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
-  '@biomejs/biome@2.4.6':
-    resolution: {integrity: sha512-QnHe81PMslpy3mnpL8DnO2M4S4ZnYPkjlGCLWBZT/3R9M6b5daArWMMtEfP52/n174RKnwRIf3oT8+wc9ihSfQ==}
+  '@biomejs/biome@2.4.7':
+    resolution: {integrity: sha512-vXrgcmNGZ4lpdwZSpMf1hWw1aWS6B+SyeSYKTLrNsiUsAdSRN0J4d/7mF3ogJFbIwFFSOL3wT92Zzxia/d5/ng==}
     engines: {node: '>=14.21.3'}
     hasBin: true
 
-  '@biomejs/cli-darwin-arm64@2.4.6':
-    resolution: {integrity: sha512-NW18GSyxr+8sJIqgoGwVp5Zqm4SALH4b4gftIA0n62PTuBs6G2tHlwNAOj0Vq0KKSs7Sf88VjjmHh0O36EnzrQ==}
+  '@biomejs/cli-darwin-arm64@2.4.7':
+    resolution: {integrity: sha512-Oo0cF5mHzmvDmTXw8XSjhCia8K6YrZnk7aCS54+/HxyMdZMruMO3nfpDsrlar/EQWe41r1qrwKiCa2QDYHDzWA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
 
-  '@biomejs/cli-darwin-x64@2.4.6':
-    resolution: {integrity: sha512-4uiE/9tuI7cnjtY9b07RgS7gGyYOAfIAGeVJWEfeCnAarOAS7qVmuRyX6d7JTKw28/mt+rUzMasYeZ+0R/U1Mw==}
+  '@biomejs/cli-darwin-x64@2.4.7':
+    resolution: {integrity: sha512-I+cOG3sd/7HdFtvDSnF9QQPrWguUH7zrkIMMykM3PtfWU9soTcS2yRb9Myq6MHmzbeCT08D1UmY+BaiMl5CcoQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [darwin]
 
-  '@biomejs/cli-linux-arm64-musl@2.4.6':
-    resolution: {integrity: sha512-F/JdB7eN22txiTqHM5KhIVt0jVkzZwVYrdTR1O3Y4auBOQcXxHK4dxULf4z43QyZI5tsnQJrRBHZy7wwtL+B3A==}
+  '@biomejs/cli-linux-arm64-musl@2.4.7':
+    resolution: {integrity: sha512-I2NvM9KPb09jWml93O2/5WMfNR7Lee5Latag1JThDRMURVhPX74p9UDnyTw3Ae6cE1DgXfw7sqQgX7rkvpc0vw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-arm64@2.4.6':
-    resolution: {integrity: sha512-kMLaI7OF5GN1Q8Doymjro1P8rVEoy7BKQALNz6fiR8IC1WKduoNyteBtJlHT7ASIL0Cx2jR6VUOBIbcB1B8pew==}
+  '@biomejs/cli-linux-arm64@2.4.7':
+    resolution: {integrity: sha512-om6FugwmibzfP/6ALj5WRDVSND4H2G9X0nkI1HZpp2ySf9lW2j0X68oQSaHEnls6666oy4KDsc5RFjT4m0kV0w==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-linux-x64-musl@2.4.6':
-    resolution: {integrity: sha512-C9s98IPDu7DYarjlZNuzJKTjVHN03RUnmHV5htvqsx6vEUXCDSJ59DNwjKVD5XYoSS4N+BYhq3RTBAL8X6svEg==}
+  '@biomejs/cli-linux-x64-musl@2.4.7':
+    resolution: {integrity: sha512-00kx4YrBMU8374zd2wHuRV5wseh0rom5HqRND+vDldJPrWwQw+mzd/d8byI9hPx926CG+vWzq6AeiT7Yi5y59g==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-x64@2.4.6':
-    resolution: {integrity: sha512-oHXmUFEoH8Lql1xfc3QkFLiC1hGR7qedv5eKNlC185or+o4/4HiaU7vYODAH3peRCfsuLr1g6v2fK9dFFOYdyw==}
+  '@biomejs/cli-linux-x64@2.4.7':
+    resolution: {integrity: sha512-bV8/uo2Tj+gumnk4sUdkerWyCPRabaZdv88IpbmDWARQQoA/Q0YaqPz1a+LSEDIL7OfrnPi9Hq1Llz4ZIGyIQQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-win32-arm64@2.4.6':
-    resolution: {integrity: sha512-xzThn87Pf3YrOGTEODFGONmqXpTwUNxovQb72iaUOdcw8sBSY3+3WD8Hm9IhMYLnPi0n32s3L3NWU6+eSjfqFg==}
+  '@biomejs/cli-win32-arm64@2.4.7':
+    resolution: {integrity: sha512-hOUHBMlFCvDhu3WCq6vaBoG0dp0LkWxSEnEEsxxXvOa9TfT6ZBnbh72A/xBM7CBYB7WgwqboetzFEVDnMxelyw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [win32]
 
-  '@biomejs/cli-win32-x64@2.4.6':
-    resolution: {integrity: sha512-7++XhnsPlr1HDbor5amovPjOH6vsrFOCdp93iKXhFn6bcMUI6soodj3WWKfgEO6JosKU1W5n3uky3WW9RlRjTg==}
+  '@biomejs/cli-win32-x64@2.4.7':
+    resolution: {integrity: sha512-qEpGjSkPC3qX4ycbMUthXvi9CkRq7kZpkqMY1OyhmYlYLnANnooDQ7hDerM8+0NJ+DZKVnsIc07h30XOpt7LtQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
@@ -2160,12 +2160,12 @@ packages:
   help-me@5.0.0:
     resolution: {integrity: sha512-7xgomUX6ADmcYzFik0HzAxh/73YlKR9bmFzf51CZwR+b6YtzU2m0u49hQCqV6SvlqIqsaxovfwdvbnsw3b/zpg==}
 
-  hono@4.12.7:
-    resolution: {integrity: sha512-jq9l1DM0zVIvsm3lv9Nw9nlJnMNPOcAtsbsgiUhWcFzPE99Gvo6yRTlszSLLYacMeQ6quHD6hMfId8crVHvexw==}
+  hono@4.12.8:
+    resolution: {integrity: sha512-VJCEvtrezO1IAR+kqEYnxUOoStaQPGrCmX3j4wDTNOcD1uRPFpGlwQUIW8niPuvHXaTUxeOUl5MMDGrl+tmO9A==}
     engines: {node: '>=16.9.0'}
 
-  hookable@6.0.1:
-    resolution: {integrity: sha512-uKGyY8BuzN/a5gvzvA+3FVWo0+wUjgtfSdnmjtrOVwQCZPHpHDH2WRO3VZSOeluYrHoDCiXFffZXs8Dj1ULWtw==}
+  hookable@6.1.0:
+    resolution: {integrity: sha512-ZoKZSJgu8voGK2geJS+6YtYjvIzu9AOM/KZXsBxr83uhLL++e9pEv/dlgwgy3dvHg06kTz6JOh1hk3C8Ceiymw==}
 
   http-cache-semantics@4.2.0:
     resolution: {integrity: sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==}
@@ -2682,8 +2682,8 @@ packages:
       zod:
         optional: true
 
-  openai@6.27.0:
-    resolution: {integrity: sha512-osTKySlrdYrLYTt0zjhY8yp0JUBmWDCN+Q+QxsV4xMQnnoVFpylgKGgxwN8sSdTNw0G4y+WUXs4eCMWpyDNWZQ==}
+  openai@6.29.0:
+    resolution: {integrity: sha512-YxoArl2BItucdO89/sN6edksV0x47WUTgkgVfCgX7EuEMhbirENsgYe5oO4LTjBL9PtdKtk2WqND1gSLcTd2yw==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -3103,8 +3103,8 @@ packages:
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
 
-  tinyexec@1.0.2:
-    resolution: {integrity: sha512-W/KYk+NFhkmsYpuHq5JykngiOCnxeVL8v8dFnqxSD8qEEdRfXk1SDM6JzNqcERbcGYj9tMrDQBYV9cjgnunFIg==}
+  tinyexec@1.0.4:
+    resolution: {integrity: sha512-u9r3uZC0bdpGOXtlxUIdwf9pkmvhqJdrVCH9fapQtgy/OeTTMZ1nqH7agtvEfmGui6e1XxjcdrlxvxJvc3sMqw==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.15:
@@ -3136,14 +3136,14 @@ packages:
   ts-pattern@5.9.0:
     resolution: {integrity: sha512-6s5V71mX8qBUmlgbrfL33xDUwO0fq48rxAu2LBE11WBeGdpCPOsXksQbZJHvHwhrd3QjUusd3mAOM5Gg0mFBLg==}
 
-  tsdown@0.21.2:
-    resolution: {integrity: sha512-pP8eAcd1XAWjl5gjosuJs0BAuVoheUe3V8VDHx31QK7YOgXjcCMsBSyFWO3CMh/CSUkjRUzR96JtGH3WJFTExQ==}
+  tsdown@0.21.3:
+    resolution: {integrity: sha512-oKKeMC8+IgNsB+81hvF5VBsqhqL/nr0g9vse+ujbK40vv0i3ReFI6gUts7hQH7J53ylQNjMgf2Vu6n0+P/uddA==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
-      '@tsdown/css': 0.21.2
-      '@tsdown/exe': 0.21.2
+      '@tsdown/css': 0.21.3
+      '@tsdown/exe': 0.21.3
       '@vitejs/devtools': '*'
       publint: ^0.3.0
       typescript: ^5.0.0
@@ -3422,7 +3422,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@ai-sdk/amazon-bedrock@3.0.87(zod@4.3.6)':
+  '@ai-sdk/amazon-bedrock@3.0.88(zod@4.3.6)':
     dependencies:
       '@ai-sdk/anthropic': 2.0.70(zod@4.3.6)
       '@ai-sdk/provider': 2.0.1
@@ -3606,16 +3606,16 @@ snapshots:
   '@aws-crypto/crc32@5.2.0':
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.973.5
+      '@aws-sdk/types': 3.973.6
       tslib: 2.8.1
 
   '@aws-crypto/util@5.2.0':
     dependencies:
-      '@aws-sdk/types': 3.973.5
+      '@aws-sdk/types': 3.973.6
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/types@3.973.5':
+  '@aws-sdk/types@3.973.6':
     dependencies:
       '@smithy/types': 4.13.1
       tslib: 2.8.1
@@ -3644,39 +3644,39 @@ snapshots:
       '@babel/helper-string-parser': 8.0.0-rc.2
       '@babel/helper-validator-identifier': 8.0.0-rc.2
 
-  '@biomejs/biome@2.4.6':
+  '@biomejs/biome@2.4.7':
     optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 2.4.6
-      '@biomejs/cli-darwin-x64': 2.4.6
-      '@biomejs/cli-linux-arm64': 2.4.6
-      '@biomejs/cli-linux-arm64-musl': 2.4.6
-      '@biomejs/cli-linux-x64': 2.4.6
-      '@biomejs/cli-linux-x64-musl': 2.4.6
-      '@biomejs/cli-win32-arm64': 2.4.6
-      '@biomejs/cli-win32-x64': 2.4.6
+      '@biomejs/cli-darwin-arm64': 2.4.7
+      '@biomejs/cli-darwin-x64': 2.4.7
+      '@biomejs/cli-linux-arm64': 2.4.7
+      '@biomejs/cli-linux-arm64-musl': 2.4.7
+      '@biomejs/cli-linux-x64': 2.4.7
+      '@biomejs/cli-linux-x64-musl': 2.4.7
+      '@biomejs/cli-win32-arm64': 2.4.7
+      '@biomejs/cli-win32-x64': 2.4.7
 
-  '@biomejs/cli-darwin-arm64@2.4.6':
+  '@biomejs/cli-darwin-arm64@2.4.7':
     optional: true
 
-  '@biomejs/cli-darwin-x64@2.4.6':
+  '@biomejs/cli-darwin-x64@2.4.7':
     optional: true
 
-  '@biomejs/cli-linux-arm64-musl@2.4.6':
+  '@biomejs/cli-linux-arm64-musl@2.4.7':
     optional: true
 
-  '@biomejs/cli-linux-arm64@2.4.6':
+  '@biomejs/cli-linux-arm64@2.4.7':
     optional: true
 
-  '@biomejs/cli-linux-x64-musl@2.4.6':
+  '@biomejs/cli-linux-x64-musl@2.4.7':
     optional: true
 
-  '@biomejs/cli-linux-x64@2.4.6':
+  '@biomejs/cli-linux-x64@2.4.7':
     optional: true
 
-  '@biomejs/cli-win32-arm64@2.4.6':
+  '@biomejs/cli-win32-arm64@2.4.7':
     optional: true
 
-  '@biomejs/cli-win32-x64@2.4.6':
+  '@biomejs/cli-win32-x64@2.4.7':
     optional: true
 
   '@colors/colors@1.6.0': {}
@@ -3867,7 +3867,7 @@ snapshots:
       '@anycable/core': 0.9.2
       graphql-request: 6.1.0(graphql@16.12.0)
       isomorphic-ws: 5.0.0(ws@8.19.0)
-      openai: 6.27.0(ws@8.19.0)(zod@3.25.76)
+      openai: 6.29.0(ws@8.19.0)(zod@3.25.76)
       socket.io-client: 4.8.3
       vscode-jsonrpc: 8.2.1
       zod: 3.25.76
@@ -3883,13 +3883,13 @@ snapshots:
     dependencies:
       graphql: 16.12.0
 
-  '@hono/node-server@1.19.11(hono@4.12.7)':
+  '@hono/node-server@1.19.11(hono@4.12.8)':
     dependencies:
-      hono: 4.12.7
+      hono: 4.12.8
 
-  '@hono/swagger-ui@0.5.3(hono@4.12.7)':
+  '@hono/swagger-ui@0.5.3(hono@4.12.8)':
     dependencies:
-      hono: 4.12.7
+      hono: 4.12.8
 
   '@inquirer/external-editor@1.0.3(@types/node@25.5.0)':
     dependencies:
@@ -3987,7 +3987,7 @@ snapshots:
 
   '@modelcontextprotocol/sdk@1.27.1(zod@4.3.6)':
     dependencies:
-      '@hono/node-server': 1.19.11(hono@4.12.7)
+      '@hono/node-server': 1.19.11(hono@4.12.8)
       ajv: 8.18.0
       ajv-formats: 3.0.1(ajv@8.18.0)
       content-type: 1.0.5
@@ -3997,7 +3997,7 @@ snapshots:
       eventsource-parser: 3.0.6
       express: 5.2.1
       express-rate-limit: 8.3.1(express@5.2.1)
-      hono: 4.12.7
+      hono: 4.12.8
       jose: 6.2.1
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
@@ -4630,7 +4630,7 @@ snapshots:
 
   '@voltagent/core@2.6.8(@ai-sdk/provider-utils@4.0.19(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.0))(ai@6.0.116(zod@4.3.6))(graphql@16.12.0)(ws@8.19.0)(zod@4.3.6)':
     dependencies:
-      '@ai-sdk/amazon-bedrock': 3.0.87(zod@4.3.6)
+      '@ai-sdk/amazon-bedrock': 3.0.88(zod@4.3.6)
       '@ai-sdk/anthropic': 3.0.58(zod@4.3.6)
       '@ai-sdk/azure': 3.0.42(zod@4.3.6)
       '@ai-sdk/cerebras': 2.0.39(zod@4.3.6)
@@ -4792,8 +4792,8 @@ snapshots:
 
   '@voltagent/server-hono@2.0.7(@voltagent/core@2.6.8(@ai-sdk/provider-utils@4.0.19(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.0))(ai@6.0.116(zod@4.3.6))(graphql@16.12.0)(ws@8.19.0)(zod@4.3.6))(ai@6.0.116(zod@4.3.6))(zod@4.3.6)':
     dependencies:
-      '@hono/node-server': 1.19.11(hono@4.12.7)
-      '@hono/swagger-ui': 0.5.3(hono@4.12.7)
+      '@hono/node-server': 1.19.11(hono@4.12.8)
+      '@hono/swagger-ui': 0.5.3(hono@4.12.8)
       '@voltagent/a2a-server': 2.0.2(@voltagent/core@2.6.8(@ai-sdk/provider-utils@4.0.19(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.0))(ai@6.0.116(zod@4.3.6))(graphql@16.12.0)(ws@8.19.0)(zod@4.3.6))
       '@voltagent/core': 2.6.8(@ai-sdk/provider-utils@4.0.19(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.0))(ai@6.0.116(zod@4.3.6))(graphql@16.12.0)(ws@8.19.0)(zod@4.3.6)
       '@voltagent/internal': 1.0.3
@@ -4801,7 +4801,7 @@ snapshots:
       '@voltagent/resumable-streams': 2.0.2(@voltagent/core@2.6.8(@ai-sdk/provider-utils@4.0.19(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.0))(ai@6.0.116(zod@4.3.6))(graphql@16.12.0)(ws@8.19.0)(zod@4.3.6))(ai@6.0.116(zod@4.3.6))
       '@voltagent/server-core': 2.1.10(@voltagent/core@2.6.8(@ai-sdk/provider-utils@4.0.19(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.0))(ai@6.0.116(zod@4.3.6))(graphql@16.12.0)(ws@8.19.0)(zod@4.3.6))(zod@4.3.6)
       fetch-to-node: 2.1.0
-      hono: 4.12.7
+      hono: 4.12.8
       openapi3-ts: 4.5.0
       zod: 4.3.6
     transitivePeerDependencies:
@@ -5713,9 +5713,9 @@ snapshots:
 
   help-me@5.0.0: {}
 
-  hono@4.12.7: {}
+  hono@4.12.8: {}
 
-  hookable@6.0.1: {}
+  hookable@6.1.0: {}
 
   http-cache-semantics@4.2.0: {}
 
@@ -6194,7 +6194,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  openai@6.27.0(ws@8.19.0)(zod@3.25.76):
+  openai@6.29.0(ws@8.19.0)(zod@3.25.76):
     optionalDependencies:
       ws: 8.19.0
       zod: 3.25.76
@@ -6692,7 +6692,7 @@ snapshots:
 
   through@2.3.8: {}
 
-  tinyexec@1.0.2: {}
+  tinyexec@1.0.4: {}
 
   tinyglobby@0.2.15:
     dependencies:
@@ -6715,20 +6715,20 @@ snapshots:
 
   ts-pattern@5.9.0: {}
 
-  tsdown@0.21.2(typescript@5.9.3):
+  tsdown@0.21.3(typescript@5.9.3):
     dependencies:
       ansis: 4.2.0
       cac: 7.0.0
       defu: 6.1.4
       empathic: 2.0.0
-      hookable: 6.0.1
+      hookable: 6.1.0
       import-without-cache: 0.2.5
       obug: 2.1.1
       picomatch: 4.0.3
       rolldown: 1.0.0-rc.9
       rolldown-plugin-dts: 0.22.5(rolldown@1.0.0-rc.9)(typescript@5.9.3)
       semver: 7.7.4
-      tinyexec: 1.0.2
+      tinyexec: 1.0.4
       tinyglobby: 0.2.15
       tree-kill: 1.2.2
       unconfig-core: 7.5.0
