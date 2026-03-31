@@ -13,7 +13,7 @@
     "volt": "volt"
   },
   "dependencies": {
-    "@ai-sdk/amazon-bedrock": "^4.0.83",
+    "@ai-sdk/amazon-bedrock": "^4.0.84",
     "@voltagent/cli": "^0.1.21",
     "@voltagent/core": "^2.6.13",
     "@voltagent/libsql": "^2.1.2",
@@ -24,7 +24,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.9",
+    "@biomejs/biome": "^2.4.10",
     "@types/node": "^25.5.0",
     "tsdown": "^0.21.7",
     "tsx": "^4.21.0",
