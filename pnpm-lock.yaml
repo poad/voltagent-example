@@ -2526,8 +2526,8 @@ packages:
   ml-matrix@6.12.1:
     resolution: {integrity: sha512-TJ+8eOFdp+INvzR4zAuwBQJznDUfktMtOB6g/hUcGh3rcyjxbz4Te57Pgri8Q9bhSQ7Zys4IYOGhFdnlgeB6Lw==}
 
-  ml-spectra-processing@14.27.0:
-    resolution: {integrity: sha512-Jy6vZn4HkEVBsT2oBLCIWxZJI3JaeqjubEl2DJB4d9/CKrDDC/zcEKOL1e8/rTHaNSYK4hyY/58qxr24Ww/MYA==}
+  ml-spectra-processing@14.28.0:
+    resolution: {integrity: sha512-hKUQjzF1Rh2+ttQufcdmjkQcN0drqNf46X0KYczoKdoLfsEipWVvUhbZzToRr8jBvwHkDdr+TZGebQ6660oEzA==}
 
   ml-xsadd@3.0.1:
     resolution: {integrity: sha512-Fz2q6dwgzGM8wYKGArTUTZDGa4lQFA2Vi6orjGeTVRy22ZnQFKlJuwS9n8NRviqz1KHAHAzdKJwbnYhdo38uYg==}
@@ -5898,7 +5898,7 @@ snapshots:
     dependencies:
       cheminfo-types: 1.15.0
       ml-matrix: 6.12.1
-      ml-spectra-processing: 14.27.0
+      ml-spectra-processing: 14.28.0
 
   load-tsconfig@0.2.5: {}
 
@@ -6009,7 +6009,7 @@ snapshots:
       is-any-array: 2.0.1
       ml-array-rescale: 1.3.7
 
-  ml-spectra-processing@14.27.0:
+  ml-spectra-processing@14.28.0:
     dependencies:
       binary-search: 1.3.6
       cheminfo-types: 1.15.0
