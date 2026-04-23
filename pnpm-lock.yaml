@@ -13,6 +13,7 @@ overrides:
   lodash-es@>=4.0.0 <=4.17.22: '>=4.17.23'
   minimatch@<10.2.1: '>=10.2.1'
   prismjs@<1.30.0: '>=1.30.0'
+  uuid@<14.0.0: '>=14.0.0'
 
 importers:
 
@@ -3192,12 +3193,8 @@ packages:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
 
-  uuid@11.1.0:
-    resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
-    hasBin: true
-
-  uuid@9.0.1:
-    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+  uuid@14.0.0:
+    resolution: {integrity: sha512-Qo+uWgilfSmAhXCMav1uYFynlQO7fMFiMVZsQqZRMIXp0O7rR7qjkj+cPvBHLgBqi960QCoo/PH2/6ZtVqKvrg==}
     hasBin: true
 
   validate.io-array@1.0.6:
@@ -3364,7 +3361,7 @@ snapshots:
       body-parser: 2.2.2
       cors: 2.8.6
       express: 4.22.1
-      uuid: 11.1.0
+      uuid: 14.0.0
     transitivePeerDependencies:
       - supports-color
 
@@ -4554,7 +4551,7 @@ snapshots:
       posthog-node: 4.18.0
       semver: 7.7.4
       update-notifier: 5.1.0
-      uuid: 9.0.1
+      uuid: 14.0.0
     transitivePeerDependencies:
       - '@ai-sdk/provider'
       - '@ai-sdk/provider-utils'
@@ -4616,7 +4613,7 @@ snapshots:
       ollama-ai-provider-v2: 1.5.5(zod@4.3.6)
       ts-pattern: 5.9.0
       type-fest: 4.41.0
-      uuid: 9.0.1
+      uuid: 14.0.0
       workers-ai-provider: 3.1.11(@ai-sdk/provider@3.0.8)(ai@6.0.168(zod@4.3.6))
       zod: 4.3.6
       zod-from-json-schema: 0.5.2
@@ -6704,9 +6701,7 @@ snapshots:
 
   utils-merge@1.0.1: {}
 
-  uuid@11.1.0: {}
-
-  uuid@9.0.1: {}
+  uuid@14.0.0: {}
 
   validate.io-array@1.0.6: {}
 
