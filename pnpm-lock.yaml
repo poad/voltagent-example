@@ -24,19 +24,19 @@ importers:
         version: 4.0.96(zod@4.3.6)
       '@voltagent/cli':
         specifier: ^0.1.21
-        version: 0.1.21(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@types/node@25.6.0)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(@voltagent/scorers@2.0.4(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+        version: 0.1.21(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@types/node@25.6.0)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(@voltagent/scorers@2.0.4(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/core':
-        specifier: ^2.7.2
-        version: 2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+        specifier: ^2.7.3
+        version: 2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/libsql':
         specifier: ^2.1.2
-        version: 2.1.2(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))
+        version: 2.1.2(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))
       '@voltagent/logger':
         specifier: ^2.0.2
         version: 2.0.2(@opentelemetry/api@1.9.1)
       '@voltagent/server-hono':
-        specifier: ^2.0.12
-        version: 2.0.12(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(zod@4.3.6)
+        specifier: ^2.0.13
+        version: 2.0.13(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(zod@4.3.6)
       ai:
         specifier: ^6.0.168
         version: 6.0.168(zod@4.3.6)
@@ -1296,8 +1296,8 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
-  '@voltagent/core@2.7.2':
-    resolution: {integrity: sha512-RBh1X1Mmoki3YoWqCJhWp4D9RPS0noV82YoaYbRu2ZnjLg4TzI+SbcyVjASr9ztMLE1gR4HvMmP6SclICjHGPw==}
+  '@voltagent/core@2.7.3':
+    resolution: {integrity: sha512-Mq2MjpSB7D2zSLfpHqAwSPyK+RDYAZ/lXreglwdGysdD8gqAIg9zvborAt1suMw8B9l12tXKt47aNxKMU8h/5w==}
     peerDependencies:
       '@ai-sdk/provider-utils': 4.x
       '@voltagent/logger': 2.0.2
@@ -1351,14 +1351,14 @@ packages:
   '@voltagent/sdk@2.0.2':
     resolution: {integrity: sha512-mmmurVl0d6r5N+gsQqcZsS5lppY57E6H8XVxbyY8Kmpn67wZEE86XNhxc8jzEZaZcOT4XmCPz0a5zApiqTibBw==}
 
-  '@voltagent/server-core@2.1.15':
-    resolution: {integrity: sha512-e6zfnXUAdixX0IZ06R76xyy5JxJDKzW73MKnY8WWGDqdxmY7lxjq1Nhjwakdek8waJFY4BSQwd4ew9Y7dIZ4aw==}
+  '@voltagent/server-core@2.1.16':
+    resolution: {integrity: sha512-7ws1WQcokbBYhbq/djXEbkcOthp9O+HJ76+9FsfXE5djDmFp3ES56oRiF3KPDedh+jhAaxdqoggj1mu8PCrioQ==}
     peerDependencies:
       '@voltagent/core': ^2.0.0
       zod: ^3.25.0 || ^4.0.0
 
-  '@voltagent/server-hono@2.0.12':
-    resolution: {integrity: sha512-tCMdyE4FCslJDu09NrdDgh/b9YqN+yqdca9F/mNGAjAVBpU00C5zK6DV9kdtcqzGofzf6JKIE/ZZX06BbErELA==}
+  '@voltagent/server-hono@2.0.13':
+    resolution: {integrity: sha512-TFB7e3gfONGzZtYXglatkqeB9ILl6nl3uOvIPIXQbxSunH+DcxoU4msVOqmIXOkrLI2WjG2O4gaTHlhd6gOyDg==}
     peerDependencies:
       '@voltagent/core': ^2.0.0
       zod: ^3.25.0 || ^4.0.0
@@ -1411,8 +1411,8 @@ packages:
       ajv:
         optional: true
 
-  ajv@8.18.0:
-    resolution: {integrity: sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==}
+  ajv@8.20.0:
+    resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
 
   ansi-align@3.0.1:
     resolution: {integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==}
@@ -1493,8 +1493,8 @@ packages:
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
-  body-parser@1.20.4:
-    resolution: {integrity: sha512-ZTgYYLMOXY9qKU/57FAo8F+HA2dGX7bqGc71txDRC1rS4frdFI5R7NhluHxH6M0YItAP0sHB4uqAOcYKxO6uGA==}
+  body-parser@1.20.5:
+    resolution: {integrity: sha512-3grm+/2tUOvu2cjJkvsIxrv/wVpfXQW4PsQHYm7yk4vfpu7Ekl6nEsYBoJUL6qDwZUx8wUhQ8tR2qz+ad9c9OA==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
 
   body-parser@2.2.2:
@@ -1903,8 +1903,8 @@ packages:
     resolution: {integrity: sha512-CRT1WTyuQoD771GW56XEZFQ/ZoSfWid1alKGDYMmkt2yl8UXrVR4pspqWNEcqKvVIzg6PAltWjxcSSPrboA4iA==}
     engines: {node: '>=18.0.0'}
 
-  express-rate-limit@8.4.0:
-    resolution: {integrity: sha512-gDK8yiqKxrGta+3WtON59arrrw6GLmadA1qoFgYXzdcch8fmKDID2XqO8itsi3f1wufXYPT51387dN6cvVBS3Q==}
+  express-rate-limit@8.4.1:
+    resolution: {integrity: sha512-NGVYwQSAyEQgzxX1iCM978PP9AdO/hW93gMcF6ZwQCm+rFvLsBH6w4xcXWTcliS8La5EPRN3p9wzItqBwJrfNw==}
     engines: {node: '>= 16'}
     peerDependencies:
       express: '>= 4.11'
@@ -2135,8 +2135,8 @@ packages:
   help-me@5.0.0:
     resolution: {integrity: sha512-7xgomUX6ADmcYzFik0HzAxh/73YlKR9bmFzf51CZwR+b6YtzU2m0u49hQCqV6SvlqIqsaxovfwdvbnsw3b/zpg==}
 
-  hono@4.12.14:
-    resolution: {integrity: sha512-am5zfg3yu6sqn5yjKBNqhnTX7Cv+m00ox+7jbaKkrLMRJ4rAdldd1xPd/JzbBWspqaQv6RSTrgFN95EsfhC+7w==}
+  hono@4.12.15:
+    resolution: {integrity: sha512-qM0jDhFEaCBb4TxoW7f53Qrpv9RBiayUHo0S52JudprkhvpjIrGoU1mnnr29Fvd1U335ZFPZQY1wlkqgfGXyLg==}
     engines: {node: '>=16.9.0'}
 
   hookable@6.1.1:
@@ -3833,13 +3833,13 @@ snapshots:
     dependencies:
       graphql: 16.12.0
 
-  '@hono/node-server@1.19.14(hono@4.12.14)':
+  '@hono/node-server@1.19.14(hono@4.12.15)':
     dependencies:
-      hono: 4.12.14
+      hono: 4.12.15
 
-  '@hono/swagger-ui@0.5.3(hono@4.12.14)':
+  '@hono/swagger-ui@0.5.3(hono@4.12.15)':
     dependencies:
-      hono: 4.12.14
+      hono: 4.12.15
 
   '@inquirer/external-editor@1.0.3(@types/node@25.6.0)':
     dependencies:
@@ -3928,17 +3928,17 @@ snapshots:
 
   '@modelcontextprotocol/sdk@1.29.0(zod@4.3.6)':
     dependencies:
-      '@hono/node-server': 1.19.14(hono@4.12.14)
-      ajv: 8.18.0
-      ajv-formats: 3.0.1(ajv@8.18.0)
+      '@hono/node-server': 1.19.14(hono@4.12.15)
+      ajv: 8.20.0
+      ajv-formats: 3.0.1(ajv@8.20.0)
       content-type: 1.0.5
       cors: 2.8.6
       cross-spawn: 7.0.6
       eventsource: 3.0.7
       eventsource-parser: 3.0.8
       express: 5.2.1
-      express-rate-limit: 8.4.0(express@5.2.1)
-      hono: 4.12.14
+      express-rate-limit: 8.4.1(express@5.2.1)
+      hono: 4.12.15
       jose: 6.2.2
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
@@ -4518,18 +4518,18 @@ snapshots:
 
   '@vercel/oidc@3.2.0': {}
 
-  '@voltagent/a2a-server@2.0.3(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))':
+  '@voltagent/a2a-server@2.0.3(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))':
     dependencies:
       '@a2a-js/sdk': 0.2.5
-      '@voltagent/core': 2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+      '@voltagent/core': 2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/internal': 1.0.3
       zod: 3.25.76
     transitivePeerDependencies:
       - supports-color
 
-  '@voltagent/cli@0.1.21(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@types/node@25.6.0)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(@voltagent/scorers@2.0.4(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)':
+  '@voltagent/cli@0.1.21(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@types/node@25.6.0)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(@voltagent/scorers@2.0.4(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)':
     dependencies:
-      '@voltagent/evals': 2.0.4(@voltagent/scorers@2.0.4(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6))(@voltagent/sdk@2.0.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))
+      '@voltagent/evals': 2.0.4(@voltagent/scorers@2.0.4(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6))(@voltagent/sdk@2.0.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))
       '@voltagent/internal': 1.0.3
       '@voltagent/sdk': 2.0.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       adm-zip: 0.5.17
@@ -4569,7 +4569,7 @@ snapshots:
       - ws
       - zod
 
-  '@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)':
+  '@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)':
     dependencies:
       '@ai-sdk/amazon-bedrock': 3.0.97(zod@4.3.6)
       '@ai-sdk/anthropic': 3.0.71(zod@4.3.6)
@@ -4631,20 +4631,20 @@ snapshots:
       - utf-8-validate
       - ws
 
-  '@voltagent/evals@2.0.4(@voltagent/scorers@2.0.4(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6))(@voltagent/sdk@2.0.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))':
+  '@voltagent/evals@2.0.4(@voltagent/scorers@2.0.4(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6))(@voltagent/sdk@2.0.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))':
     dependencies:
       '@voltagent/internal': 1.0.3
-      '@voltagent/scorers': 2.0.4(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6)
+      '@voltagent/scorers': 2.0.4(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6)
       '@voltagent/sdk': 2.0.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
 
   '@voltagent/internal@1.0.3':
     dependencies:
       type-fest: 4.41.0
 
-  '@voltagent/libsql@2.1.2(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))':
+  '@voltagent/libsql@2.1.2(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))':
     dependencies:
       '@libsql/client': 0.15.15
-      '@voltagent/core': 2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+      '@voltagent/core': 2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/internal': 1.0.3
       '@voltagent/logger': 2.0.2(@opentelemetry/api@1.9.1)
       ai: 6.0.168(zod@4.3.6)
@@ -4665,27 +4665,27 @@ snapshots:
       - '@opentelemetry/api'
       - supports-color
 
-  '@voltagent/mcp-server@2.0.2(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(zod@4.3.6)':
+  '@voltagent/mcp-server@2.0.2(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(zod@4.3.6)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.3.6)
-      '@voltagent/core': 2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+      '@voltagent/core': 2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/internal': 1.0.3
       zod: 4.3.6
     transitivePeerDependencies:
       - '@cfworker/json-schema'
       - supports-color
 
-  '@voltagent/resumable-streams@2.0.2(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))':
+  '@voltagent/resumable-streams@2.0.2(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))':
     dependencies:
-      '@voltagent/core': 2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+      '@voltagent/core': 2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/internal': 1.0.3
       ai: 6.0.168(zod@4.3.6)
       redis: 4.7.1
       resumable-stream: 2.2.12
 
-  '@voltagent/scorers@2.0.4(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6)':
+  '@voltagent/scorers@2.0.4(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(ws@8.20.0)(zod@4.3.6)':
     dependencies:
-      '@voltagent/core': 2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+      '@voltagent/core': 2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/internal': 1.0.3
       autoevals: 0.0.131(ws@8.20.0)
       zod: 4.3.6
@@ -4697,7 +4697,7 @@ snapshots:
 
   '@voltagent/sdk@2.0.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)':
     dependencies:
-      '@voltagent/core': 2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+      '@voltagent/core': 2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/internal': 1.0.3
     transitivePeerDependencies:
       - '@ai-sdk/provider'
@@ -4714,10 +4714,10 @@ snapshots:
       - ws
       - zod
 
-  '@voltagent/server-core@2.1.15(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(zod@4.3.6)':
+  '@voltagent/server-core@2.1.16(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(zod@4.3.6)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.3.6)
-      '@voltagent/core': 2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+      '@voltagent/core': 2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/internal': 1.0.3
       ai: 6.0.168(zod@4.3.6)
       jsonwebtoken: 9.0.3
@@ -4731,18 +4731,18 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@voltagent/server-hono@2.0.12(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(zod@4.3.6)':
+  '@voltagent/server-hono@2.0.13(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))(zod@4.3.6)':
     dependencies:
-      '@hono/node-server': 1.19.14(hono@4.12.14)
-      '@hono/swagger-ui': 0.5.3(hono@4.12.14)
-      '@voltagent/a2a-server': 2.0.3(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))
-      '@voltagent/core': 2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
+      '@hono/node-server': 1.19.14(hono@4.12.15)
+      '@hono/swagger-ui': 0.5.3(hono@4.12.15)
+      '@voltagent/a2a-server': 2.0.3(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))
+      '@voltagent/core': 2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6)
       '@voltagent/internal': 1.0.3
-      '@voltagent/mcp-server': 2.0.2(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(zod@4.3.6)
-      '@voltagent/resumable-streams': 2.0.2(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))
-      '@voltagent/server-core': 2.1.15(@voltagent/core@2.7.2(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(zod@4.3.6)
+      '@voltagent/mcp-server': 2.0.2(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(zod@4.3.6)
+      '@voltagent/resumable-streams': 2.0.2(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(ai@6.0.168(zod@4.3.6))
+      '@voltagent/server-core': 2.1.16(@voltagent/core@2.7.3(@ai-sdk/provider-utils@4.0.23(zod@4.3.6))(@ai-sdk/provider@3.0.8)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@6.0.168(zod@4.3.6))(graphql@16.12.0)(ws@8.20.0)(zod@4.3.6))(zod@4.3.6)
       fetch-to-node: 2.1.0
-      hono: 4.12.14
+      hono: 4.12.15
       openapi3-ts: 4.5.0
       zod: 4.3.6
     transitivePeerDependencies:
@@ -4788,11 +4788,11 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       zod: 4.3.6
 
-  ajv-formats@3.0.1(ajv@8.18.0):
+  ajv-formats@3.0.1(ajv@8.20.0):
     optionalDependencies:
-      ajv: 8.18.0
+      ajv: 8.20.0
 
-  ajv@8.18.0:
+  ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
       fast-uri: 3.1.0
@@ -4852,7 +4852,7 @@ snapshots:
 
   autoevals@0.0.131(ws@8.20.0):
     dependencies:
-      ajv: 8.18.0
+      ajv: 8.20.0
       compute-cosine-similarity: 1.1.0
       js-levenshtein: 1.1.6
       js-yaml: 4.1.1
@@ -4889,7 +4889,7 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  body-parser@1.20.4:
+  body-parser@1.20.5:
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
@@ -4899,7 +4899,7 @@ snapshots:
       http-errors: 2.0.1
       iconv-lite: 0.4.24
       on-finished: 2.4.1
-      qs: 6.14.2
+      qs: 6.15.1
       raw-body: 2.5.3
       type-is: 1.6.18
       unpipe: 1.0.0
@@ -5311,7 +5311,7 @@ snapshots:
     dependencies:
       eventsource-parser: 3.0.8
 
-  express-rate-limit@8.4.0(express@5.2.1):
+  express-rate-limit@8.4.1(express@5.2.1):
     dependencies:
       express: 5.2.1
       ip-address: 10.1.0
@@ -5320,7 +5320,7 @@ snapshots:
     dependencies:
       accepts: 1.3.8
       array-flatten: 1.1.1
-      body-parser: 1.20.4
+      body-parser: 1.20.5
       content-disposition: 0.5.4
       content-type: 1.0.5
       cookie: 0.7.2
@@ -5625,7 +5625,7 @@ snapshots:
 
   help-me@5.0.0: {}
 
-  hono@4.12.14: {}
+  hono@4.12.15: {}
 
   hookable@6.1.1: {}
 
