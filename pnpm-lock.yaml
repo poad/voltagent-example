@@ -123,8 +123,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/google-vertex@3.0.136':
-    resolution: {integrity: sha512-i+QSRN6d2l8JGEDNKlhdrYwwhJmksKwlnOOlaqcGbYUPJjas035hiniD2KNTqu4IDIc9xv0ywtHQ+iiu3SATsA==}
+  '@ai-sdk/google-vertex@3.0.137':
+    resolution: {integrity: sha512-vDtCmwMy4CzVsv3PESmkE96qDSqnsArDDEc22eggujZI/WxmIeKa+8vyUYjJUx9HZLOCPo7HhYDXjH0R2mcM+Q==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -3431,7 +3431,7 @@ snapshots:
       '@vercel/oidc': 3.2.0
       zod: 4.4.3
 
-  '@ai-sdk/google-vertex@3.0.136(zod@4.4.3)':
+  '@ai-sdk/google-vertex@3.0.137(zod@4.4.3)':
     dependencies:
       '@ai-sdk/anthropic': 2.0.79(zod@4.4.3)
       '@ai-sdk/google': 2.0.72(zod@4.4.3)
@@ -4579,7 +4579,7 @@ snapshots:
       '@ai-sdk/deepinfra': 2.0.50(zod@4.4.3)
       '@ai-sdk/gateway': 3.0.110(zod@4.4.3)
       '@ai-sdk/google': 3.0.67(zod@4.4.3)
-      '@ai-sdk/google-vertex': 3.0.136(zod@4.4.3)
+      '@ai-sdk/google-vertex': 3.0.137(zod@4.4.3)
       '@ai-sdk/groq': 3.0.38(zod@4.4.3)
       '@ai-sdk/mistral': 3.0.34(zod@4.4.3)
       '@ai-sdk/openai': 3.0.60(zod@4.4.3)
