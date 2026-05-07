@@ -1,4 +1,4 @@
-import "dotenv/config";
+import dotenvx from '@dotenvx/dotenvx';
 import { bedrock } from "@ai-sdk/amazon-bedrock";
 import {
 	Agent,
@@ -15,6 +15,8 @@ import { createPinoLogger } from "@voltagent/logger";
 import { honoServer } from "@voltagent/server-hono";
 import { weatherTool } from "./tools";
 import { expenseApprovalWorkflow } from "./workflows";
+
+dotenvx.config();
 
 // Create a logger instance
 const logger = createPinoLogger({
