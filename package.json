@@ -20,7 +20,7 @@
     "@voltagent/libsql": "^2.1.2",
     "@voltagent/logger": "^2.0.2",
     "@voltagent/server-hono": "^2.0.13",
-    "ai": "^6.0.174",
+    "ai": "^6.0.175",
     "zod": "^4.4.3"
   },
   "devDependencies": {
@@ -33,5 +33,5 @@
   "engines": {
     "node": ">=20.19.0"
   },
-  "packageManager": "pnpm@11.0.9"
+  "packageManager": "pnpm@11.1.0"
 }
