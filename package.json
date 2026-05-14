@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "^4.0.101",
-    "@dotenvx/dotenvx": "^1.64.0",
+    "@dotenvx/dotenvx": "^1.65.0",
     "@voltagent/cli": "^0.1.21",
     "@voltagent/core": "^2.7.4",
     "@voltagent/libsql": "^2.1.2",
@@ -33,5 +33,5 @@
   "engines": {
     "node": ">=20.19.0"
   },
-  "packageManager": "pnpm@11.1.1"
+  "packageManager": "pnpm@11.1.2"
 }
