@@ -21,8 +21,8 @@ importers:
   .:
     dependencies:
       '@ai-sdk/amazon-bedrock':
-        specifier: ^4.0.103
-        version: 4.0.103(zod@4.4.3)
+        specifier: ^4.0.104
+        version: 4.0.104(zod@4.4.3)
       '@dotenvx/dotenvx':
         specifier: ^1.65.0
         version: 1.65.0
@@ -76,8 +76,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/amazon-bedrock@4.0.103':
-    resolution: {integrity: sha512-V5+QPuDagRsoeE+JtADV+BZ8syAW+r4+dPG53LX2OKX9WwQCF28lJfjYccdf5HXisIPlcggzihbbqUGR7pkDIA==}
+  '@ai-sdk/amazon-bedrock@4.0.104':
+    resolution: {integrity: sha512-3uZrSsiPVPFHCRniEoEKyXbtWkf4bVRTCkRQm9tJbvPsH2kpGRPuHFVmndJTI7xe4XMeelSubVmiuPxZGcgzRQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -1295,6 +1295,7 @@ packages:
   '@smithy/core@3.24.1':
     resolution: {integrity: sha512-3mT7o4qQyUWttYnVK3A0Z/u3Xha3E81tXn32Tz6vjZiUXhBrkEivpw1hBYfh84iFF9CSzkBU9Y1DJ3Q6RQ231g==}
     engines: {node: '>=18.0.0'}
+    deprecated: Deprecated due to bug in browser bundling instructions https://github.com/smithy-lang/smithy-typescript/issues/2025
 
   '@smithy/eventstream-codec@4.3.1':
     resolution: {integrity: sha512-yS8AiJM3Kf7LR+lZyUilUyjdJGksAqxfSC3C9k3d1OCrAvWjpMlsJ+rW9cIslZJM4AtWh2UAqgZUWTtMeMdtDQ==}
@@ -2669,8 +2670,8 @@ packages:
   ml-matrix@6.12.2:
     resolution: {integrity: sha512-GC+BnW+pBh8Auap8goAxY0senAmF0IEoc3HNVSfnfbvGw0buuDIYb9kAKMS1l+GiwJ1rfK2bzJ8IHhwjzATSFA==}
 
-  ml-spectra-processing@14.28.1:
-    resolution: {integrity: sha512-/0fjo5jwrIWbMC5G925IWaxpoSXalG+dHGXQVfOUjyzw2gC0YC2+fHATLYmRmyaa5hyhE+Mobk6AMGhz61M73Q==}
+  ml-spectra-processing@14.29.0:
+    resolution: {integrity: sha512-825CS864krbjMv7OB0mbjgAmyOL5ymj1OGa0gAzz1h1Dcd3Eeol2DaOimSiPYmRhW+iYhpeQnb7cSU0mlSK6+g==}
 
   ml-xsadd@3.0.1:
     resolution: {integrity: sha512-Fz2q6dwgzGM8wYKGArTUTZDGa4lQFA2Vi6orjGeTVRy22ZnQFKlJuwS9n8NRviqz1KHAHAzdKJwbnYhdo38uYg==}
@@ -2896,8 +2897,8 @@ packages:
   promise-limit@2.7.0:
     resolution: {integrity: sha512-7nJ6v5lnJsXwGprnGXga4wx6d1POjvi5Qmf1ivTRxTjH4Z/9Czja/UCMLVmB9N93GeWOU93XaFaEt6jbuoagNw==}
 
-  protobufjs@7.5.7:
-    resolution: {integrity: sha512-NGnrxS/nLKUo5nkbVQxlC71sB4hdfImdYIbFeSCidxtwATx0AHRPcANSLd0q5Bb2BkoSWo2iisQhGg5/r+ihbA==}
+  protobufjs@7.5.8:
+    resolution: {integrity: sha512-dvpCIeLPbXZS/Ete7yLaO7RenOdken2NHKykBXbsaGxZT0UTltcarBciw+A78SRQs9iMAAVpsYA+l8b1hTePIA==}
     engines: {node: '>=12.0.0'}
 
   proxy-addr@2.0.7:
@@ -3531,7 +3532,7 @@ snapshots:
       aws4fetch: 1.0.20
       zod: 4.4.3
 
-  '@ai-sdk/amazon-bedrock@4.0.103(zod@4.4.3)':
+  '@ai-sdk/amazon-bedrock@4.0.104(zod@4.4.3)':
     dependencies:
       '@ai-sdk/anthropic': 3.0.76(zod@4.4.3)
       '@ai-sdk/provider': 3.0.10
@@ -4257,7 +4258,7 @@ snapshots:
       '@opentelemetry/sdk-logs': 0.203.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/sdk-metrics': 2.0.1(@opentelemetry/api@1.9.1)
       '@opentelemetry/sdk-trace-base': 2.0.1(@opentelemetry/api@1.9.1)
-      protobufjs: 7.5.7
+      protobufjs: 7.5.8
 
   '@opentelemetry/otlp-transformer@0.204.0(@opentelemetry/api@1.9.1)':
     dependencies:
@@ -4268,7 +4269,7 @@ snapshots:
       '@opentelemetry/sdk-logs': 0.204.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/sdk-metrics': 2.1.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/sdk-trace-base': 2.1.0(@opentelemetry/api@1.9.1)
-      protobufjs: 7.5.7
+      protobufjs: 7.5.8
 
   '@opentelemetry/resources@2.0.1(@opentelemetry/api@1.9.1)':
     dependencies:
@@ -6149,7 +6150,7 @@ snapshots:
     dependencies:
       cheminfo-types: 1.15.0
       ml-matrix: 6.12.2
-      ml-spectra-processing: 14.28.1
+      ml-spectra-processing: 14.29.0
 
   load-tsconfig@0.2.5: {}
 
@@ -6262,7 +6263,7 @@ snapshots:
       is-any-array: 3.0.0
       ml-array-rescale: 2.0.0
 
-  ml-spectra-processing@14.28.1:
+  ml-spectra-processing@14.29.0:
     dependencies:
       binary-search: 1.3.6
       cheminfo-types: 1.15.0
@@ -6475,7 +6476,7 @@ snapshots:
 
   promise-limit@2.7.0: {}
 
-  protobufjs@7.5.7:
+  protobufjs@7.5.8:
     dependencies:
       '@protobufjs/aspromise': 1.1.2
       '@protobufjs/base64': 1.1.2
