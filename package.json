@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "^4.0.105",
-    "@dotenvx/dotenvx": "^1.65.2",
+    "@dotenvx/dotenvx": "^1.66.0",
     "@voltagent/cli": "^0.1.21",
     "@voltagent/core": "^2.7.4",
     "@voltagent/libsql": "^2.1.2",
@@ -25,13 +25,13 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.15",
-    "@types/node": "^25.7.0",
+    "@types/node": "^25.8.0",
     "tsdown": "^0.21.10",
-    "tsx": "^4.21.0",
+    "tsx": "^4.22.0",
     "typescript": "^6.0.3"
   },
   "engines": {
     "node": ">=20.19.0"
   },
-  "packageManager": "pnpm@11.1.1"
+  "packageManager": "pnpm@11.1.2"
 }
