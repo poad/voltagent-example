@@ -20,14 +20,14 @@
     "@voltagent/libsql": "^2.1.2",
     "@voltagent/logger": "^2.0.2",
     "@voltagent/server-hono": "^2.0.13",
-    "ai": "^6.0.184",
+    "ai": "^6.0.185",
     "zod": "^4.4.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.15",
-    "@types/node": "^25.9.0",
+    "@types/node": "^25.9.1",
     "tsdown": "^0.22.0",
-    "tsx": "^4.22.2",
+    "tsx": "^4.22.3",
     "typescript": "^6.0.3"
   },
   "engines": {
