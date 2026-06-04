@@ -22,8 +22,8 @@ importers:
   .:
     dependencies:
       '@ai-sdk/amazon-bedrock':
-        specifier: ^4.0.109
-        version: 4.0.109(zod@4.4.3)
+        specifier: ^4.0.110
+        version: 4.0.110(zod@4.4.3)
       '@dotenvx/dotenvx':
         specifier: ^1.69.1
         version: 1.69.1
@@ -77,8 +77,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/amazon-bedrock@4.0.109':
-    resolution: {integrity: sha512-XX/VA9M6sfo/GuYGPjQkK2lHX8O8u/hD+mE5PsNIPeKVrBQNW6hEAtd7qOGW9QK7KvJIjl9xBcYJ+tYqhCO4Nw==}
+  '@ai-sdk/amazon-bedrock@4.0.110':
+    resolution: {integrity: sha512-EtJTG3pg10VsMa3l0R35CDh6D3TzG9jMiw4aHU6Kh10CI2zHFVPSnJmRnoRgFAAac6OEStaNfY1h7hG4GyqkzA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -3458,7 +3458,7 @@ snapshots:
       aws4fetch: 1.0.20
       zod: 4.4.3
 
-  '@ai-sdk/amazon-bedrock@4.0.109(zod@4.4.3)':
+  '@ai-sdk/amazon-bedrock@4.0.110(zod@4.4.3)':
     dependencies:
       '@ai-sdk/anthropic': 3.0.80(zod@4.4.3)
       '@ai-sdk/provider': 3.0.10
