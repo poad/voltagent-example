@@ -13,18 +13,18 @@
     "volt": "volt"
   },
   "dependencies": {
-    "@ai-sdk/amazon-bedrock": "^4.0.120",
+    "@ai-sdk/amazon-bedrock": "^4.0.121",
     "@dotenvx/dotenvx": "^1.75.1",
     "@voltagent/cli": "^0.1.21",
     "@voltagent/core": "^2.8.0",
     "@voltagent/libsql": "^2.1.2",
     "@voltagent/logger": "^2.0.2",
     "@voltagent/server-hono": "^2.0.14",
-    "ai": "^6.0.208",
+    "ai": "^6.0.209",
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.0",
+    "@biomejs/biome": "^2.5.1",
     "@types/node": "^26.0.0",
     "tsdown": "^0.22.3",
     "tsx": "^4.22.4",
