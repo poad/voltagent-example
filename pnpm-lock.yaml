@@ -29,42 +29,42 @@ importers:
   .:
     dependencies:
       '@ai-sdk/amazon-bedrock':
-        specifier: ^5.0.25
-        version: 5.0.25(zod@4.4.3)
+        specifier: ^5.0.27
+        version: 5.0.27(zod@4.4.3)
       '@dotenvx/dotenvx':
-        specifier: ^2.15.1
-        version: 2.15.1
+        specifier: ^2.17.1
+        version: 2.17.1
       '@voltagent/cli':
         specifier: ^0.1.21
-        version: 0.1.21(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@types/node@26.1.1)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+        version: 0.1.21(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@types/node@26.1.1)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/core':
         specifier: ^2.9.0
-        version: 2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+        version: 2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/libsql':
         specifier: ^2.1.2
-        version: 2.1.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))
+        version: 2.1.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))
       '@voltagent/logger':
         specifier: ^2.0.2
         version: 2.0.2(@opentelemetry/api@1.9.1)
       '@voltagent/server-hono':
         specifier: ^2.0.14
-        version: 2.0.14(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(zod@4.4.3)
+        version: 2.0.14(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(zod@4.4.3)
       ai:
-        specifier: ^7.0.32
-        version: 7.0.32(zod@4.4.3)
+        specifier: ^7.0.34
+        version: 7.0.34(zod@4.4.3)
       zod:
         specifier: ^4.4.3
         version: 4.4.3
     devDependencies:
       '@biomejs/biome':
-        specifier: ^2.5.4
-        version: 2.5.4
+        specifier: ^2.5.5
+        version: 2.5.5
       '@types/node':
         specifier: ^26.1.1
         version: 26.1.1
       tsdown:
-        specifier: ^0.22.12
-        version: 0.22.12(tsx@4.23.1)(typescript@7.0.2)
+        specifier: ^0.22.13
+        version: 0.22.13(tsx@4.23.1)(typescript@7.0.2)
       tsx:
         specifier: ^4.23.1
         version: 4.23.1
@@ -78,14 +78,14 @@ packages:
     resolution: {integrity: sha512-VTDuRS5V0ATbJ/LkaQlisMnTAeYKXAK6scMguVBstf+KIBQ7HIuKhiXLv+G/hvejkV+THoXzoNifInAkU81P1g==}
     engines: {node: '>=18'}
 
-  '@ai-sdk/amazon-bedrock@3.0.107':
-    resolution: {integrity: sha512-i201H2lD+mEFrMNxw4C9i4YEslHvgVg36xKIJB8ad64z3JlthAepNAS1cQ9wCHZD7JNUV1GJiyQ06gBhiiZAqQ==}
+  '@ai-sdk/amazon-bedrock@3.0.108':
+    resolution: {integrity: sha512-Fl3tLt6Z37koLpfVZZw+s8m/0bS1kr5KI7VTzTvZKv4UZYhoXQ922Lm6mTrRmOzNRsqC+hky6CbVSgwbpJINnw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/amazon-bedrock@5.0.25':
-    resolution: {integrity: sha512-cWDjIbD6CoFicwGjgwsU6sWMS9gpBBIQlMDgV5YfnPpmQVsQ3G+wBEwRyxCNxFVtxKxkMz8Bt6Uo6oTbfDCCNQ==}
+  '@ai-sdk/amazon-bedrock@5.0.27':
+    resolution: {integrity: sha512-ZemZ8KwG85W0h0KKvMPf5bjnd46dCqbN4t9CzlFb8U+X/QArYIRqg+2TjmtpLUaiiBkwsfsCVLh0TIoPeJpp0w==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -96,8 +96,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/anthropic@2.0.87':
-    resolution: {integrity: sha512-txxXi/CRaP4/Ubxh0VZx5PEbYMTvSznblOor4a9Xdoro6LxDQzQMT8qRoZrnqG9xFGLbj4+ZZpIbeQ9LIONQyA==}
+  '@ai-sdk/anthropic@2.0.88':
+    resolution: {integrity: sha512-PG8OnYnio3YEcRCJVh6Y9JUrpYauW3Jj85YWj6kOctgwl4K7Q8MDu1BA3SlZR33P1JETuK9PR6s036XxGqnMwQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -108,8 +108,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/anthropic@4.0.16':
-    resolution: {integrity: sha512-vyH4D6Auih5H2xvVzzh2ep5pbdWiaV7JDC+jHUE7zZJ5Kyv0TteLav4DrOgHzRuyv8ptfUSqFF6Y8//f/Ec0fQ==}
+  '@ai-sdk/anthropic@4.0.18':
+    resolution: {integrity: sha512-CpSBDI7DWk3DHM+qwbjhH7JxqqEqr5sK/SDrC9eit8Q03Uf1xBBrgMAVf9FajbpaH3oHxynLn474lf6ikjjO8A==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -150,14 +150,14 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/gateway@3.0.154':
-    resolution: {integrity: sha512-pKJmMnTxdTOfo+iz7pCAgmnMt4uan2yIw8nChFVIk3yYBeX2A9p2MCGyP8jZ1zpqSYXBmczQZU7Pjvlj1aLbIQ==}
+  '@ai-sdk/gateway@3.0.155':
+    resolution: {integrity: sha512-gP2i/z8gYqJNONZgUkfSe0u9iEvz+HJ/r+MKxmnJjSluPD9K9wwTs65KYyFl7pX8AEujnPny4Lq4l1ytPQD5TA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/gateway@4.0.24':
-    resolution: {integrity: sha512-RRNCwwYSMxN1SOskxqjyA9LZMuOs3J/fjP8jiB/akWG21jRdUkCcnO9paoiTFVjqnoJMIazrcqbeRfbSGG/PSQ==}
+  '@ai-sdk/gateway@4.0.26':
+    resolution: {integrity: sha512-b/nc3COKtk8IxzgcCi418IoZFky/Bw+Jg8+J0/SBBnu/mOXA4bkIKCu81coEtJAWuH2g5Fvvsa0ar7EpmzNWTw==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -210,8 +210,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/openai@4.0.16':
-    resolution: {integrity: sha512-Yh+PsXaf9NbN7oA3oKwOuyjTiHMPD75phf3SqGbDNNKQ3Yj3oTntp/WhO3nCHIPA6gr5/1lyridQokmOpPf9oQ==}
+  '@ai-sdk/openai@4.0.17':
+    resolution: {integrity: sha512-Zme92Jvleq2kC11/vvqaA37Q2ihRXpLTLuTwQMo1zYOjK+K7+9PmWIuSI+En5ws6EQ7/nwcfCWlP3YeRfh5VbQ==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -234,8 +234,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/provider-utils@5.0.11':
-    resolution: {integrity: sha512-7/96wE+ZsKB35iS9ASyllrE4Ym/EolXEB7AkuJ5FI++fmS85BVTAs77890C+1Z2jwHfBKjBQSBmsliOsAh0iFQ==}
+  '@ai-sdk/provider-utils@5.0.12':
+    resolution: {integrity: sha512-bbhlOgHeYwrIGheLkM6fhS8hVger8uFPmcOLg+kxc9EFh7y30XYorWhthlYAgpadO3SJhFZrIcEknN7qEqEVvA==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -297,59 +297,59 @@ packages:
     resolution: {integrity: sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==}
     engines: {node: '>=6.9.0'}
 
-  '@biomejs/biome@2.5.4':
-    resolution: {integrity: sha512-xy5FNE5kQJKyK5MR1gJy6ztXYx4WBAbYGlK04lMEgmyPRWKybY9NFwiG9yo0XdzOU8Xvhj41u034J1ywfoWfMw==}
+  '@biomejs/biome@2.5.5':
+    resolution: {integrity: sha512-r1S8nFsAG1MY+vJFZALzIvwXAJv6ejDQ0mxP21Tgr9YK3ZFtjrvbBwDdNhx1rUqvccEIeNg20cYCNzl6Cr69pQ==}
     engines: {node: '>=14.21.3'}
     hasBin: true
 
-  '@biomejs/cli-darwin-arm64@2.5.4':
-    resolution: {integrity: sha512-4o3NFRobXHynkgcFVrlZsoDAFtF2ldlEGN8sORSws5ZQqyY4PXnPUIylu4ksfyHuwkfvDREuWh3JK+niRwGq3w==}
+  '@biomejs/cli-darwin-arm64@2.5.5':
+    resolution: {integrity: sha512-kUrAhXVWUrwmAUnV2iXSK7umxKFysTwvqK+Ty6ptUcLY/7T3SnCAjUowE4uvwaEej6nXZ7hu/dTtbokKdsPeag==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
 
-  '@biomejs/cli-darwin-x64@2.5.4':
-    resolution: {integrity: sha512-D32P5HkU2Y6PySuC/WsVDTOgsDwVFmujzhhhOQjajtATpVWFDXuVd3oRbsWNSEA+aaFzyzZm22szsyydBYlSyQ==}
+  '@biomejs/cli-darwin-x64@2.5.5':
+    resolution: {integrity: sha512-DamiYc5bUYZ2uxlfc+RLEPtz1Abb6PO5eTbOkufLpSGwd/7AMQAdxhFYiXmwwkJL8IsT8S7GvdgwDHqaMFAvKw==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [darwin]
 
-  '@biomejs/cli-linux-arm64-musl@2.5.4':
-    resolution: {integrity: sha512-Rpm5/AT1m+DlJmUoYvS4/vXc+0tXJPJ2NQz25TGPyHVF5JrWy75PE0GH6kVxsKtQDuCH4OgzquZq0R4kj/wCVg==}
+  '@biomejs/cli-linux-arm64-musl@2.5.5':
+    resolution: {integrity: sha512-U4WMl/sy/E/Q73vf15VspakLRRs2LDFcCeBxJnQfXzssb88zpV6PJPaQ3ezhQ7H6Ht2/8bvuZeHgJWzmoxllZg==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-arm64@2.5.4':
-    resolution: {integrity: sha512-pSEfW7B8kTsXUjUxC1xVVK+y85Ht3C5XxZ9gclmC7/3Ku9Vqz8jmI7k0p/BNIjQ6t4sFERI2sFeH73ybiZl6YQ==}
+  '@biomejs/cli-linux-arm64@2.5.5':
+    resolution: {integrity: sha512-lRKF/pH/1RiYiBKExi3TCZVAtvzEm77aifrvcNiDFrR9WxeAnDUjDnseb6y2XV85mjitLs6SILGm2XG77cHtSQ==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-linux-x64-musl@2.5.4':
-    resolution: {integrity: sha512-aby/PohmmgbShcHqFsZVzG8H6D98+P+A6xRWRrQcLW1pCjabcov5UUlke4UqNQBYTkDQav+jB4zyyDDeKB2GaA==}
+  '@biomejs/cli-linux-x64-musl@2.5.5':
+    resolution: {integrity: sha512-m7wC7tjX5Lrmo69dc4md8FeKpPU1NTCY1v7xUoQQ2vadWwNnBS0KZOG8471otFPHrTHihQJAjQPgMObpLvDe6A==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-x64@2.5.4':
-    resolution: {integrity: sha512-FNxojWJkL7EajAuzBgoLe0T2G0y112M4lBrDIFl/DomFTx8yqenYOIdsRLNXvOvBBofE8hJi85LjzLmBDpY7/Q==}
+  '@biomejs/cli-linux-x64@2.5.5':
+    resolution: {integrity: sha512-H/O39nJEw/2Zm/fm7hrmxxoF8kK/aU1uCoPp70ruXVbomaAdLpJJnCmL11Q2JotT8QVHH06So04Oq53lCSwSwQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-win32-arm64@2.5.4':
-    resolution: {integrity: sha512-emoXexPZIPAZkz2RKmA95WJUqK3I5MJNYtwEbL5ESciRzhmFMMyekDhNG8hpeOaK+ZGRDxAU4wvGuA5IHQ0h0w==}
+  '@biomejs/cli-win32-arm64@2.5.5':
+    resolution: {integrity: sha512-7BryINPuYypLUAH3o/o5ZdgomJ4zn3EDR0ChZJst7n32S6ZhKbgHXuYydLu+YAnx59ehGFR0z/MG6qnzQi3Yyw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [win32]
 
-  '@biomejs/cli-win32-x64@2.5.4':
-    resolution: {integrity: sha512-U1jaluLw1qQc2Tx7/CeSoL9N5XcqIH+GWjpUAy1ouB5nVjSCMNO+NNHdY3RAs8zxNurLWAdj6pehQdCA2zyU+Q==}
+  '@biomejs/cli-win32-x64@2.5.5':
+    resolution: {integrity: sha512-bIBFo+n6MIxdNcVFy5CrurbKiZQiUciK3bt8+O9I4wjFZNTfXLpi+giq47522eXqW5NBc9ulx7dR1SlZKi2J5g==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
@@ -361,15 +361,15 @@ packages:
   '@dabh/diagnostics@2.0.8':
     resolution: {integrity: sha512-R4MSXTVnuMzGD7bzHdW2ZhhdPC/igELENcq5IjEverBvq5hn1SXCWcsi6eSsdWP0/Ur+SItRRjAktmdoX/8R/Q==}
 
-  '@dotenvx/dotenvx@2.15.1':
-    resolution: {integrity: sha512-t5eUkF4HV5qMAY+lg2ZYzPhso5i8EJHPvYKkzot0R4V08ivMs/w4HVe95bR9U2AGTTlSU5AA141mA6dRYRrn6g==}
+  '@dotenvx/dotenvx@2.17.1':
+    resolution: {integrity: sha512-H8tbSn2a7izztsyz4S9rRUjlniJYuL6XfUBt5H2gRQwRXP94dUL3RNMMz46r5jfLmmjALQUhWzL+M8HagN5rfQ==}
     hasBin: true
 
   '@dotenvx/primitives@2.1.0':
     resolution: {integrity: sha512-GIpMSSgjZk4URRCtAw12vBmobnw3VeSKL+p7/y8ypWvTHFW+StAMZvq4wCjdX+QKuw4alXu0IMGW6QPhKo6ufg==}
 
-  '@dotenvx/tooling@1.0.2':
-    resolution: {integrity: sha512-yf4VwIZUzSqlLy2pe0kH2xk6dME73oYW5XqcHE7M1zA1H0RX/dSUThsSRmpCjp622iW9f6VGQl5Aa6szt5Xc0w==}
+  '@dotenvx/tooling@1.0.3':
+    resolution: {integrity: sha512-Gd6qQol/ICb4MPRWpiIH56y+pR9AVB7kPBkbhrLSGLtAiF4Qgy+k651/f2pze0Xbm3H5XewbPfIm4y9K+ic30Q==}
 
   '@emnapi/core@1.11.2':
     resolution: {integrity: sha512-TC8MkTuZUtcTSiFeuC0ksCh9QIJ5+F21MvZ4Wn4ORfYaFJ/0dsiudv5tVkejgwZlwQ39jL9WWDe2lz8x0WglOA==}
@@ -1023,20 +1023,20 @@ packages:
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
     engines: {node: '>=10'}
 
-  '@smithy/core@3.29.6':
-    resolution: {integrity: sha512-TO3w25cdGWBeYqKNDaqH3v4O3jjMPpKwf39YlG5X5xhqWfpOWJbi5gQi1lrllukuwohdhY0TPB8jBEv6UC50Vg==}
+  '@smithy/core@3.29.7':
+    resolution: {integrity: sha512-BiEE2bnnGoPKdlGe3L+gOYORDHFGPuYVRLP7iUow/Sflm0B4hC4XY3FC1MRuc7ltzpW2xNnXopKi34TTkULlKQ==}
     engines: {node: '>=18.0.0'}
 
-  '@smithy/eventstream-codec@4.4.11':
-    resolution: {integrity: sha512-SyfjhKafDuK4Ugi9KouhPO0i6RYFs/0TsdAHoRle8NKUdXJ5OISI9JptwlV5zIoXvX2oV8SWPMIuteqQbKMy+Q==}
+  '@smithy/eventstream-codec@4.4.12':
+    resolution: {integrity: sha512-J1hJGf2yN6dbO960oGEDhAe6saEn2yzR2IC9vFKEYIYsiq8y8jdwQWGhY4UrvAdxozcnJ92KFHE0HdB75a9qHg==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/types@4.16.1':
     resolution: {integrity: sha512-0JFs3V2y2M9tKW5na/qxe69Zv+uxLMO7QBbhxF/FHu/Gp2NFZAAL9tWl9PU02xxo07pb3G9FTyjNc6D5uZrJIg==}
     engines: {node: '>=18.0.0'}
 
-  '@smithy/util-utf8@4.4.11':
-    resolution: {integrity: sha512-jN8Dca0fc7t7Ot0RqTzVn3hXn5KzanWy5Uf6FH1dz5i+hNIsG0V1MDzdst7+Fl3WiLsk74qnsVdG2R0rlrxhxw==}
+  '@smithy/util-utf8@4.4.12':
+    resolution: {integrity: sha512-yQiehL+My27xXCnbRGzrRsWzuL5JZY5rvyK+g+mWWkEHonUOXyjmvp+fuYMaFG7XluzZX5AWzzL9JfE6JzFYNg==}
     engines: {node: '>=18.0.0'}
 
   '@so-ric/colorspace@1.1.6':
@@ -1322,130 +1322,130 @@ packages:
   '@workflow/serde@4.1.0':
     resolution: {integrity: sha512-pav4F2BoirECWR7Nf1TKt+2eETcBj7jj4cBefQ8VXQCA6NPkaKeLfj/zMgi+3zYV5ZIBT4GuUiphsj0/b9hPQQ==}
 
-  '@yuku-codegen/binding-darwin-arm64@0.7.0':
-    resolution: {integrity: sha512-RLfjSuJUolQJ04zYq3kM2vSUk9BkFFSOhmOWARb7Pc7Gnf0vMLfj/fepnn9IdsyE2FsJjoCJPKM5bBze4ld5pQ==}
+  '@yuku-codegen/binding-darwin-arm64@0.7.3':
+    resolution: {integrity: sha512-hbssEr7iLNCWWdUbEt8cuOjUQ9loI+U/BVmdhNQ4CV1wAFGvWDO3niK9JD2WwTC9iib7E498qgZ3L/xJnoSb3A==}
     cpu: [arm64]
     os: [darwin]
 
-  '@yuku-codegen/binding-darwin-x64@0.7.0':
-    resolution: {integrity: sha512-OI9z6U69j2TvaWgDzheUNlMPSrlNQs8PD3isfyuGxQVbO8Dqi3F7PRT1JnG7pkId+IKvmEu+40sjXWDHRbtlMA==}
+  '@yuku-codegen/binding-darwin-x64@0.7.3':
+    resolution: {integrity: sha512-WqwST3vVcNBTd1zaT1vP6pU8NkjJlLWN37Kqomc2c6TG9eky6sbAfHIhZEjSSyqFrMqsAt3mIu0jQZAODi401g==}
     cpu: [x64]
     os: [darwin]
 
-  '@yuku-codegen/binding-freebsd-x64@0.7.0':
-    resolution: {integrity: sha512-nhoH3yXu2e6itB1Hbpj1+kZJ6yTJtsXBN5dWYm20TKvs1Iq79di6hdCKBlHE12RHFW39aQKcnn+vlFF1J1RGsw==}
+  '@yuku-codegen/binding-freebsd-x64@0.7.3':
+    resolution: {integrity: sha512-mCci4UPkZXYflXuHnPGl5sDsotBPLaBryFylDwZcqposktmumoOBIKp2gpzEmxQL/XlGdVWksmpYw9IRY43FNQ==}
     cpu: [x64]
     os: [freebsd]
 
-  '@yuku-codegen/binding-linux-arm-gnu@0.7.0':
-    resolution: {integrity: sha512-bgmapvrk/f/1bOSl+XA9KTLKb7vmxuXhqgCchlhTvgNOWnHB4rPLfzu0TkQU5CjVFzZQmHoEmhObf9DKUzcDMA==}
+  '@yuku-codegen/binding-linux-arm-gnu@0.7.3':
+    resolution: {integrity: sha512-F1QIaRH5SeahrYjZVrVvIb5nHCZQMF7+YWAy6yTJh0Y2r2wLgqOQuhbOWcoKk+AyBiTOO2nAsFHNpVqRq2GjGw==}
     cpu: [arm]
     os: [linux]
     libc: [glibc]
 
-  '@yuku-codegen/binding-linux-arm-musl@0.7.0':
-    resolution: {integrity: sha512-HpVSId+bxtqSkIsbBUP78J0j4ZUnCvqj14WGmAjKDP25oaQ0SZuFtVIZJmTisuKVSM4AIx1CVBYlJ2CCIm/vsQ==}
+  '@yuku-codegen/binding-linux-arm-musl@0.7.3':
+    resolution: {integrity: sha512-JvkWNmN8MFbboX/5grRsAldGaB8ArRFgAaUYfQoohsqcuJZee8SLtc6itvwuntPbN9MGStn4GzdWk2lmSURqbA==}
     cpu: [arm]
     os: [linux]
     libc: [musl]
 
-  '@yuku-codegen/binding-linux-arm64-gnu@0.7.0':
-    resolution: {integrity: sha512-oL8OGWo99U0arObIl5UKov3ZvsoNGWUMWRJrlXP99P4LpVz+gZC9KwfYCzxlhGnNk9rpp/fcTUUHYHbTskuZwQ==}
+  '@yuku-codegen/binding-linux-arm64-gnu@0.7.3':
+    resolution: {integrity: sha512-DUnMTE/HCA7j1BAipWclGZCYfLZ/4SV5lldmV2kDmVMIywcw4PhtQ4Rfd/tO1K82JkjhQ+4a8XApcOIksOacnQ==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@yuku-codegen/binding-linux-arm64-musl@0.7.0':
-    resolution: {integrity: sha512-ULsFt9PnI5vBMCG5pGir1YQtJ03o0Sb5SsRTDYRSeKaVaxdog+kA9Guwnk8q8OMPFsI3s40Fhu/+45cQXHSZ8Q==}
+  '@yuku-codegen/binding-linux-arm64-musl@0.7.3':
+    resolution: {integrity: sha512-pNnXMnm9dlqd3V8C7nHaXgZnMLwP/CyM8B4mSAnkqVlhj2t3b8CMjesEV85SCbFlagzJk8FapfSghfxcXKuBow==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@yuku-codegen/binding-linux-x64-gnu@0.7.0':
-    resolution: {integrity: sha512-l1TP6G39gnF4eiHEApjViyA12n+YHT18A0y3FDUy1jF5hkZt2RWlBNrU4HPhzTd6kQlozJEWyjhVNja2J3/eBw==}
+  '@yuku-codegen/binding-linux-x64-gnu@0.7.3':
+    resolution: {integrity: sha512-o5GRppYvYvPl4UJbgRSZpXXDh6rOWQzX0yLB+tDzv31T7mOuLitU6zgQZxzw5rwhPJDffCt/AVKMbtizEo+UtA==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@yuku-codegen/binding-linux-x64-musl@0.7.0':
-    resolution: {integrity: sha512-h8GZdSNSaBWySA4p8eYFWkH8OWdqA4peOAFeWs+DltJo8r9ZXSvVB0XBypMxkLwA0qLDqwtWoVssg2LK1zJKdw==}
+  '@yuku-codegen/binding-linux-x64-musl@0.7.3':
+    resolution: {integrity: sha512-GdiyLD1bM3lhTUeGkA9ZZLjqU+xt5uVihgPm0e6TdBjCi6DMZORWe02oDlRbn9OZaV7AZosngXAq2jLk3TrBEw==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@yuku-codegen/binding-win32-arm64@0.7.0':
-    resolution: {integrity: sha512-hVkxv4UTPXex7q5ldvqelSMvvYc6bCAYlDSMMg3wmttHZF9yQzPb4yYw69eWvR4coEMFaUv63ADJNjiGjNxkYg==}
+  '@yuku-codegen/binding-win32-arm64@0.7.3':
+    resolution: {integrity: sha512-uQrxQDBQFIAUgHJIxcB/FAAUk0Wkyj3xGpHrp/C258nXnCTAH0KDaqyK5RN/TCkVYrpH+uCl+rGnwDLSGnPBkQ==}
     cpu: [arm64]
     os: [win32]
 
-  '@yuku-codegen/binding-win32-x64@0.7.0':
-    resolution: {integrity: sha512-g3YQpqvsTbDHjjBDnNGhaO4ejN+m2GpsWc50dcGPR/RUx+yt++uDEXKSEyiAaCpEM2p5PuDIW/YEjXx0oVdsoQ==}
+  '@yuku-codegen/binding-win32-x64@0.7.3':
+    resolution: {integrity: sha512-UoF7tqMnVMUmIXPgDjFLhRezea6HaypwLDWNenCFxfJCzQNEa41lcHpxq1AN2Xl6GLzIDfAb+lQDi/O+zPCfyg==}
     cpu: [x64]
     os: [win32]
 
-  '@yuku-parser/binding-darwin-arm64@0.7.0':
-    resolution: {integrity: sha512-LoZ945MxFzc6+ltMenaFtXhJ4rdj11j1IwkRWLR7WPim2jdXUURTfWhAm7VzQDtSCHtnDz8PAH55eIHmNilTlA==}
+  '@yuku-parser/binding-darwin-arm64@0.7.3':
+    resolution: {integrity: sha512-JcFQSNEnjtyHQRjXO0G5rQt5xHq5MR+9nHqh+wt5MP30XIiccUYlcMIa3s7CBmj8E8WPGZC08k7LNGrA1OISTA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@yuku-parser/binding-darwin-x64@0.7.0':
-    resolution: {integrity: sha512-HVS2bgNGqCl5oU5wP16tZUMmXAO1avgxp/uzDOJcNqA7WOlV1PqTWD3P/1GXaMAijIZNu3VLSXkU1dovwwPpVA==}
+  '@yuku-parser/binding-darwin-x64@0.7.3':
+    resolution: {integrity: sha512-U0kNeI3VygP/+8sTOLTeLTjUyTYZfl9Wuq6xVKWPXHb2K7oI0sm8JXJ5xlhAbkUDQRi0N6yK5TKxS0sQT5M6UQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@yuku-parser/binding-freebsd-x64@0.7.0':
-    resolution: {integrity: sha512-nVZgLmiuEdkRb8oJsXBoQphfZwsMTcatSEB5t1QL9aH92/hx2TxAGayZy/g326l5rGVMmieCHc9FYxu/MnVFHQ==}
+  '@yuku-parser/binding-freebsd-x64@0.7.3':
+    resolution: {integrity: sha512-Xc08FQTvxovy6pX+Co9fgv3N1H0OpLpph/ClbwnJkcdphY3kzN2GgIfir35kpPp8mOzlQgtAVQdeDyAYyjwx4w==}
     cpu: [x64]
     os: [freebsd]
 
-  '@yuku-parser/binding-linux-arm-gnu@0.7.0':
-    resolution: {integrity: sha512-rIq85RCqwMQFtQSBIvUbmEAkNw0pu89PsrikSt+uVMCxjN1ZjbekTWw4hi0NVax8kAb5t2Xgs6kQrFoapyQ3Xg==}
+  '@yuku-parser/binding-linux-arm-gnu@0.7.3':
+    resolution: {integrity: sha512-6bHeDiUd+0bmoJJ5wZVG+PcJkXQUdjy/AzHsOVcOSUtHtRTX2H3Z5RIHyPAh5OveLtT4RHyqaO3fEQGnHGX5/Q==}
     cpu: [arm]
     os: [linux]
     libc: [glibc]
 
-  '@yuku-parser/binding-linux-arm-musl@0.7.0':
-    resolution: {integrity: sha512-BNoI0mP8o3iV6dJEgfJq1U6cAMn7iSYe3gSYkN05DL1FyOU6ni2NwcDScsV6RBBQHj4V1s5123F85JLPhhXfqA==}
+  '@yuku-parser/binding-linux-arm-musl@0.7.3':
+    resolution: {integrity: sha512-trGERNLJGvXkkyvdWBKspTOBATd4lcmpPFPcy5HI5kC3rC3ZMHQDJ356OMSVUsR2NQnl++F0ZTZQucao9hrbeQ==}
     cpu: [arm]
     os: [linux]
     libc: [musl]
 
-  '@yuku-parser/binding-linux-arm64-gnu@0.7.0':
-    resolution: {integrity: sha512-YrFNrrc0bq5B+cV2EuxDU4VPhuH0RHkV0M1rne8UTxPbqjPmarWxLcl1JEeyaXcL0856kwnaV728GMeB1o/Gdg==}
+  '@yuku-parser/binding-linux-arm64-gnu@0.7.3':
+    resolution: {integrity: sha512-p1ELmzhqAX7SFUvH/tR5zSb8NsWZQ8ulw7PqatfXNmJMy34bkivtL0z2jPpVoMJXf5o2+TwBN29Z31CLL0wvkA==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@yuku-parser/binding-linux-arm64-musl@0.7.0':
-    resolution: {integrity: sha512-WaDi6BsjZ/vrO7EgX36C4sLN9fUPZd/vM0Nh+82uOjygCxgFtiRf5NsFxdaLSzqMi+sbGsg+hWM/De4vkana3A==}
+  '@yuku-parser/binding-linux-arm64-musl@0.7.3':
+    resolution: {integrity: sha512-dZ79SrJ002ZXfBDmpQ47SF+06Q5bGOjFeoSK8xO97ter/bjLBgxSO4d7i9hhf+uj4xkrTPc/OFNVaeBAF3L4dA==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@yuku-parser/binding-linux-x64-gnu@0.7.0':
-    resolution: {integrity: sha512-gxlbaqglGr7ir9UZLF0945JKTImI9MFDZiny57mRiqktCTDVQPnb5Lmj0okKJ6w0nBX1NzwviMX6v4i+rwLSWw==}
+  '@yuku-parser/binding-linux-x64-gnu@0.7.3':
+    resolution: {integrity: sha512-LjT64hVGWWbOmOYS+Fd8qScgyRxgUbudhFJbw8aeUVnhiNR1np36KnE0VFWrJeu7rTdNxuzVyV5o9JLqhBDTVQ==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@yuku-parser/binding-linux-x64-musl@0.7.0':
-    resolution: {integrity: sha512-n7pCgW5iNoaKEpt8K3UTkg7ACX87MueWkJQD7cQSOgxyu/Qx0BCdwi0iOs60Gjj88wyKwqkYIBPMN3wKE5P7Yw==}
+  '@yuku-parser/binding-linux-x64-musl@0.7.3':
+    resolution: {integrity: sha512-5Nw3v5BqYbOi0ZdV+SImgVYa0KDBVAY/ZNPilTsJJU4phqa2cqEW4+aMgyieE/4bqpojt/B931kM+7pipazP9g==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@yuku-parser/binding-win32-arm64@0.7.0':
-    resolution: {integrity: sha512-kyuC7W1mGIMbJp6t86hIhDjnptFxZiTaOrbHhYkCpfsXPF6pszWNK03DUMc//Udnw3Af3d5w93CRJlRNpCb5eg==}
+  '@yuku-parser/binding-win32-arm64@0.7.3':
+    resolution: {integrity: sha512-lFYXgHiq8tJKa6/e1/q8Su+IJVV4/CjoXbIJ7/GdPXPp9Hx0gh/8HqmGSsrwlY2w8/ohBcar9wxjm1rQ8D16bg==}
     cpu: [arm64]
     os: [win32]
 
-  '@yuku-parser/binding-win32-x64@0.7.0':
-    resolution: {integrity: sha512-xEm5rwtETud7iNbxSocACgXzPrv2x4vkk339BtAqZAKoCS+edaO767EKAGcUO3xo8STBgCud1cAA5oIyzN8APA==}
+  '@yuku-parser/binding-win32-x64@0.7.3':
+    resolution: {integrity: sha512-wy/fs4OrHBhKW8LDyZJRMyMQ3QOfbSQDp0WtMbtzWCVui/vTQEUJMGnwvRCppjchS/qIQfbWzIw/HSjogJqZFA==}
     cpu: [x64]
     os: [win32]
 
-  '@yuku-toolchain/types@0.7.0':
-    resolution: {integrity: sha512-kKleXJmXcZnJ5LUDTeYvK350SB+BXdpoHUwT78GGyOXOhCZ0tWf+seDPAvVnCrjoJhf+FhqtR5HRUfWW+yILQw==}
+  '@yuku-toolchain/types@0.7.3':
+    resolution: {integrity: sha512-ezarjq3dcl8Nx3iJ9VeAc7vhzvHyRoSvr7bLX76T+ljRq73IbZ11X2RFCblfK6YxW2DsjkzU6MPnr3JWDYqYYQ==}
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -1485,14 +1485,14 @@ packages:
     resolution: {integrity: sha512-kja8j7PjmncONqaTsB8fQ+wE2mSU2DJ9D4XKoJ5PFWIdRMa6SLSN1ff4mOr4jCbfRSsxR4keIiySJU0N9T5hIQ==}
     engines: {node: '>= 8.0.0'}
 
-  ai@6.0.231:
-    resolution: {integrity: sha512-7uI0uSZoHEVBFxKdhZ3EiwtOyPl+Gr5JiV9khXeia8sV5Y36ESiGRRoer1pFVPd+XAcZ3XtAufiYtXwh5AZXCg==}
+  ai@6.0.233:
+    resolution: {integrity: sha512-P0dtR/JtnL05CiGZiVVeRePdgeBhe+DZAxwbOK0hpuWAcfysMPHueP6zwWOyEn07bVW4DMIk9nHbW0t9iIiW7g==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  ai@7.0.32:
-    resolution: {integrity: sha512-EO2a9fv/a9upaabhgFNeoOzOzbWQufhG4Edl6bsVXlftO6Tens+Q/vijEIf6AP1mQMNaAJXxmSX1xR3Su+2jXw==}
+  ai@7.0.34:
+    resolution: {integrity: sha512-jDqclWYqPGFKcUG4CQiKcBiwi5XqVMqvYy6eJdujVpvE1SDoB6j7RtjrGYz3Bn5B1dzTj1StAlrOebY//WK9/Q==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -3172,14 +3172,14 @@ packages:
   ts-pattern@5.9.0:
     resolution: {integrity: sha512-6s5V71mX8qBUmlgbrfL33xDUwO0fq48rxAu2LBE11WBeGdpCPOsXksQbZJHvHwhrd3QjUusd3mAOM5Gg0mFBLg==}
 
-  tsdown@0.22.12:
-    resolution: {integrity: sha512-IzGRfGwSsufXJWOcQ0tmECKMG/dbxhUwDOySTS7JE1AM8pkB9+bpcTPs8bTxxSNrSvGocSczrBlOh97tZObq9Q==}
+  tsdown@0.22.13:
+    resolution: {integrity: sha512-XaYFhtiKRUvTpXv/YAehsHdbEb3LN/iMlzjSINbjlaATtXN2zVPKox2STKhcyFPlh++8Zg7suNN27E679IfAUA==}
     engines: {node: ^22.18.0 || >=24.11.0}
     hasBin: true
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
-      '@tsdown/css': 0.22.12
-      '@tsdown/exe': 0.22.12
+      '@tsdown/css': 0.22.13
+      '@tsdown/exe': 0.22.13
       '@vitejs/devtools': '*'
       publint: ^0.3.8
       tsx: '*'
@@ -3426,14 +3426,14 @@ packages:
     resolution: {integrity: sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug==}
     engines: {node: '>=18'}
 
-  yuku-ast@0.7.0:
-    resolution: {integrity: sha512-W5UzqYg/Xuyz41cAyxwo/TIPpDX221OuC9U5f44+NulDAHDwtzvGE3M3Xz3mdcLEutWOmTc/WP/y7NO6ANA2gw==}
+  yuku-ast@0.7.3:
+    resolution: {integrity: sha512-occyAXtcU4hcl5UPEclWwLqz4J1ZAV8Us4LllmTqAe1YjL5aMbh3GCpzHt6O0sOF+dwBI3BZAcFQqbyX1RiaWg==}
 
-  yuku-codegen@0.7.0:
-    resolution: {integrity: sha512-RJgoLaIU2AGKRkUHqMtw6gQhYm+NXZm/AFnfn+5YAHgRfApIc/PNJABJHihHoxWltayjbwEOCa68zqxdJafgfA==}
+  yuku-codegen@0.7.3:
+    resolution: {integrity: sha512-hhyJW0TIEwm4kex8XVCS4CZIXHS/3TWWNUum+95Ji5/4W+iaLfUnvwSxJwyNfTzS8cxmd1np+EZ4b8ObLguKEA==}
 
-  yuku-parser@0.7.0:
-    resolution: {integrity: sha512-72HXJhlPOolJN4ER0xZy1wtAeWZEG4uXfZnzEm2uD7yAWt32VE/52FwIfVGi2Hs2P0JRZK2+sPwULQMTuEzYtw==}
+  yuku-parser@0.7.3:
+    resolution: {integrity: sha512-5kZ7HR+W+OsNpVtZ9LHruQsgmcoJl4TETrffPq2GbliThsFiy+zHzbMLmSxQJrokzyJqfJ/TPfFkdUDOodJCgA==}
 
   zod-from-json-schema@0.0.5:
     resolution: {integrity: sha512-zYEoo86M1qpA1Pq6329oSyHLS785z/mTwfr9V1Xf/ZLhuuBGaMlDGu/pDVGVUe4H4oa1EFgWZT53DP0U3oT9CQ==}
@@ -3465,24 +3465,24 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@ai-sdk/amazon-bedrock@3.0.107(zod@4.4.3)':
+  '@ai-sdk/amazon-bedrock@3.0.108(zod@4.4.3)':
     dependencies:
-      '@ai-sdk/anthropic': 2.0.87(zod@4.4.3)
+      '@ai-sdk/anthropic': 2.0.88(zod@4.4.3)
       '@ai-sdk/provider': 2.0.3
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
-      '@smithy/eventstream-codec': 4.4.11
-      '@smithy/util-utf8': 4.4.11
+      '@smithy/eventstream-codec': 4.4.12
+      '@smithy/util-utf8': 4.4.12
       aws4fetch: 1.0.20
       zod: 4.4.3
 
-  '@ai-sdk/amazon-bedrock@5.0.25(zod@4.4.3)':
+  '@ai-sdk/amazon-bedrock@5.0.27(zod@4.4.3)':
     dependencies:
-      '@ai-sdk/anthropic': 4.0.16(zod@4.4.3)
-      '@ai-sdk/openai': 4.0.16(zod@4.4.3)
+      '@ai-sdk/anthropic': 4.0.18(zod@4.4.3)
+      '@ai-sdk/openai': 4.0.17(zod@4.4.3)
       '@ai-sdk/provider': 4.0.3
-      '@ai-sdk/provider-utils': 5.0.11(zod@4.4.3)
-      '@smithy/eventstream-codec': 4.4.11
-      '@smithy/util-utf8': 4.4.11
+      '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
+      '@smithy/eventstream-codec': 4.4.12
+      '@smithy/util-utf8': 4.4.12
       aws4fetch: 1.0.20
       zod: 4.4.3
 
@@ -3492,7 +3492,7 @@ snapshots:
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
       zod: 4.4.3
 
-  '@ai-sdk/anthropic@2.0.87(zod@4.4.3)':
+  '@ai-sdk/anthropic@2.0.88(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 2.0.3
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
@@ -3504,10 +3504,10 @@ snapshots:
       '@ai-sdk/provider-utils': 4.0.37(zod@4.4.3)
       zod: 4.4.3
 
-  '@ai-sdk/anthropic@4.0.16(zod@4.4.3)':
+  '@ai-sdk/anthropic@4.0.18(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 4.0.3
-      '@ai-sdk/provider-utils': 5.0.11(zod@4.4.3)
+      '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
       zod: 4.4.3
 
   '@ai-sdk/azure@3.0.86(zod@4.4.3)':
@@ -3551,17 +3551,17 @@ snapshots:
       '@vercel/oidc': 3.2.0
       zod: 4.4.3
 
-  '@ai-sdk/gateway@3.0.154(zod@4.4.3)':
+  '@ai-sdk/gateway@3.0.155(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 3.0.14
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
       '@vercel/oidc': 3.2.0
       zod: 4.4.3
 
-  '@ai-sdk/gateway@4.0.24(zod@4.4.3)':
+  '@ai-sdk/gateway@4.0.26(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 4.0.3
-      '@ai-sdk/provider-utils': 5.0.11(zod@4.4.3)
+      '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
       '@vercel/oidc': 3.2.0
       zod: 4.4.3
 
@@ -3619,10 +3619,10 @@ snapshots:
       '@ai-sdk/provider-utils': 4.0.37(zod@4.4.3)
       zod: 4.4.3
 
-  '@ai-sdk/openai@4.0.16(zod@4.4.3)':
+  '@ai-sdk/openai@4.0.17(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 4.0.3
-      '@ai-sdk/provider-utils': 5.0.11(zod@4.4.3)
+      '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
       zod: 4.4.3
 
   '@ai-sdk/perplexity@3.0.44(zod@4.4.3)':
@@ -3645,7 +3645,7 @@ snapshots:
       eventsource-parser: 3.1.0
       zod: 4.4.3
 
-  '@ai-sdk/provider-utils@5.0.11(zod@4.4.3)':
+  '@ai-sdk/provider-utils@5.0.12(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 4.0.3
       '@standard-schema/spec': 1.1.0
@@ -3711,39 +3711,39 @@ snapshots:
 
   '@babel/runtime@7.29.7': {}
 
-  '@biomejs/biome@2.5.4':
+  '@biomejs/biome@2.5.5':
     optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 2.5.4
-      '@biomejs/cli-darwin-x64': 2.5.4
-      '@biomejs/cli-linux-arm64': 2.5.4
-      '@biomejs/cli-linux-arm64-musl': 2.5.4
-      '@biomejs/cli-linux-x64': 2.5.4
-      '@biomejs/cli-linux-x64-musl': 2.5.4
-      '@biomejs/cli-win32-arm64': 2.5.4
-      '@biomejs/cli-win32-x64': 2.5.4
+      '@biomejs/cli-darwin-arm64': 2.5.5
+      '@biomejs/cli-darwin-x64': 2.5.5
+      '@biomejs/cli-linux-arm64': 2.5.5
+      '@biomejs/cli-linux-arm64-musl': 2.5.5
+      '@biomejs/cli-linux-x64': 2.5.5
+      '@biomejs/cli-linux-x64-musl': 2.5.5
+      '@biomejs/cli-win32-arm64': 2.5.5
+      '@biomejs/cli-win32-x64': 2.5.5
 
-  '@biomejs/cli-darwin-arm64@2.5.4':
+  '@biomejs/cli-darwin-arm64@2.5.5':
     optional: true
 
-  '@biomejs/cli-darwin-x64@2.5.4':
+  '@biomejs/cli-darwin-x64@2.5.5':
     optional: true
 
-  '@biomejs/cli-linux-arm64-musl@2.5.4':
+  '@biomejs/cli-linux-arm64-musl@2.5.5':
     optional: true
 
-  '@biomejs/cli-linux-arm64@2.5.4':
+  '@biomejs/cli-linux-arm64@2.5.5':
     optional: true
 
-  '@biomejs/cli-linux-x64-musl@2.5.4':
+  '@biomejs/cli-linux-x64-musl@2.5.5':
     optional: true
 
-  '@biomejs/cli-linux-x64@2.5.4':
+  '@biomejs/cli-linux-x64@2.5.5':
     optional: true
 
-  '@biomejs/cli-win32-arm64@2.5.4':
+  '@biomejs/cli-win32-arm64@2.5.5':
     optional: true
 
-  '@biomejs/cli-win32-x64@2.5.4':
+  '@biomejs/cli-win32-x64@2.5.5':
     optional: true
 
   '@colors/colors@1.6.0': {}
@@ -3754,15 +3754,15 @@ snapshots:
       enabled: 2.0.0
       kuler: 2.0.0
 
-  '@dotenvx/dotenvx@2.15.1':
+  '@dotenvx/dotenvx@2.17.1':
     dependencies:
       '@dotenvx/primitives': 2.1.0
-      '@dotenvx/tooling': 1.0.2
+      '@dotenvx/tooling': 1.0.3
       yocto-spinner: 1.2.2
 
   '@dotenvx/primitives@2.1.0': {}
 
-  '@dotenvx/tooling@1.0.2': {}
+  '@dotenvx/tooling@1.0.3': {}
 
   '@emnapi/core@1.11.2':
     dependencies:
@@ -3858,10 +3858,10 @@ snapshots:
   '@esbuild/win32-x64@0.28.1':
     optional: true
 
-  '@gitlab/gitlab-ai-provider@3.6.1(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(graphql@16.14.1)(ws@8.21.0)':
+  '@gitlab/gitlab-ai-provider@3.6.1(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(graphql@16.14.1)(ws@8.21.0)':
     dependencies:
       '@ai-sdk/provider': 4.0.3
-      '@ai-sdk/provider-utils': 5.0.11(zod@4.4.3)
+      '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
       '@anthropic-ai/sdk': 0.71.2(zod@3.25.76)
       '@anycable/core': 0.9.2
       graphql-request: 6.1.0(graphql@16.14.1)
@@ -3988,12 +3988,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mymediset/sap-ai-provider@2.1.0(ai@7.0.32(zod@4.4.3))':
+  '@mymediset/sap-ai-provider@2.1.0(ai@7.0.34(zod@4.4.3))':
     dependencies:
       '@ai-sdk/provider': 3.0.14
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
       '@sap-ai-sdk/orchestration': 2.12.0
-      ai: 7.0.32(zod@4.4.3)
+      ai: 7.0.34(zod@4.4.3)
       zod: 4.4.3
       zod-to-json-schema: 3.25.2(zod@4.4.3)
     transitivePeerDependencies:
@@ -4418,23 +4418,23 @@ snapshots:
 
   '@sindresorhus/is@4.6.0': {}
 
-  '@smithy/core@3.29.6':
+  '@smithy/core@3.29.7':
     dependencies:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@smithy/eventstream-codec@4.4.11':
+  '@smithy/eventstream-codec@4.4.12':
     dependencies:
-      '@smithy/core': 3.29.6
+      '@smithy/core': 3.29.7
       tslib: 2.8.1
 
   '@smithy/types@4.16.1':
     dependencies:
       tslib: 2.8.1
 
-  '@smithy/util-utf8@4.4.11':
+  '@smithy/util-utf8@4.4.12':
     dependencies:
-      '@smithy/core': 3.29.6
+      '@smithy/core': 3.29.7
       tslib: 2.8.1
 
   '@so-ric/colorspace@1.1.6':
@@ -4603,20 +4603,20 @@ snapshots:
 
   '@vercel/oidc@3.2.0': {}
 
-  '@voltagent/a2a-server@2.0.3(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))':
+  '@voltagent/a2a-server@2.0.3(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))':
     dependencies:
       '@a2a-js/sdk': 0.2.5
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
       zod: 3.25.76
     transitivePeerDependencies:
       - supports-color
 
-  '@voltagent/cli@0.1.21(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@types/node@26.1.1)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)':
+  '@voltagent/cli@0.1.21(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@types/node@26.1.1)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)':
     dependencies:
-      '@voltagent/evals': 2.0.4(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(ws@8.21.0)(zod@4.4.3))(@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))
+      '@voltagent/evals': 2.0.4(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(ws@8.21.0)(zod@4.4.3))(@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))
       '@voltagent/internal': 1.0.3
-      '@voltagent/sdk': 2.0.3(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/sdk': 2.0.3(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       adm-zip: 0.5.17
       boxen: 5.1.2
       bundle-require: 5.1.0(esbuild@0.28.1)
@@ -4657,9 +4657,9 @@ snapshots:
       - ws
       - zod
 
-  '@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)':
+  '@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)':
     dependencies:
-      '@ai-sdk/amazon-bedrock': 3.0.107(zod@4.4.3)
+      '@ai-sdk/amazon-bedrock': 3.0.108(zod@4.4.3)
       '@ai-sdk/anthropic': 3.0.95(zod@4.4.3)
       '@ai-sdk/azure': 3.0.86(zod@4.4.3)
       '@ai-sdk/cerebras': 2.0.64(zod@4.4.3)
@@ -4673,14 +4673,14 @@ snapshots:
       '@ai-sdk/openai': 3.0.82(zod@4.4.3)
       '@ai-sdk/openai-compatible': 2.0.58(zod@4.4.3)
       '@ai-sdk/perplexity': 3.0.44(zod@4.4.3)
-      '@ai-sdk/provider-utils': 5.0.11(zod@4.4.3)
+      '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
       '@ai-sdk/togetherai': 2.0.63(zod@4.4.3)
       '@ai-sdk/vercel': 2.0.60(zod@4.4.3)
       '@ai-sdk/xai': 3.0.105(zod@4.4.3)
       '@aihubmix/ai-sdk-provider': 1.0.3(zod@4.4.3)
-      '@gitlab/gitlab-ai-provider': 3.6.1(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(graphql@16.14.1)(ws@8.21.0)
+      '@gitlab/gitlab-ai-provider': 3.6.1(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(graphql@16.14.1)(ws@8.21.0)
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.4.3)
-      '@mymediset/sap-ai-provider': 2.1.0(ai@7.0.32(zod@4.4.3))
+      '@mymediset/sap-ai-provider': 2.1.0(ai@7.0.34(zod@4.4.3))
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/api-logs': 0.204.0
       '@opentelemetry/context-async-hooks': 2.9.0(@opentelemetry/api@1.9.1)
@@ -4694,7 +4694,7 @@ snapshots:
       '@opentelemetry/sdk-trace-node': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/semantic-conventions': 1.42.0
       '@voltagent/internal': 1.0.3
-      ai: 7.0.32(zod@4.4.3)
+      ai: 7.0.34(zod@4.4.3)
       fast-glob: 3.3.3
       gray-matter: 4.0.3
       micromatch: 4.0.8
@@ -4702,7 +4702,7 @@ snapshots:
       ts-pattern: 5.9.0
       type-fest: 4.41.0
       uuid: 14.0.1
-      workers-ai-provider: 3.3.1(@ai-sdk/anthropic@3.0.95(zod@4.4.3))(@ai-sdk/google@3.0.90(zod@4.4.3))(@ai-sdk/openai@3.0.82(zod@4.4.3))(@ai-sdk/provider@4.0.3)(ai@7.0.32(zod@4.4.3))
+      workers-ai-provider: 3.3.1(@ai-sdk/anthropic@3.0.95(zod@4.4.3))(@ai-sdk/google@3.0.90(zod@4.4.3))(@ai-sdk/openai@3.0.82(zod@4.4.3))(@ai-sdk/provider@4.0.3)(ai@7.0.34(zod@4.4.3))
       zod: 4.4.3
       zod-from-json-schema: 0.5.3
       zod-from-json-schema-v3: zod-from-json-schema@0.0.5
@@ -4722,23 +4722,23 @@ snapshots:
       - utf-8-validate
       - ws
 
-  '@voltagent/evals@2.0.4(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(ws@8.21.0)(zod@4.4.3))(@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))':
+  '@voltagent/evals@2.0.4(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(ws@8.21.0)(zod@4.4.3))(@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))':
     dependencies:
       '@voltagent/internal': 1.0.3
-      '@voltagent/scorers': 2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(ws@8.21.0)(zod@4.4.3)
-      '@voltagent/sdk': 2.0.3(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/scorers': 2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/sdk': 2.0.3(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
 
   '@voltagent/internal@1.0.3':
     dependencies:
       type-fest: 4.41.0
 
-  '@voltagent/libsql@2.1.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))':
+  '@voltagent/libsql@2.1.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))':
     dependencies:
       '@libsql/client': 0.15.15
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
       '@voltagent/logger': 2.0.2(@opentelemetry/api@1.9.1)
-      ai: 7.0.32(zod@4.4.3)
+      ai: 7.0.34(zod@4.4.3)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -4756,39 +4756,39 @@ snapshots:
       - '@opentelemetry/api'
       - supports-color
 
-  '@voltagent/mcp-server@2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(zod@4.4.3)':
+  '@voltagent/mcp-server@2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(zod@4.4.3)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.4.3)
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
       zod: 4.4.3
     transitivePeerDependencies:
       - '@cfworker/json-schema'
       - supports-color
 
-  '@voltagent/resumable-streams@2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))':
+  '@voltagent/resumable-streams@2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))':
     dependencies:
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
-      ai: 7.0.32(zod@4.4.3)
+      ai: 7.0.34(zod@4.4.3)
       redis: 4.7.1
       resumable-stream: 2.2.12
 
-  '@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(ws@8.21.0)(zod@4.4.3)':
+  '@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(ws@8.21.0)(zod@4.4.3)':
     dependencies:
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
       autoevals: 0.0.131(ws@8.21.0)
       zod: 4.4.3
     optionalDependencies:
-      ai: 7.0.32(zod@4.4.3)
+      ai: 7.0.34(zod@4.4.3)
     transitivePeerDependencies:
       - encoding
       - ws
 
-  '@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)':
+  '@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)':
     dependencies:
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
     transitivePeerDependencies:
       - '@ai-sdk/provider'
@@ -4808,12 +4808,12 @@ snapshots:
       - ws
       - zod
 
-  '@voltagent/server-core@2.1.18(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(zod@4.4.3)':
+  '@voltagent/server-core@2.1.18(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(zod@4.4.3)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.4.3)
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
-      ai: 6.0.231(zod@4.4.3)
+      ai: 6.0.233(zod@4.4.3)
       jsonwebtoken: 9.0.3
       ws: 8.21.0
       zod: 4.4.3
@@ -4825,16 +4825,16 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@voltagent/server-hono@2.0.14(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))(zod@4.4.3)':
+  '@voltagent/server-hono@2.0.14(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))(zod@4.4.3)':
     dependencies:
       '@hono/node-server': 1.19.14(hono@4.12.27)
       '@hono/swagger-ui': 0.5.3(hono@4.12.27)
-      '@voltagent/a2a-server': 2.0.3(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
+      '@voltagent/a2a-server': 2.0.3(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
-      '@voltagent/mcp-server': 2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(zod@4.4.3)
-      '@voltagent/resumable-streams': 2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.32(zod@4.4.3))
-      '@voltagent/server-core': 2.1.18(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.11(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.32(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(zod@4.4.3)
+      '@voltagent/mcp-server': 2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(zod@4.4.3)
+      '@voltagent/resumable-streams': 2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(ai@7.0.34(zod@4.4.3))
+      '@voltagent/server-core': 2.1.18(@voltagent/core@2.9.0(@ai-sdk/provider-utils@5.0.12(zod@4.4.3))(@ai-sdk/provider@4.0.3)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1))(ai@7.0.34(zod@4.4.3))(graphql@16.14.1)(ws@8.21.0)(zod@4.4.3))(zod@4.4.3)
       fetch-to-node: 2.1.0
       hono: 4.12.27
       openapi3-ts: 4.6.0
@@ -4848,73 +4848,73 @@ snapshots:
 
   '@workflow/serde@4.1.0': {}
 
-  '@yuku-codegen/binding-darwin-arm64@0.7.0':
+  '@yuku-codegen/binding-darwin-arm64@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-darwin-x64@0.7.0':
+  '@yuku-codegen/binding-darwin-x64@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-freebsd-x64@0.7.0':
+  '@yuku-codegen/binding-freebsd-x64@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-linux-arm-gnu@0.7.0':
+  '@yuku-codegen/binding-linux-arm-gnu@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-linux-arm-musl@0.7.0':
+  '@yuku-codegen/binding-linux-arm-musl@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-linux-arm64-gnu@0.7.0':
+  '@yuku-codegen/binding-linux-arm64-gnu@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-linux-arm64-musl@0.7.0':
+  '@yuku-codegen/binding-linux-arm64-musl@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-linux-x64-gnu@0.7.0':
+  '@yuku-codegen/binding-linux-x64-gnu@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-linux-x64-musl@0.7.0':
+  '@yuku-codegen/binding-linux-x64-musl@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-win32-arm64@0.7.0':
+  '@yuku-codegen/binding-win32-arm64@0.7.3':
     optional: true
 
-  '@yuku-codegen/binding-win32-x64@0.7.0':
+  '@yuku-codegen/binding-win32-x64@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-darwin-arm64@0.7.0':
+  '@yuku-parser/binding-darwin-arm64@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-darwin-x64@0.7.0':
+  '@yuku-parser/binding-darwin-x64@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-freebsd-x64@0.7.0':
+  '@yuku-parser/binding-freebsd-x64@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-linux-arm-gnu@0.7.0':
+  '@yuku-parser/binding-linux-arm-gnu@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-linux-arm-musl@0.7.0':
+  '@yuku-parser/binding-linux-arm-musl@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-linux-arm64-gnu@0.7.0':
+  '@yuku-parser/binding-linux-arm64-gnu@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-linux-arm64-musl@0.7.0':
+  '@yuku-parser/binding-linux-arm64-musl@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-linux-x64-gnu@0.7.0':
+  '@yuku-parser/binding-linux-x64-gnu@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-linux-x64-musl@0.7.0':
+  '@yuku-parser/binding-linux-x64-musl@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-win32-arm64@0.7.0':
+  '@yuku-parser/binding-win32-arm64@0.7.3':
     optional: true
 
-  '@yuku-parser/binding-win32-x64@0.7.0':
+  '@yuku-parser/binding-win32-x64@0.7.3':
     optional: true
 
-  '@yuku-toolchain/types@0.7.0': {}
+  '@yuku-toolchain/types@0.7.3': {}
 
   abort-controller@3.0.0:
     dependencies:
@@ -4950,19 +4950,19 @@ snapshots:
     dependencies:
       humanize-ms: 1.2.1
 
-  ai@6.0.231(zod@4.4.3):
+  ai@6.0.233(zod@4.4.3):
     dependencies:
-      '@ai-sdk/gateway': 3.0.154(zod@4.4.3)
+      '@ai-sdk/gateway': 3.0.155(zod@4.4.3)
       '@ai-sdk/provider': 3.0.14
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
       '@opentelemetry/api': 1.9.1
       zod: 4.4.3
 
-  ai@7.0.32(zod@4.4.3):
+  ai@7.0.34(zod@4.4.3):
     dependencies:
-      '@ai-sdk/gateway': 4.0.24(zod@4.4.3)
+      '@ai-sdk/gateway': 4.0.26(zod@4.4.3)
       '@ai-sdk/provider': 4.0.3
-      '@ai-sdk/provider-utils': 5.0.11(zod@4.4.3)
+      '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
       zod: 4.4.3
 
   ajv-formats@3.0.1(ajv@8.20.0):
@@ -6489,9 +6489,9 @@ snapshots:
       get-tsconfig: 5.0.0-beta.5
       obug: 2.1.4
       rolldown: 1.2.0
-      yuku-ast: 0.7.0
-      yuku-codegen: 0.7.0
-      yuku-parser: 0.7.0
+      yuku-ast: 0.7.3
+      yuku-codegen: 0.7.3
+      yuku-parser: 0.7.3
     optionalDependencies:
       typescript: 7.0.2
     transitivePeerDependencies:
@@ -6742,7 +6742,7 @@ snapshots:
 
   ts-pattern@5.9.0: {}
 
-  tsdown@0.22.12(tsx@4.23.1)(typescript@7.0.2):
+  tsdown@0.22.13(tsx@4.23.1)(typescript@7.0.2):
     dependencies:
       ansis: 4.3.1
       cac: 7.0.0
@@ -6923,10 +6923,10 @@ snapshots:
       triple-beam: 1.4.1
       winston-transport: 4.9.0
 
-  workers-ai-provider@3.3.1(@ai-sdk/anthropic@3.0.95(zod@4.4.3))(@ai-sdk/google@3.0.90(zod@4.4.3))(@ai-sdk/openai@3.0.82(zod@4.4.3))(@ai-sdk/provider@4.0.3)(ai@7.0.32(zod@4.4.3)):
+  workers-ai-provider@3.3.1(@ai-sdk/anthropic@3.0.95(zod@4.4.3))(@ai-sdk/google@3.0.90(zod@4.4.3))(@ai-sdk/openai@3.0.82(zod@4.4.3))(@ai-sdk/provider@4.0.3)(ai@7.0.34(zod@4.4.3)):
     dependencies:
       '@ai-sdk/provider': 4.0.3
-      ai: 7.0.32(zod@4.4.3)
+      ai: 7.0.34(zod@4.4.3)
     optionalDependencies:
       '@ai-sdk/anthropic': 3.0.95(zod@4.4.3)
       '@ai-sdk/google': 3.0.90(zod@4.4.3)
@@ -6989,42 +6989,42 @@ snapshots:
 
   yoctocolors@2.1.2: {}
 
-  yuku-ast@0.7.0:
+  yuku-ast@0.7.3:
     dependencies:
-      '@yuku-toolchain/types': 0.7.0
+      '@yuku-toolchain/types': 0.7.3
 
-  yuku-codegen@0.7.0:
+  yuku-codegen@0.7.3:
     dependencies:
-      '@yuku-toolchain/types': 0.7.0
+      '@yuku-toolchain/types': 0.7.3
     optionalDependencies:
-      '@yuku-codegen/binding-darwin-arm64': 0.7.0
-      '@yuku-codegen/binding-darwin-x64': 0.7.0
-      '@yuku-codegen/binding-freebsd-x64': 0.7.0
-      '@yuku-codegen/binding-linux-arm-gnu': 0.7.0
-      '@yuku-codegen/binding-linux-arm-musl': 0.7.0
-      '@yuku-codegen/binding-linux-arm64-gnu': 0.7.0
-      '@yuku-codegen/binding-linux-arm64-musl': 0.7.0
-      '@yuku-codegen/binding-linux-x64-gnu': 0.7.0
-      '@yuku-codegen/binding-linux-x64-musl': 0.7.0
-      '@yuku-codegen/binding-win32-arm64': 0.7.0
-      '@yuku-codegen/binding-win32-x64': 0.7.0
+      '@yuku-codegen/binding-darwin-arm64': 0.7.3
+      '@yuku-codegen/binding-darwin-x64': 0.7.3
+      '@yuku-codegen/binding-freebsd-x64': 0.7.3
+      '@yuku-codegen/binding-linux-arm-gnu': 0.7.3
+      '@yuku-codegen/binding-linux-arm-musl': 0.7.3
+      '@yuku-codegen/binding-linux-arm64-gnu': 0.7.3
+      '@yuku-codegen/binding-linux-arm64-musl': 0.7.3
+      '@yuku-codegen/binding-linux-x64-gnu': 0.7.3
+      '@yuku-codegen/binding-linux-x64-musl': 0.7.3
+      '@yuku-codegen/binding-win32-arm64': 0.7.3
+      '@yuku-codegen/binding-win32-x64': 0.7.3
 
-  yuku-parser@0.7.0:
+  yuku-parser@0.7.3:
     dependencies:
-      '@yuku-toolchain/types': 0.7.0
-      yuku-ast: 0.7.0
+      '@yuku-toolchain/types': 0.7.3
+      yuku-ast: 0.7.3
     optionalDependencies:
-      '@yuku-parser/binding-darwin-arm64': 0.7.0
-      '@yuku-parser/binding-darwin-x64': 0.7.0
-      '@yuku-parser/binding-freebsd-x64': 0.7.0
-      '@yuku-parser/binding-linux-arm-gnu': 0.7.0
-      '@yuku-parser/binding-linux-arm-musl': 0.7.0
-      '@yuku-parser/binding-linux-arm64-gnu': 0.7.0
-      '@yuku-parser/binding-linux-arm64-musl': 0.7.0
-      '@yuku-parser/binding-linux-x64-gnu': 0.7.0
-      '@yuku-parser/binding-linux-x64-musl': 0.7.0
-      '@yuku-parser/binding-win32-arm64': 0.7.0
-      '@yuku-parser/binding-win32-x64': 0.7.0
+      '@yuku-parser/binding-darwin-arm64': 0.7.3
+      '@yuku-parser/binding-darwin-x64': 0.7.3
+      '@yuku-parser/binding-freebsd-x64': 0.7.3
+      '@yuku-parser/binding-linux-arm-gnu': 0.7.3
+      '@yuku-parser/binding-linux-arm-musl': 0.7.3
+      '@yuku-parser/binding-linux-arm64-gnu': 0.7.3
+      '@yuku-parser/binding-linux-arm64-musl': 0.7.3
+      '@yuku-parser/binding-linux-x64-gnu': 0.7.3
+      '@yuku-parser/binding-linux-x64-musl': 0.7.3
+      '@yuku-parser/binding-win32-arm64': 0.7.3
+      '@yuku-parser/binding-win32-x64': 0.7.3
 
   zod-from-json-schema@0.0.5:
     dependencies:
