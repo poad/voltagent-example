@@ -13,7 +13,7 @@ minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
   - pnpm@11.6.0
   - got@11.8.5
-  - axios@0.28.0 || 0.30.0 || 0.30.2 || 0.30.3 || 0.31.0 || 0.31.1 || 0.31.2
+  - axios@0.28.0 || 0.30.0 || 0.30.2 || 0.30.3 || 0.31.0 || 0.31.1 || 0.31.2 || 0.33.0
   - '@ai-sdk/provider-utils@3.0.98'
   - esbuild@0.28.1
   - '@esbuild/aix-ppc64@0.28.1'
@@ -44,17 +44,24 @@ minimumReleaseAgeExclude:
   - '@esbuild/win32-x64@0.28.1'
   - '@opentelemetry/core@2.8.0'
   - js-yaml@3.15.0
+  - adm-zip@0.6.0
+  - '@hono/node-server@2.0.5'
 
 overrides:
   '@ai-sdk/provider-utils@<=3.0.97': ^4
+  '@hono/node-server@<2.0.5': ^2.0.5
   '@opentelemetry/core@<2.8.0': ^2.8.0
+  adm-zip@<0.6.0: ^0.6.0
   axios@<0.30.0: ^0.30.0
   axios@<0.31.0: ^0.31.0
+  axios@<0.33.0: ^0.33.0
   axios@<=0.30.2: ^0.30.3
   axios@<=0.31.0: ^0.31.1
   axios@<=0.31.1: ^0.31.2
   axios@>=0.19.0 <0.31.1: ^0.31.1
   axios@>=0.28.0 <0.30.2: ^0.30.2
+  axios@>=0.28.0 <0.33.0: ^0.33.0
+  axios@>=0.8.0 <0.33.0: ^0.33.0
   axios@>=0.8.1 <0.28.0: ^0.28.0
   esbuild@>=0.17.0 <0.28.1: ^0.28.1
   esbuild@>=0.27.3 <0.28.1: ^0.28.1
