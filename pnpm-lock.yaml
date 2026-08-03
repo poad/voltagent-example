@@ -34,11 +34,11 @@ importers:
   .:
     dependencies:
       '@ai-sdk/amazon-bedrock':
-        specifier: ^5.0.30
-        version: 5.0.30(zod@4.4.3)
+        specifier: ^5.0.32
+        version: 5.0.32(zod@4.4.3)
       '@dotenvx/dotenvx':
-        specifier: ^2.17.2
-        version: 2.17.2
+        specifier: ^2.18.1
+        version: 2.18.1
       '@voltagent/cli':
         specifier: ^0.1.21
         version: 0.1.21(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@types/node@26.1.1)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.37(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.37(zod@4.4.3))(ws@8.21.1)(zod@4.4.3))(ai@7.0.37(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
@@ -89,8 +89,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/amazon-bedrock@5.0.30':
-    resolution: {integrity: sha512-LfPVtr5EEfmHf57+f90XGhQvuQkT/tH9wRBvV3Sb5WKtxdAmFumTnK5+vWGaigqdALJrXcy2rBg90+UxlpcZTA==}
+  '@ai-sdk/amazon-bedrock@5.0.32':
+    resolution: {integrity: sha512-Xr/04y++VRiE9Pmujhuqso4SDpj5iRWoThaXf8y7jau6MtgnMPOocBN9i3XYtWb+Ujwa9pEceYrdIBq/br6lTg==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -107,8 +107,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/anthropic@4.0.19':
-    resolution: {integrity: sha512-74XMHUG4Jc7fu923HkIhAxd/HMcd21br7U68W+GVnrd3INXwdUx3XhRUc5zVsE03sIUh37gTg7KUYhfhn6bP+A==}
+  '@ai-sdk/anthropic@4.0.21':
+    resolution: {integrity: sha512-rvWzefSJiDLBswGFn0oWM7D8p8eo2tKey2anSM2IxaFd/4tLfolWAWP6Zp+82YUURZUoX6f01NI/txF6ekbC4Q==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -344,12 +344,12 @@ packages:
   '@dabh/diagnostics@2.0.8':
     resolution: {integrity: sha512-R4MSXTVnuMzGD7bzHdW2ZhhdPC/igELENcq5IjEverBvq5hn1SXCWcsi6eSsdWP0/Ur+SItRRjAktmdoX/8R/Q==}
 
-  '@dotenvx/dotenvx@2.17.2':
-    resolution: {integrity: sha512-7+bOjESo1xDXnNoE5jTIJQBft44zUD/KX113phJSgASYsKIXrZmy+1rHlSxIzvaxGTaLbLtuo26LIVECXZPt9g==}
+  '@dotenvx/dotenvx@2.18.1':
+    resolution: {integrity: sha512-bU8w7yuH/OA+lfwGPB4Z0cgFbcU4XdE9BkaW4umVY95acTo1RogfmPuag5OtZuwcS8R/qkWHEw7eFia9Ruhj/w==}
     hasBin: true
 
-  '@dotenvx/primitives@2.1.0':
-    resolution: {integrity: sha512-GIpMSSgjZk4URRCtAw12vBmobnw3VeSKL+p7/y8ypWvTHFW+StAMZvq4wCjdX+QKuw4alXu0IMGW6QPhKo6ufg==}
+  '@dotenvx/primitives@2.1.1':
+    resolution: {integrity: sha512-FvG4D0x5nELUxGjeGviXJnVHluK4jIeB3ebOTObgCMbc0/hc7byzUsl3nURTSyBcSCy9dQdOZ12zOIknircMkA==}
 
   '@dotenvx/tooling@1.0.3':
     resolution: {integrity: sha512-Gd6qQol/ICb4MPRWpiIH56y+pR9AVB7kPBkbhrLSGLtAiF4Qgy+k651/f2pze0Xbm3H5XewbPfIm4y9K+ic30Q==}
@@ -1006,32 +1006,32 @@ packages:
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
     engines: {node: '>=10'}
 
-  '@smithy/core@3.29.7':
-    resolution: {integrity: sha512-BiEE2bnnGoPKdlGe3L+gOYORDHFGPuYVRLP7iUow/Sflm0B4hC4XY3FC1MRuc7ltzpW2xNnXopKi34TTkULlKQ==}
-    engines: {node: '>=18.0.0'}
-
   '@smithy/core@3.29.8':
     resolution: {integrity: sha512-rpCbCV+TimOBi3VLNBMmtTvgfOWcFIEAru3+TFlG87SL2F+te4jOnnNR+cf3uR4eJ5Qf4LnT80fqnBKgPRS6zA==}
     engines: {node: '>=18.0.0'}
 
-  '@smithy/eventstream-codec@4.4.12':
-    resolution: {integrity: sha512-J1hJGf2yN6dbO960oGEDhAe6saEn2yzR2IC9vFKEYIYsiq8y8jdwQWGhY4UrvAdxozcnJ92KFHE0HdB75a9qHg==}
+  '@smithy/core@3.30.0':
+    resolution: {integrity: sha512-dl2yRglDxfzH9uJ4fSo4zTaAHa0zH7+V7BZMRWy8hEYIKT1BiqMUK/CN6T3ADQ3kbA5N1tmUulroJ2UtONS7Kw==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/eventstream-codec@4.4.13':
     resolution: {integrity: sha512-wW1niIis3drvtppxTSO/uW1knDq124i0T9BI1deHue0Af1OjIkuoNDVjzhF0MaZG7jrJu+EeUUR+ESh1hpW+fg==}
     engines: {node: '>=18.0.0'}
 
+  '@smithy/eventstream-codec@4.4.14':
+    resolution: {integrity: sha512-dk/8H8vjgsghRKq0Euout/Q5iQMGVw8pUVSs2gY7DFjZtg1+RB12Q/TNh4Uph6E9D46mKr161WobWFyAQWJdjQ==}
+    engines: {node: '>=18.0.0'}
+
   '@smithy/types@4.16.1':
     resolution: {integrity: sha512-0JFs3V2y2M9tKW5na/qxe69Zv+uxLMO7QBbhxF/FHu/Gp2NFZAAL9tWl9PU02xxo07pb3G9FTyjNc6D5uZrJIg==}
     engines: {node: '>=18.0.0'}
 
-  '@smithy/util-utf8@4.4.12':
-    resolution: {integrity: sha512-yQiehL+My27xXCnbRGzrRsWzuL5JZY5rvyK+g+mWWkEHonUOXyjmvp+fuYMaFG7XluzZX5AWzzL9JfE6JzFYNg==}
-    engines: {node: '>=18.0.0'}
-
   '@smithy/util-utf8@4.4.13':
     resolution: {integrity: sha512-ufwrU+Oys/iRPwjT4NKQG879t79iTQAs1bEFZycv9SFKHaKqNgkGqE3odv2PFImv/l/HRBgo3y3Pw2lzZF4/wQ==}
+    engines: {node: '>=18.0.0'}
+
+  '@smithy/util-utf8@4.4.14':
+    resolution: {integrity: sha512-zpHIvgr2NWASkgWgv1O0zPPX7VFdkHKa9NxxjGseGvSY2DRZgRsnoXuEcjETwPeqP92blsINwfbIJz0F0/0Skg==}
     engines: {node: '>=18.0.0'}
 
   '@so-ric/colorspace@1.1.6':
@@ -3413,8 +3413,8 @@ packages:
     resolution: {integrity: sha512-DODGl1wJjA/s5pnJFKau9lIYHT81lnhob1i3e1TjxZRxEhWRKl74nTbWE6H5KlkViQQTo/Z29YFdxzTZAMY3ng==}
     engines: {node: '>=18.19'}
 
-  yoctocolors@2.1.2:
-    resolution: {integrity: sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug==}
+  yoctocolors@2.2.0:
+    resolution: {integrity: sha512-xYqdZFUK/VYazNl/oCDYN+3WloWQwMfZxBoiNt6qNyk+xfOdi598muWE42rNZFp1kNOiqW936q5RhUdnpqElSg==}
     engines: {node: '>=18'}
 
   yuku-ast@0.7.4:
@@ -3461,19 +3461,19 @@ snapshots:
       '@ai-sdk/anthropic': 2.0.89(zod@4.4.3)
       '@ai-sdk/provider': 2.0.3
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
-      '@smithy/eventstream-codec': 4.4.12
-      '@smithy/util-utf8': 4.4.12
+      '@smithy/eventstream-codec': 4.4.13
+      '@smithy/util-utf8': 4.4.13
       aws4fetch: 1.0.20
       zod: 4.4.3
 
-  '@ai-sdk/amazon-bedrock@5.0.30(zod@4.4.3)':
+  '@ai-sdk/amazon-bedrock@5.0.32(zod@4.4.3)':
     dependencies:
-      '@ai-sdk/anthropic': 4.0.19(zod@4.4.3)
+      '@ai-sdk/anthropic': 4.0.21(zod@4.4.3)
       '@ai-sdk/openai': 4.0.20(zod@4.4.3)
       '@ai-sdk/provider': 4.0.3
       '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
-      '@smithy/eventstream-codec': 4.4.13
-      '@smithy/util-utf8': 4.4.13
+      '@smithy/eventstream-codec': 4.4.14
+      '@smithy/util-utf8': 4.4.14
       aws4fetch: 1.0.20
       zod: 4.4.3
 
@@ -3489,7 +3489,7 @@ snapshots:
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
       zod: 4.4.3
 
-  '@ai-sdk/anthropic@4.0.19(zod@4.4.3)':
+  '@ai-sdk/anthropic@4.0.21(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 4.0.3
       '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
@@ -3721,13 +3721,13 @@ snapshots:
       enabled: 2.0.0
       kuler: 2.0.0
 
-  '@dotenvx/dotenvx@2.17.2':
+  '@dotenvx/dotenvx@2.18.1':
     dependencies:
-      '@dotenvx/primitives': 2.1.0
+      '@dotenvx/primitives': 2.1.1
       '@dotenvx/tooling': 1.0.3
       yocto-spinner: 1.2.2
 
-  '@dotenvx/primitives@2.1.0': {}
+  '@dotenvx/primitives@2.1.1': {}
 
   '@dotenvx/tooling@1.0.3': {}
 
@@ -4381,19 +4381,14 @@ snapshots:
 
   '@sindresorhus/is@4.6.0': {}
 
-  '@smithy/core@3.29.7':
-    dependencies:
-      '@smithy/types': 4.16.1
-      tslib: 2.8.1
-
   '@smithy/core@3.29.8':
     dependencies:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@smithy/eventstream-codec@4.4.12':
+  '@smithy/core@3.30.0':
     dependencies:
-      '@smithy/core': 3.29.7
+      '@smithy/types': 4.16.1
       tslib: 2.8.1
 
   '@smithy/eventstream-codec@4.4.13':
@@ -4401,18 +4396,23 @@ snapshots:
       '@smithy/core': 3.29.8
       tslib: 2.8.1
 
-  '@smithy/types@4.16.1':
+  '@smithy/eventstream-codec@4.4.14':
     dependencies:
+      '@smithy/core': 3.30.0
       tslib: 2.8.1
 
-  '@smithy/util-utf8@4.4.12':
+  '@smithy/types@4.16.1':
     dependencies:
-      '@smithy/core': 3.29.7
       tslib: 2.8.1
 
   '@smithy/util-utf8@4.4.13':
     dependencies:
       '@smithy/core': 3.29.8
+      tslib: 2.8.1
+
+  '@smithy/util-utf8@4.4.14':
+    dependencies:
+      '@smithy/core': 3.30.0
       tslib: 2.8.1
 
   '@so-ric/colorspace@1.1.6':
@@ -6968,9 +6968,9 @@ snapshots:
 
   yocto-spinner@1.2.2:
     dependencies:
-      yoctocolors: 2.1.2
+      yoctocolors: 2.2.0
 
-  yoctocolors@2.1.2: {}
+  yoctocolors@2.2.0: {}
 
   yuku-ast@0.7.4:
     dependencies:
