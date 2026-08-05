@@ -34,36 +34,36 @@ importers:
   .:
     dependencies:
       '@ai-sdk/amazon-bedrock':
-        specifier: ^5.0.34
-        version: 5.0.34(zod@4.4.3)
+        specifier: ^5.0.35
+        version: 5.0.35(zod@4.4.3)
       '@dotenvx/dotenvx':
         specifier: ^2.19.0
         version: 2.19.0
       '@voltagent/cli':
         specifier: ^0.1.21
-        version: 0.1.21(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@types/node@26.1.2)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+        version: 0.1.21(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@types/node@26.1.2)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/core':
         specifier: ^2.9.0
-        version: 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+        version: 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/libsql':
         specifier: ^2.1.2
-        version: 2.1.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))
+        version: 2.1.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))
       '@voltagent/logger':
         specifier: ^2.0.2
         version: 2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0)
       '@voltagent/server-hono':
         specifier: ^2.0.14
-        version: 2.0.14(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)
+        version: 2.0.14(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)
       ai:
-        specifier: ^7.0.40
-        version: 7.0.40(zod@4.4.3)
+        specifier: ^7.0.41
+        version: 7.0.41(zod@4.4.3)
       zod:
         specifier: ^4.4.3
         version: 4.4.3
     devDependencies:
       '@biomejs/biome':
-        specifier: ^2.5.5
-        version: 2.5.5
+        specifier: ^2.5.6
+        version: 2.5.6
       '@types/node':
         specifier: ^26.1.2
         version: 26.1.2
@@ -89,8 +89,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/amazon-bedrock@5.0.34':
-    resolution: {integrity: sha512-e8SgAZNglEYl3Av8FsKx+R7a/LGIWsBXc+2PsBJ/6T6HE9cw3wBsa5qfJVvd8pHeZwInstXJwpG4R4zUNSWiug==}
+  '@ai-sdk/amazon-bedrock@5.0.35':
+    resolution: {integrity: sha512-CJINW1FWKdx4vHvg03WL63vdp4GMj2L73o45QmYiRJphA5QKfOrdoPbp9yIlyszRKietoJaKe4x/S5VvmRjUUw==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -149,8 +149,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/gateway@4.0.30':
-    resolution: {integrity: sha512-nhgR5U6N0wRg+32Mnd8YrOknWQhWfn3ZAKhEOEf6u3dWzhNxTAAPIB7nnz5gRf8Us8K45yIsTrk0OtH897z7Mw==}
+  '@ai-sdk/gateway@4.0.31':
+    resolution: {integrity: sha512-gEBBUP7nyfQY+K+xFllYJ374RbJoRUa5RN2NyLPu12OfMv5U09kNzZTvBDHnqx78P/7qEELyIg9C5k+RPiBkjg==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -203,8 +203,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/openai@4.0.22':
-    resolution: {integrity: sha512-SjElnPn11HsOgkMJzM216NR3BQ3nyvkpJfAVe1C1+ZRpYNmYyLkFRMEs1JR/CUV4BSrxNb3YsPDPtBEfIQE7yQ==}
+  '@ai-sdk/openai@4.0.23':
+    resolution: {integrity: sha512-J7ad/TxUVpPl+oXHZzvpg9Y7NsrimF26LpF91PLgLbpkfMijv3ze9V4CRP3XYWhHwo6Qda/yy4bHmRDhIa8WrQ==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -280,59 +280,59 @@ packages:
     resolution: {integrity: sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==}
     engines: {node: '>=6.9.0'}
 
-  '@biomejs/biome@2.5.5':
-    resolution: {integrity: sha512-r1S8nFsAG1MY+vJFZALzIvwXAJv6ejDQ0mxP21Tgr9YK3ZFtjrvbBwDdNhx1rUqvccEIeNg20cYCNzl6Cr69pQ==}
+  '@biomejs/biome@2.5.6':
+    resolution: {integrity: sha512-lxVNjv7UF6KfhMJfL9gaUHbWdJdHbsAj6OSmwSYNdhRuG67NxNQ4Xdvh3TUxsSK9sBzJBQhEJj3AopmmNJ5pSA==}
     engines: {node: '>=14.21.3'}
     hasBin: true
 
-  '@biomejs/cli-darwin-arm64@2.5.5':
-    resolution: {integrity: sha512-kUrAhXVWUrwmAUnV2iXSK7umxKFysTwvqK+Ty6ptUcLY/7T3SnCAjUowE4uvwaEej6nXZ7hu/dTtbokKdsPeag==}
+  '@biomejs/cli-darwin-arm64@2.5.6':
+    resolution: {integrity: sha512-zMOLZP4oMrjh6m1zcSj1ud2awUPgTuMVbmQhYYWL7J8HwCnbHHBvTm7VBTRuY7epT5bez76IpKYQ11ZAqHFlnw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
 
-  '@biomejs/cli-darwin-x64@2.5.5':
-    resolution: {integrity: sha512-DamiYc5bUYZ2uxlfc+RLEPtz1Abb6PO5eTbOkufLpSGwd/7AMQAdxhFYiXmwwkJL8IsT8S7GvdgwDHqaMFAvKw==}
+  '@biomejs/cli-darwin-x64@2.5.6':
+    resolution: {integrity: sha512-JAC1VqzvO7Th5ZplU0G2uGfkZbxEe9uDDektPAhF0JLusoz1w+T4okp2bkykI0bbaO2vslKiRfj4gU43JaGreA==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [darwin]
 
-  '@biomejs/cli-linux-arm64-musl@2.5.5':
-    resolution: {integrity: sha512-U4WMl/sy/E/Q73vf15VspakLRRs2LDFcCeBxJnQfXzssb88zpV6PJPaQ3ezhQ7H6Ht2/8bvuZeHgJWzmoxllZg==}
+  '@biomejs/cli-linux-arm64-musl@2.5.6':
+    resolution: {integrity: sha512-eUa3jeeYvfMt19LBeh6E5PUZpxnTC4JqNWo+EDjTtQjAr2xLGnWaxACtVU1DQqmHYbvThlJzLX+ZsYgrqh2qVw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-arm64@2.5.5':
-    resolution: {integrity: sha512-lRKF/pH/1RiYiBKExi3TCZVAtvzEm77aifrvcNiDFrR9WxeAnDUjDnseb6y2XV85mjitLs6SILGm2XG77cHtSQ==}
+  '@biomejs/cli-linux-arm64@2.5.6':
+    resolution: {integrity: sha512-6XsYwCFkp5sMxl85ffhgeGpGgs6A7dRYFnkceZ7WVxvycuTnGdD5xa534Z3xfrBQ0JCMK/mujT6ZNPJoghedwg==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-linux-x64-musl@2.5.5':
-    resolution: {integrity: sha512-m7wC7tjX5Lrmo69dc4md8FeKpPU1NTCY1v7xUoQQ2vadWwNnBS0KZOG8471otFPHrTHihQJAjQPgMObpLvDe6A==}
+  '@biomejs/cli-linux-x64-musl@2.5.6':
+    resolution: {integrity: sha512-2Vp13QdKysH3HIWLaYLhUUwbK+jbZonJD1K+Lr0d0RO4wH7mkYd43vJixEDm8cUWrowoRz4UUHF1nm9Ae7ym8A==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-x64@2.5.5':
-    resolution: {integrity: sha512-H/O39nJEw/2Zm/fm7hrmxxoF8kK/aU1uCoPp70ruXVbomaAdLpJJnCmL11Q2JotT8QVHH06So04Oq53lCSwSwQ==}
+  '@biomejs/cli-linux-x64@2.5.6':
+    resolution: {integrity: sha512-Pop9VXCFUhFTMfFefZ39S+u2rOPyNp5iHlxbZRwXGACHLy2r0jjiRgJHmaEKJzL3SyxlVeGShXhvvElvWowonA==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-win32-arm64@2.5.5':
-    resolution: {integrity: sha512-7BryINPuYypLUAH3o/o5ZdgomJ4zn3EDR0ChZJst7n32S6ZhKbgHXuYydLu+YAnx59ehGFR0z/MG6qnzQi3Yyw==}
+  '@biomejs/cli-win32-arm64@2.5.6':
+    resolution: {integrity: sha512-tDGshcm6BdkZOCGnTDX0Y8/U4IfBSlnUU7T56nNDuPEfed+aHg+u8G36NB43fJVl0Os6+QURXIE1yuD7AaEofA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [win32]
 
-  '@biomejs/cli-win32-x64@2.5.5':
-    resolution: {integrity: sha512-bIBFo+n6MIxdNcVFy5CrurbKiZQiUciK3bt8+O9I4wjFZNTfXLpi+giq47522eXqW5NBc9ulx7dR1SlZKi2J5g==}
+  '@biomejs/cli-win32-x64@2.5.6':
+    resolution: {integrity: sha512-WN05KwXnTO/2J45RQPvzZMXf7tZUIofHoR35xIPfCo7pQ2RFidxI8sfb5mGsaTxdMmEOzHzOPRCdA5/fCpc7xQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
@@ -1006,16 +1006,8 @@ packages:
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
     engines: {node: '>=10'}
 
-  '@smithy/core@3.30.0':
-    resolution: {integrity: sha512-dl2yRglDxfzH9uJ4fSo4zTaAHa0zH7+V7BZMRWy8hEYIKT1BiqMUK/CN6T3ADQ3kbA5N1tmUulroJ2UtONS7Kw==}
-    engines: {node: '>=18.0.0'}
-
   '@smithy/core@3.31.0':
     resolution: {integrity: sha512-sylYk2l9d7CmRv8ts8p0SDQUr3VO+HMeS1nrjL6+UtbO8ktJHTOeQ1McX+aAyvGGccp5aZX9eNtdcXrSwzoZaw==}
-    engines: {node: '>=18.0.0'}
-
-  '@smithy/eventstream-codec@4.4.14':
-    resolution: {integrity: sha512-dk/8H8vjgsghRKq0Euout/Q5iQMGVw8pUVSs2gY7DFjZtg1+RB12Q/TNh4Uph6E9D46mKr161WobWFyAQWJdjQ==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/eventstream-codec@4.4.15':
@@ -1024,10 +1016,6 @@ packages:
 
   '@smithy/types@4.16.1':
     resolution: {integrity: sha512-0JFs3V2y2M9tKW5na/qxe69Zv+uxLMO7QBbhxF/FHu/Gp2NFZAAL9tWl9PU02xxo07pb3G9FTyjNc6D5uZrJIg==}
-    engines: {node: '>=18.0.0'}
-
-  '@smithy/util-utf8@4.4.14':
-    resolution: {integrity: sha512-zpHIvgr2NWASkgWgv1O0zPPX7VFdkHKa9NxxjGseGvSY2DRZgRsnoXuEcjETwPeqP92blsINwfbIJz0F0/0Skg==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/util-utf8@4.4.15':
@@ -1486,8 +1474,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  ai@7.0.40:
-    resolution: {integrity: sha512-Q113Nory1PNgWzo2X7x/bUnJhd95UPNEtWlv+nnM5bSuEkA9iy+VZ3WZFcOvGMZjNDQzD5sZnJgIKQjGh8lv9Q==}
+  ai@7.0.41:
+    resolution: {integrity: sha512-GvV7uet1dz3wZFAnLd8rS+rSwIh57b8YvbV/gPaSxKsJkj1wGVnlWbu9pqKG3Op68/mglkz0lIkpsJXy2rBX1A==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -3461,15 +3449,15 @@ snapshots:
       '@ai-sdk/anthropic': 2.0.89(zod@4.4.3)
       '@ai-sdk/provider': 2.0.3
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
-      '@smithy/eventstream-codec': 4.4.14
-      '@smithy/util-utf8': 4.4.14
+      '@smithy/eventstream-codec': 4.4.15
+      '@smithy/util-utf8': 4.4.15
       aws4fetch: 1.0.20
       zod: 4.4.3
 
-  '@ai-sdk/amazon-bedrock@5.0.34(zod@4.4.3)':
+  '@ai-sdk/amazon-bedrock@5.0.35(zod@4.4.3)':
     dependencies:
       '@ai-sdk/anthropic': 4.0.23(zod@4.4.3)
-      '@ai-sdk/openai': 4.0.22(zod@4.4.3)
+      '@ai-sdk/openai': 4.0.23(zod@4.4.3)
       '@ai-sdk/provider': 4.0.4
       '@ai-sdk/provider-utils': 5.0.14(zod@4.4.3)
       '@smithy/eventstream-codec': 4.4.15
@@ -3536,7 +3524,7 @@ snapshots:
       '@vercel/oidc': 3.2.0
       zod: 4.4.3
 
-  '@ai-sdk/gateway@4.0.30(zod@4.4.3)':
+  '@ai-sdk/gateway@4.0.31(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 4.0.4
       '@ai-sdk/provider-utils': 5.0.14(zod@4.4.3)
@@ -3597,7 +3585,7 @@ snapshots:
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
       zod: 4.4.3
 
-  '@ai-sdk/openai@4.0.22(zod@4.4.3)':
+  '@ai-sdk/openai@4.0.23(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 4.0.4
       '@ai-sdk/provider-utils': 5.0.14(zod@4.4.3)
@@ -3678,39 +3666,39 @@ snapshots:
 
   '@babel/runtime@7.29.7': {}
 
-  '@biomejs/biome@2.5.5':
+  '@biomejs/biome@2.5.6':
     optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 2.5.5
-      '@biomejs/cli-darwin-x64': 2.5.5
-      '@biomejs/cli-linux-arm64': 2.5.5
-      '@biomejs/cli-linux-arm64-musl': 2.5.5
-      '@biomejs/cli-linux-x64': 2.5.5
-      '@biomejs/cli-linux-x64-musl': 2.5.5
-      '@biomejs/cli-win32-arm64': 2.5.5
-      '@biomejs/cli-win32-x64': 2.5.5
+      '@biomejs/cli-darwin-arm64': 2.5.6
+      '@biomejs/cli-darwin-x64': 2.5.6
+      '@biomejs/cli-linux-arm64': 2.5.6
+      '@biomejs/cli-linux-arm64-musl': 2.5.6
+      '@biomejs/cli-linux-x64': 2.5.6
+      '@biomejs/cli-linux-x64-musl': 2.5.6
+      '@biomejs/cli-win32-arm64': 2.5.6
+      '@biomejs/cli-win32-x64': 2.5.6
 
-  '@biomejs/cli-darwin-arm64@2.5.5':
+  '@biomejs/cli-darwin-arm64@2.5.6':
     optional: true
 
-  '@biomejs/cli-darwin-x64@2.5.5':
+  '@biomejs/cli-darwin-x64@2.5.6':
     optional: true
 
-  '@biomejs/cli-linux-arm64-musl@2.5.5':
+  '@biomejs/cli-linux-arm64-musl@2.5.6':
     optional: true
 
-  '@biomejs/cli-linux-arm64@2.5.5':
+  '@biomejs/cli-linux-arm64@2.5.6':
     optional: true
 
-  '@biomejs/cli-linux-x64-musl@2.5.5':
+  '@biomejs/cli-linux-x64-musl@2.5.6':
     optional: true
 
-  '@biomejs/cli-linux-x64@2.5.5':
+  '@biomejs/cli-linux-x64@2.5.6':
     optional: true
 
-  '@biomejs/cli-win32-arm64@2.5.5':
+  '@biomejs/cli-win32-arm64@2.5.6':
     optional: true
 
-  '@biomejs/cli-win32-x64@2.5.5':
+  '@biomejs/cli-win32-x64@2.5.6':
     optional: true
 
   '@colors/colors@1.6.0': {}
@@ -3951,12 +3939,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mymediset/sap-ai-provider@2.1.0(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(supports-color@7.2.0)':
+  '@mymediset/sap-ai-provider@2.1.0(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(supports-color@7.2.0)':
     dependencies:
       '@ai-sdk/provider': 3.0.14
       '@ai-sdk/provider-utils': 4.0.40(zod@4.4.3)
       '@sap-ai-sdk/orchestration': 2.13.0(debug@4.3.2(supports-color@7.2.0))(supports-color@7.2.0)
-      ai: 7.0.40(zod@4.4.3)
+      ai: 7.0.41(zod@4.4.3)
       zod: 4.4.3
       zod-to-json-schema: 3.25.2(zod@4.4.3)
     transitivePeerDependencies:
@@ -4381,19 +4369,9 @@ snapshots:
 
   '@sindresorhus/is@4.6.0': {}
 
-  '@smithy/core@3.30.0':
-    dependencies:
-      '@smithy/types': 4.16.1
-      tslib: 2.8.1
-
   '@smithy/core@3.31.0':
     dependencies:
       '@smithy/types': 4.16.1
-      tslib: 2.8.1
-
-  '@smithy/eventstream-codec@4.4.14':
-    dependencies:
-      '@smithy/core': 3.30.0
       tslib: 2.8.1
 
   '@smithy/eventstream-codec@4.4.15':
@@ -4403,11 +4381,6 @@ snapshots:
 
   '@smithy/types@4.16.1':
     dependencies:
-      tslib: 2.8.1
-
-  '@smithy/util-utf8@4.4.14':
-    dependencies:
-      '@smithy/core': 3.30.0
       tslib: 2.8.1
 
   '@smithy/util-utf8@4.4.15':
@@ -4581,20 +4554,20 @@ snapshots:
 
   '@vercel/oidc@3.2.0': {}
 
-  '@voltagent/a2a-server@2.0.3(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)':
+  '@voltagent/a2a-server@2.0.3(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)':
     dependencies:
       '@a2a-js/sdk': 0.2.5(supports-color@7.2.0)
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
       zod: 3.25.76
     transitivePeerDependencies:
       - supports-color
 
-  '@voltagent/cli@0.1.21(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@types/node@26.1.2)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)':
+  '@voltagent/cli@0.1.21(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@types/node@26.1.2)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)':
     dependencies:
-      '@voltagent/evals': 2.0.4(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(ws@8.21.1)(zod@4.4.3))(@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))
+      '@voltagent/evals': 2.0.4(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(ws@8.21.1)(zod@4.4.3))(@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))
       '@voltagent/internal': 1.0.3
-      '@voltagent/sdk': 2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/sdk': 2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       adm-zip: 0.6.0
       boxen: 5.1.2
       bundle-require: 5.1.0(esbuild@0.28.1)
@@ -4635,7 +4608,7 @@ snapshots:
       - ws
       - zod
 
-  '@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)':
+  '@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)':
     dependencies:
       '@ai-sdk/amazon-bedrock': 3.0.109(zod@4.4.3)
       '@ai-sdk/anthropic': 3.0.100(zod@4.4.3)
@@ -4658,7 +4631,7 @@ snapshots:
       '@aihubmix/ai-sdk-provider': 1.0.3(zod@4.4.3)
       '@gitlab/gitlab-ai-provider': 3.6.1(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)
       '@modelcontextprotocol/sdk': 1.29.0(supports-color@7.2.0)(zod@4.4.3)
-      '@mymediset/sap-ai-provider': 2.1.0(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(supports-color@7.2.0)
+      '@mymediset/sap-ai-provider': 2.1.0(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(supports-color@7.2.0)
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/api-logs': 0.204.0
       '@opentelemetry/context-async-hooks': 2.10.0(@opentelemetry/api@1.9.1)
@@ -4672,7 +4645,7 @@ snapshots:
       '@opentelemetry/sdk-trace-node': 2.10.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/semantic-conventions': 1.43.0
       '@voltagent/internal': 1.0.3
-      ai: 7.0.40(zod@4.4.3)
+      ai: 7.0.41(zod@4.4.3)
       fast-glob: 3.3.3
       gray-matter: 4.0.3
       micromatch: 4.0.8
@@ -4680,7 +4653,7 @@ snapshots:
       ts-pattern: 5.9.0
       type-fest: 4.41.0
       uuid: 14.0.1
-      workers-ai-provider: 3.3.1(@ai-sdk/anthropic@3.0.100(zod@4.4.3))(@ai-sdk/google@3.0.99(zod@4.4.3))(@ai-sdk/openai@3.0.87(zod@4.4.3))(@ai-sdk/provider@3.0.14)(ai@7.0.40(zod@4.4.3))
+      workers-ai-provider: 3.3.1(@ai-sdk/anthropic@3.0.100(zod@4.4.3))(@ai-sdk/google@3.0.99(zod@4.4.3))(@ai-sdk/openai@3.0.87(zod@4.4.3))(@ai-sdk/provider@3.0.14)(ai@7.0.41(zod@4.4.3))
       zod: 4.4.3
       zod-from-json-schema: 0.5.6
       zod-from-json-schema-v3: zod-from-json-schema@0.0.5
@@ -4700,23 +4673,23 @@ snapshots:
       - utf-8-validate
       - ws
 
-  '@voltagent/evals@2.0.4(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(ws@8.21.1)(zod@4.4.3))(@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))':
+  '@voltagent/evals@2.0.4(@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(ws@8.21.1)(zod@4.4.3))(@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))':
     dependencies:
       '@voltagent/internal': 1.0.3
-      '@voltagent/scorers': 2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(ws@8.21.1)(zod@4.4.3)
-      '@voltagent/sdk': 2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/scorers': 2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/sdk': 2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
 
   '@voltagent/internal@1.0.3':
     dependencies:
       type-fest: 4.41.0
 
-  '@voltagent/libsql@2.1.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))':
+  '@voltagent/libsql@2.1.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))':
     dependencies:
       '@libsql/client': 0.15.15
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
       '@voltagent/logger': 2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0)
-      ai: 7.0.40(zod@4.4.3)
+      ai: 7.0.41(zod@4.4.3)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -4734,39 +4707,39 @@ snapshots:
       - '@opentelemetry/api'
       - supports-color
 
-  '@voltagent/mcp-server@2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)':
+  '@voltagent/mcp-server@2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.29.0(supports-color@7.2.0)(zod@4.4.3)
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
       zod: 4.4.3
     transitivePeerDependencies:
       - '@cfworker/json-schema'
       - supports-color
 
-  '@voltagent/resumable-streams@2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))':
+  '@voltagent/resumable-streams@2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))':
     dependencies:
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
-      ai: 7.0.40(zod@4.4.3)
+      ai: 7.0.41(zod@4.4.3)
       redis: 4.7.1
       resumable-stream: 2.2.12
 
-  '@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(ws@8.21.1)(zod@4.4.3)':
+  '@voltagent/scorers@2.1.0(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(ws@8.21.1)(zod@4.4.3)':
     dependencies:
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
       autoevals: 0.0.131(ws@8.21.1)
       zod: 4.4.3
     optionalDependencies:
-      ai: 7.0.40(zod@4.4.3)
+      ai: 7.0.41(zod@4.4.3)
     transitivePeerDependencies:
       - encoding
       - ws
 
-  '@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)':
+  '@voltagent/sdk@2.0.3(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)':
     dependencies:
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
     transitivePeerDependencies:
       - '@ai-sdk/provider'
@@ -4786,10 +4759,10 @@ snapshots:
       - ws
       - zod
 
-  '@voltagent/server-core@2.1.19(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)':
+  '@voltagent/server-core@2.1.19(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)':
     dependencies:
       '@modelcontextprotocol/sdk': 1.29.0(supports-color@7.2.0)(zod@4.4.3)
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
       ai: 6.0.234(zod@4.4.3)
       jsonwebtoken: 9.0.3
@@ -4803,16 +4776,16 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@voltagent/server-hono@2.0.14(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)':
+  '@voltagent/server-hono@2.0.14(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)':
     dependencies:
       '@hono/node-server': 2.0.11(hono@4.12.31)
       '@hono/swagger-ui': 0.5.3(hono@4.12.31)
-      '@voltagent/a2a-server': 2.0.3(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)
-      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
+      '@voltagent/a2a-server': 2.0.3(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)
+      '@voltagent/core': 2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3)
       '@voltagent/internal': 1.0.3
-      '@voltagent/mcp-server': 2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)
-      '@voltagent/resumable-streams': 2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.40(zod@4.4.3))
-      '@voltagent/server-core': 2.1.19(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.40(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)
+      '@voltagent/mcp-server': 2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)
+      '@voltagent/resumable-streams': 2.0.2(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(ai@7.0.41(zod@4.4.3))
+      '@voltagent/server-core': 2.1.19(@voltagent/core@2.9.0(@ai-sdk/provider-utils@4.0.40(zod@4.4.3))(@ai-sdk/provider@3.0.14)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.41(zod@4.4.3))(debug@4.3.2(supports-color@7.2.0))(graphql@16.14.1)(supports-color@7.2.0)(ws@8.21.1)(zod@4.4.3))(supports-color@7.2.0)(zod@4.4.3)
       fetch-to-node: 2.1.0
       hono: 4.12.31
       openapi3-ts: 4.6.0
@@ -4936,9 +4909,9 @@ snapshots:
       '@opentelemetry/api': 1.9.1
       zod: 4.4.3
 
-  ai@7.0.40(zod@4.4.3):
+  ai@7.0.41(zod@4.4.3):
     dependencies:
-      '@ai-sdk/gateway': 4.0.30(zod@4.4.3)
+      '@ai-sdk/gateway': 4.0.31(zod@4.4.3)
       '@ai-sdk/provider': 4.0.4
       '@ai-sdk/provider-utils': 5.0.14(zod@4.4.3)
       zod: 4.4.3
@@ -6906,10 +6879,10 @@ snapshots:
       triple-beam: 1.4.1
       winston-transport: 4.9.0
 
-  workers-ai-provider@3.3.1(@ai-sdk/anthropic@3.0.100(zod@4.4.3))(@ai-sdk/google@3.0.99(zod@4.4.3))(@ai-sdk/openai@3.0.87(zod@4.4.3))(@ai-sdk/provider@3.0.14)(ai@7.0.40(zod@4.4.3)):
+  workers-ai-provider@3.3.1(@ai-sdk/anthropic@3.0.100(zod@4.4.3))(@ai-sdk/google@3.0.99(zod@4.4.3))(@ai-sdk/openai@3.0.87(zod@4.4.3))(@ai-sdk/provider@3.0.14)(ai@7.0.41(zod@4.4.3)):
     dependencies:
       '@ai-sdk/provider': 3.0.14
-      ai: 7.0.40(zod@4.4.3)
+      ai: 7.0.41(zod@4.4.3)
     optionalDependencies:
       '@ai-sdk/anthropic': 3.0.100(zod@4.4.3)
       '@ai-sdk/google': 3.0.99(zod@4.4.3)
