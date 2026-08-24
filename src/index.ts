@@ -1,5 +1,5 @@
-import dotenvx from '@dotenvx/dotenvx';
 import { bedrock } from "@ai-sdk/amazon-bedrock";
+import dotenvx from "@dotenvx/dotenvx";
 import {
 	Agent,
 	Memory,
