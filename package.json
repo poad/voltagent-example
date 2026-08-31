@@ -13,18 +13,18 @@
     "volt": "volt"
   },
   "dependencies": {
-    "@ai-sdk/amazon-bedrock": "^5.0.57",
+    "@ai-sdk/amazon-bedrock": "^5.0.61",
     "@dotenvx/dotenvx": "^2.21.0",
     "@voltagent/cli": "^0.1.21",
     "@voltagent/core": "^2.9.2",
     "@voltagent/libsql": "^2.1.2",
     "@voltagent/logger": "^2.0.2",
     "@voltagent/server-hono": "^2.0.14",
-    "ai": "^7.0.66",
+    "ai": "^7.0.77",
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.8",
+    "@biomejs/biome": "^2.5.10",
     "@types/node": "^26.2.0",
     "tsdown": "^0.22.14",
     "tsx": "^4.23.12",
@@ -36,12 +36,12 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.23.0",
+      "version": "~11.24.0",
       "onFail": "download"
     },
     "runtime": {
       "name": "node",
-      "version": "^24.19.0",
+      "version": "^24.20.0",
       "onFail": "download"
     }
   }

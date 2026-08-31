@@ -15,7 +15,7 @@ minimumReleaseAgeExclude:
   - '@ai-sdk/provider-utils@3.0.98'
   - js-yaml@3.15.0 || 3.15.1 || 4.3.1
 
-  - pnpm@11.23.0
+  - pnpm@11.24.0
 
 overrides:
   '@ai-sdk/provider-utils@<=3.0.97': ^4
