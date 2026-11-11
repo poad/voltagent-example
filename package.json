@@ -21,7 +21,7 @@
     "@voltagent/logger": "^2.0.2",
     "@voltagent/server-hono": "^2.0.14",
     "ai": "^7.0.77",
-    "zod": "^4.4.3"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.10",
