@@ -1736,8 +1736,8 @@ packages:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
 
-  ansis@4.3.1:
-    resolution: {integrity: sha512-BJ8/l4R5LRE7hW9WdSuGYrLSHi2ynxeFpDFbH0K/CgNeY/tyhk+vO6TYxXC5r5CpUhNVX310xzPsN/H9lCdfOA==}
+  ansis@4.5.0:
+    resolution: {integrity: sha512-KwIVkfFfJSSzBmZhDGuTmkhWqTdyB5oNVzzznBJbBZ5bZtHiqSrcugRF0RKJKT4Ss3d7ZrcjnlFVDlQNmtWfWw==}
     engines: {node: '>=14'}
 
   argparse@1.0.10:
@@ -5286,7 +5286,7 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  ansis@4.3.1: {}
+  ansis@4.5.0: {}
 
   argparse@1.0.10:
     dependencies:
@@ -7049,7 +7049,7 @@ snapshots:
 
   tsdown@0.22.14(tsx@4.23.12)(typescript@7.0.2):
     dependencies:
-      ansis: 4.3.1
+      ansis: 4.5.0
       cac: 7.0.0
       defu: 6.1.7
       empathic: 2.0.1
