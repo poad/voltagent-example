@@ -22,7 +22,7 @@ fi
 echo ""
 pwd
 
-if ! (disable-checkout-persist-credentials && pnx pnpm@latest self-update latest-11 && pnpm install -r && pnpm up -r && pnpm audit --fix override && pnpm up -r && pnpm -r lint-fix && pnpm -r build); then
+if ! (disable-checkout-persist-credentials && pnx pnpm@latest self-update latest && pnpm clean --lockfile && pnpm install -r --fix-lockfile && pnpm up -r --include-github-actions -L && pnpm audit --fix override && pnpm up -r && pnpm -r lint-fix && pnpm -r build); then
   cd "${CUR}" || exit
   exit 1
 fi
