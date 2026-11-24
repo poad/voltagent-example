@@ -1344,8 +1344,8 @@ packages:
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
     engines: {node: '>=10'}
 
-  '@smithy/core@3.40.0':
-    resolution: {integrity: sha512-DssGno52pzZ5m6RlDtyKuBIpZNPg9pqgs0CnNDKz9IatxCsmvNmJNn5Zn6rf77MthZo9wf89OvZFhTY/RwxhxQ==}
+  '@smithy/core@3.41.0':
+    resolution: {integrity: sha512-fuZ34H1uizS3WgcX9VXG7Uy8od5A5/kCc+CR3NkHLNm2H/BE9AUHG02VIdu8ZB7FYhLqsr/RZbqAoXuOCg/Oxg==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/eventstream-codec@4.5.2':
@@ -1373,8 +1373,8 @@ packages:
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
     engines: {node: '>=10'}
 
-  '@tybys/wasm-util@0.10.4':
-    resolution: {integrity: sha512-W3c4gRigFS0T/Ma4qIYF3GDAc5AQdHb1yL5znJT1Zv1YaD9Kitx656wBjvr19qbiosmZT8lWDM5BEMynUqX65A==}
+  '@tybys/wasm-util@0.10.5':
+    resolution: {integrity: sha512-dOGOPxlaNV+G046mZzN+9C0dAcQZeSKcXiVaM0TYy/LM4ttTmgSBDxYfovcYI8Em3+eAbiAYpvWLOv8+ZVRJKA==}
 
   '@types/body-parser@1.19.6':
     resolution: {integrity: sha512-HLFeCYgz89uk22N5Qg3dvGvsv46B8GLvKKo1zKG4NybA8U2DiEO3w9lqGg29t/tfLRJpJ6iQxnVw4OnB7MoM9g==}
@@ -2443,8 +2443,8 @@ packages:
   help-me@5.0.0:
     resolution: {integrity: sha512-7xgomUX6ADmcYzFik0HzAxh/73YlKR9bmFzf51CZwR+b6YtzU2m0u49hQCqV6SvlqIqsaxovfwdvbnsw3b/zpg==}
 
-  hono@4.13.18:
-    resolution: {integrity: sha512-H9q/E1XizaWstJxUW881dmLxEj+t/TrGGnyxINkm4+sK0qUwsMtFdo2BWI9Vs3cIS19MU6b6iCijoUoEf4f3DA==}
+  hono@4.13.19:
+    resolution: {integrity: sha512-KmXvQAXwcAHV+muzbIwoJ23niEB5nMoDVr9WcRkU8mvjUECm/1+7v4Jgp7P7a+H6MLFrh+vXrGonGrGS+RQfkA==}
     engines: {node: '>=16.9.0'}
 
   hookable@6.1.2:
@@ -4326,13 +4326,13 @@ snapshots:
     dependencies:
       graphql: 16.15.0
 
-  '@hono/node-server@2.1.8(hono@4.13.18)':
+  '@hono/node-server@2.1.8(hono@4.13.19)':
     dependencies:
-      hono: 4.13.18
+      hono: 4.13.19
 
-  '@hono/swagger-ui@0.5.3(hono@4.13.18)':
+  '@hono/swagger-ui@0.5.3(hono@4.13.19)':
     dependencies:
-      hono: 4.13.18
+      hono: 4.13.19
 
   '@inquirer/external-editor@1.0.3(@types/node@26.6.6)':
     dependencies:
@@ -4405,7 +4405,7 @@ snapshots:
 
   '@modelcontextprotocol/sdk@1.32.2(supports-color@7.2.0)(zod@4.6.7)':
     dependencies:
-      '@hono/node-server': 2.1.8(hono@4.13.18)
+      '@hono/node-server': 2.1.8(hono@4.13.19)
       ajv: 8.20.0
       ajv-formats: 3.0.1
       content-type: 1.0.5
@@ -4415,7 +4415,7 @@ snapshots:
       eventsource-parser: 3.1.1
       express: 5.3.0(supports-color@7.2.0)
       express-rate-limit: 8.7.4(express@5.3.0(supports-color@7.2.0))(supports-color@7.2.0)
-      hono: 4.13.18
+      hono: 4.13.19
       jose: 6.2.17
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
@@ -4441,7 +4441,7 @@ snapshots:
     dependencies:
       '@emnapi/core': 2.0.0-beta.2
       '@emnapi/runtime': 2.0.0-beta.2
-      '@tybys/wasm-util': 0.10.4
+      '@tybys/wasm-util': 0.10.5
     optional: true
 
   '@neon-rs/load@0.0.4': {}
@@ -4873,14 +4873,14 @@ snapshots:
 
   '@sindresorhus/is@4.6.0': {}
 
-  '@smithy/core@3.40.0':
+  '@smithy/core@3.41.0':
     dependencies:
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
   '@smithy/eventstream-codec@4.5.2':
     dependencies:
-      '@smithy/core': 3.40.0
+      '@smithy/core': 3.41.0
       tslib: 2.9.1
 
   '@smithy/types@4.20.0':
@@ -4889,7 +4889,7 @@ snapshots:
 
   '@smithy/util-utf8@4.5.2':
     dependencies:
-      '@smithy/core': 3.40.0
+      '@smithy/core': 3.41.0
       tslib: 2.9.1
 
   '@so-ric/colorspace@1.1.6':
@@ -4905,7 +4905,7 @@ snapshots:
     dependencies:
       defer-to-connect: 2.0.1
 
-  '@tybys/wasm-util@0.10.4':
+  '@tybys/wasm-util@0.10.5':
     dependencies:
       tslib: 2.9.1
     optional: true
@@ -5282,8 +5282,8 @@ snapshots:
 
   '@voltagent/server-hono@2.0.14(@voltagent/core@2.11.1(@ai-sdk/provider-utils@4.0.66(zod@4.6.7))(@ai-sdk/provider@3.0.19)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.173(zod@4.6.7))(debug@4.3.2(supports-color@7.2.0))(graphql@16.15.0)(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7))(ai@7.0.173(zod@4.6.7))(supports-color@7.2.0)(zod@4.6.7)':
     dependencies:
-      '@hono/node-server': 2.1.8(hono@4.13.18)
-      '@hono/swagger-ui': 0.5.3(hono@4.13.18)
+      '@hono/node-server': 2.1.8(hono@4.13.19)
+      '@hono/swagger-ui': 0.5.3(hono@4.13.19)
       '@voltagent/a2a-server': 2.0.3(@voltagent/core@2.11.1(@ai-sdk/provider-utils@4.0.66(zod@4.6.7))(@ai-sdk/provider@3.0.19)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.173(zod@4.6.7))(debug@4.3.2(supports-color@7.2.0))(graphql@16.15.0)(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7))(supports-color@7.2.0)
       '@voltagent/core': 2.11.1(@ai-sdk/provider-utils@4.0.66(zod@4.6.7))(@ai-sdk/provider@3.0.19)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.173(zod@4.6.7))(debug@4.3.2(supports-color@7.2.0))(graphql@16.15.0)(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@voltagent/internal': 1.0.3
@@ -5291,7 +5291,7 @@ snapshots:
       '@voltagent/resumable-streams': 2.0.2(@voltagent/core@2.11.1(@ai-sdk/provider-utils@4.0.66(zod@4.6.7))(@ai-sdk/provider@3.0.19)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.173(zod@4.6.7))(debug@4.3.2(supports-color@7.2.0))(graphql@16.15.0)(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7))(ai@7.0.173(zod@4.6.7))
       '@voltagent/server-core': 2.1.20(@voltagent/core@2.11.1(@ai-sdk/provider-utils@4.0.66(zod@4.6.7))(@ai-sdk/provider@3.0.19)(@voltagent/logger@2.0.2(@opentelemetry/api@1.9.1)(supports-color@7.2.0))(ai@7.0.173(zod@4.6.7))(debug@4.3.2(supports-color@7.2.0))(graphql@16.15.0)(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7))(supports-color@7.2.0)(zod@4.6.7)
       fetch-to-node: 2.1.0
-      hono: 4.13.18
+      hono: 4.13.19
       openapi3-ts: 4.6.2
       zod: 4.6.7
     transitivePeerDependencies:
@@ -6212,7 +6212,7 @@ snapshots:
 
   help-me@5.0.0: {}
 
-  hono@4.13.18: {}
+  hono@4.13.19: {}
 
   hookable@6.1.2: {}
 
